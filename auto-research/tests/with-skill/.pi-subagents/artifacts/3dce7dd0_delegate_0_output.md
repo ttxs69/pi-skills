@@ -1,0 +1,1 @@
+Iter 3 research: Search for any pi-mono packages or related installed tools that might provide `fetch_content` / `ctx_fetch_and_index`.
