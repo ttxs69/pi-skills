@@ -32,6 +32,25 @@ Optional inline overrides:
 - `Iterations: N` — set explicit cap (default 25).
 - `Iterations: unlimited` — no cap (loop until saturated or user stops).
 
+## Install (pi-coding-agent)
+
+Pi loads skills from `~/.pi/agent/skills/` (among other locations). To install, symlink the project into your global skills dir:
+
+```bash
+mkdir -p ~/.pi/agent/skills
+ln -sf /Users/sarace/dev/projects/skills/auto-research ~/.pi/agent/skills/auto-research
+```
+
+Restart pi, then `/skill auto-research` becomes available. Edit files in this project and the symlink picks them up immediately — no reinstall needed.
+
+Alternative: register the path in `~/.pi/agent/settings.json` instead of symlinking:
+
+```json
+{ "skills": ["/Users/sarace/dev/projects/skills/auto-research"] }
+```
+
+To uninstall, remove the symlink (or settings entry).
+
 ## How it differs from autoresearch
 
 | autoresearch | auto-research |
