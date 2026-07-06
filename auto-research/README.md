@@ -34,22 +34,36 @@ Optional inline overrides:
 
 ## Install (pi-coding-agent)
 
-Pi loads skills from `~/.pi/agent/skills/` (among other locations). To install, symlink the project into your global skills dir:
+Pi's documented pattern for loading skills from a specific path is `settings.json`'s `skills` array, not symlinks. Symlinks work but cause confusion (the `<location>` in the system prompt shows the symlink path, not the real file), and they break silently if the source moves.
 
-```bash
-mkdir -p ~/.pi/agent/skills
-ln -sf /Users/sarace/dev/projects/skills/auto-research ~/.pi/agent/skills/auto-research
-```
-
-Restart pi, then `/skill auto-research` becomes available. Edit files in this project and the symlink picks them up immediately — no reinstall needed.
-
-Alternative: register the path in `~/.pi/agent/settings.json` instead of symlinking:
+Add to `~/.pi/agent/settings.json`:
 
 ```json
-{ "skills": ["/Users/sarace/dev/projects/skills/auto-research"] }
+{
+  "skills": [
+    "/Users/sarace/dev/projects/skills/auto-research"
+  ]
+}
 ```
 
-To uninstall, remove the symlink (or settings entry).
+The path can be a directory containing `SKILL.md` (pi discovers it as a skill root) or a single `.md` file. Directory is preferred — it lets `SKILL.md` reference sibling files like `template-FIND.md` via relative paths.
+
+Restart pi, then `/skill auto-research` becomes available. Edits to files in this project are picked up on the next session — no reinstall needed.
+
+To uninstall, remove the entry from `skills`.
+
+**Other valid install locations** (per pi docs):
+
+| Location | Scope | Trust required |
+|---|---|---|
+| `~/.pi/agent/skills/<name>/SKILL.md` | global (auto-loaded, no settings entry) | no |
+| `~/.agents/skills/<name>/SKILL.md` | global (alternative) | no |
+| `<cwd>/.pi/skills/<name>/SKILL.md` | project | yes |
+| `<cwd>/.agents/skills/<name>/SKILL.md` | project | yes |
+| `settings.json` → `skills: ["…"]` | global (explicit path) | no |
+| CLI: `--skill <path>` | per-invocation | no |
+
+For a skill under active development in a project repo, the `settings.json` approach is the cleanest — path is explicit, no indirection, no breakage if either side moves.
 
 ## How it differs from autoresearch
 
