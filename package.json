@@ -1,0 +1,15 @@
+{
+  "name": "pi-skills",
+  "version": "0.1.0",
+  "description": "Collection of pi skills — currently bundles auto-research.",
+  "keywords": [
+    "pi-package",
+    "skill",
+    "auto-research"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "pi": {
+    "skills": ["./skills"]
+  }
+}
