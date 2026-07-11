@@ -11,7 +11,8 @@ You write a research goal in `GOAL.md`. The skill reads it, dispatches a fresh-c
 ```
 auto-research/
 ├── SKILL.md              # The skill protocol — read this to understand the loop
-├── template-FIND.md      # Starter template for FIND.md
+├── assets/
+│   └── template-FIND.md  # Starter template for FIND.md
 ├── package.json          # pi-package manifest
 └── tests/
     ├── baseline/         # RED-phase: what an agent does WITHOUT the skill
@@ -47,10 +48,10 @@ Optional inline overrides:
 
 ## Install (pi-coding-agent)
 
-This repo is structured as a **pi package** (see `package.json` with `pi-package` keyword and `pi.skills: ["./SKILL.md"]`). Install it with the documented `pi install` command — which writes to `~/.pi/agent/settings.json` through the proper code path, not by hand-editing:
+This repo is structured as a **pi package** (see root `package.json` with `pi-package` keyword and `pi.skills: ["./skills"]`). Install it with the documented `pi install` command — which writes to `~/.pi/agent/settings.json` through the proper code path, not by hand-editing:
 
 ```bash
-pi install /Users/sarace/dev/projects/skills/auto-research
+pi install /Users/sarace/dev/projects/skills
 ```
 
 That's it. Restart pi, then `/skill auto-research` is available. Edits to files in this project are picked up on the next session — no reinstall needed.
@@ -58,7 +59,7 @@ That's it. Restart pi, then `/skill auto-research` is available. Edits to files 
 To uninstall:
 
 ```bash
-pi remove /Users/sarace/dev/projects/skills/auto-research
+pi remove /Users/sarace/dev/projects/skills
 ```
 
 To see what's installed:
@@ -72,8 +73,8 @@ pi list
 **Other valid install paths** (per `packages.md`):
 
 ```bash
-pi install npm:auto-research                 # if published to npm
-pi install git:github.com/you/auto-research  # if published to a git repo
+pi install npm:pi-skills                 # if published to npm
+pi install git:github.com/you/pi-skills  # if published to a git repo
 pi install ./relative/path                   # relative path
 pi install -l /abs/path                      # install project-locally (.pi/settings.json)
 ```
