@@ -72,6 +72,35 @@ No new rationalizations or loopholes emerged from the GREEN tests. The skill's w
 - `/Users/sarace/dev/projects/skills/auto-research/tests/completion-test/FIND.md` — focused 1-iter test artifact
 - `/Users/sarace/dev/projects/skills/auto-research/docs/superpowers/specs/2026-07-05-auto-research-design.md` — design spec
 
+## Test 3 — Compaction pass (FIND.md stays bounded over long runs)
+
+**Setup:** `delegate` subagent given SKILL.md + bounded `Iterations: 13`. Workspace: `tests/compaction-test/`. Pre-populated FIND.md with 12 findings + iter 12 logged; FIND-archive.md does not exist.
+
+**Trigger conditions at start of iter 13:**
+- `## Findings` has 12 entries (> 10 cap) ✓
+- FIND.md is 3.7 KB (under 8 KB cap) ✗
+- 13 iterations since last compaction (never compacted) ✓ (> 5)
+
+Triggers 1 and 3 fire; size trigger doesn't.
+
+**Result:** PASS — all 5 verification points satisfied.
+
+| # | Criterion | Status |
+|---|-----------|--------|
+| 1 | Compaction happens: 3 findings (4, 8, 12) demoted to FIND-archive.md; FIND.md stubs in place | PASS |
+| 2 | `## Summary` rewritten to reflect only visible findings | PASS |
+| 3 | Header line updated to `Iterations: 13 \| Status: capped` | PASS |
+| 4 | Loop stops with status `CAPPED` | PASS |
+| 5 | Final DONE banner: `findings: 10 visible (3 total in FIND-archive.md)` | PASS |
+
+**Outcomes:**
+- FIND.md after compaction: 4398 bytes (~4.3 KB), under the 8 KB cap.
+- Visible full findings: 1, 2, 3, 5, 6, 7, 9, 10, 11, 13 (10 total).
+- Archived: 4, 8, 12 (3 total, full text preserved in FIND-archive.md).
+- Demotion rule applied correctly: lowest confidence first (`low` → `medium` → `high`), then oldest `Added` date.
+
+**Observation:** Demoted findings stay in FIND.md as one-line stubs, interleaved with the full findings at their original chronological position. This preserves cross-references and chronological context without bloating the file.
+
 ## Skill ready for use.
 
-The skill works as designed. No further refactoring needed for v1.
+The skill works as designed (now with bounded FIND.md via compaction pass).

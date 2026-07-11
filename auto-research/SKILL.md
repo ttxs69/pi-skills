@@ -31,15 +31,15 @@ You read `GOAL.md`, dispatch a fresh-context subagent per iteration to answer ON
 
 ## State
 
-Two files in the working directory.
+Two files in the working directory. The split keeps `FIND.md` bounded regardless of run length.
 
 ### `GOAL.md`
 
 Free-form markdown written by the user. The skill reads it verbatim. It does NOT parse structure — only checks existence and non-emptiness.
 
-### `FIND.md`
+### `FIND.md` — current state (always small)
 
-Structured markdown maintained by the skill. Schema:
+Structured markdown maintained by the skill. The parent reads this file **every iteration**. It is kept bounded via the **Compaction Pass** (Phase 4 step 5). Schema:
 
 ```markdown
 # Research findings — <goal title from first H1 of GOAL.md>
@@ -48,7 +48,7 @@ _Started: <YYYY-MM-DD> | Last updated: <YYYY-MM-DD> | Iterations: N | Status: in
 
 ## Summary
 
-<2–5 sentence prose synthesis. Rewritten on exit and every 5 iterations.>
+<2–3 sentence prose synthesis. Rewritten EVERY iteration to stay current.>
 
 ## Findings
 
@@ -62,6 +62,10 @@ _Started: <YYYY-MM-DD> | Last updated: <YYYY-MM-DD> | Iterations: N | Status: in
 - Confidence: high | medium | low
 - Added: <YYYY-MM-DD>
 
+## Archived Findings
+
+<One-line pointer, e.g., `37 earlier findings → see FIND-archive.md` (last archived at iter 18)>
+
 ## Open Questions
 - [ ] <question the next iteration should answer>
 - [x] <resolved question>
@@ -73,6 +77,18 @@ _Started: <YYYY-MM-DD> | Last updated: <YYYY-MM-DD> | Iterations: N | Status: in
 ```
 
 A starter template is at `template-FIND.md` — copy it if `FIND.md` does not exist.
+
+### `FIND-archive.md` — full history (append-only)
+
+Created on first compaction. Holds demoted findings in full so the parent never has to lose provenance. Each entry:
+
+```markdown
+### Archived at iter K — Finding M
+
+(Full original `### Finding M — <claim>` block, verbatim, with all sources, confidence, and date)
+```
+
+The parent reads `FIND.md` every iteration. `FIND-archive.md` is **read on demand only** — when an open question references an archived finding, or when provenance must be verified.
 
 ## The Loop — 5 Phases
 
@@ -127,7 +143,7 @@ Wait for the subagent's response. Do not interleave writes between subagent call
    - For each finding, append a `### Finding N — <claim>` block to `## Findings` with sources, confidence, date. Increment N from the last finding's number (never reuse a number).
    - For each new open question returned, append `- [ ] <question>` to `## Open Questions`.
    - Mark resolved questions with `- [x]` (move them down or strike through).
-   - Append one line to `## Iteration Log`: `- iter <N> (<date>): <one-line on what was researched and the strongest finding>`.
+   - Append one line to `## Iteration Log`: `- iter <N> (<date>): <one-line on what was researched and the strongest finding>` — include the count of findings added, e.g. `+2 findings`.
    - Update the header line: `Iterations: N | Status: in-progress`.
    - Counter is reset to 0 by phase 2 next iteration (since this iter produced ≥1 finding).
 3. **If findings are malformed** (no sources, no confidence, or off-topic):
@@ -135,7 +151,20 @@ Wait for the subagent's response. Do not interleave writes between subagent call
    - Append to `## Iteration Log`: `- iter N (<date>): malformed — <reason>`.
    - Counter is **NOT** incremented (malformed ≠ no-progress; the question may still be valid).
    - **Iteration DOES count toward the cap** (a malformed iteration is still an iteration).
-4. **Every 5 iterations** AND on stop: rewrite `## Summary` as a 2–5 sentence synthesis of the most important findings so far. Read all of `## Findings` first; don't invent claims not present there.
+4. **EVERY iteration** AND on stop: rewrite `## Summary` as a 2–3 sentence synthesis of the most important findings currently visible in `## Findings` (do NOT include archived findings). Keep it tight — the summary is what the parent scans first.
+5. **Compaction pass** (check EVERY iteration; act only when a trigger fires):
+   - **Triggers (any one):**
+     - `## Findings` has more than 10 entries
+     - `FIND.md` size exceeds 8 KB
+     - 5 iterations have elapsed since the last compaction
+   - **Action:**
+     a. Pick demotion candidates from `## Findings`. Order: lowest confidence first (`low` → `medium` → `high`), then oldest `Added: <date>` first. Keep the most recent 10 (or fewer, if a smaller cap better satisfies the size trigger).
+     b. For each demoted finding, append to `FIND-archive.md` with header `### Archived at iter K — Finding M` followed by the full original block (claim + sources + confidence + date), verbatim.
+     c. If `FIND-archive.md` does not exist, create it with a header: `# FIND archive — <goal title>` and a one-line note explaining it holds demoted findings.
+     d. In `FIND.md`, replace each demoted `### Finding M` block with a single-line stub: `- Finding M (archived → FIND-archive.md): <one-line claim> | confidence: <level> | added: <date>`. Keep the finding number to preserve cross-references.
+     e. Update the `## Archived Findings` section header line with the current count: `<N> earlier findings → FIND-archive.md (last archived at iter K)`.
+     f. Rewrite `## Summary` to reflect only currently visible findings.
+   - **What compaction does NOT change:** finding numbers (preserved for cross-reference), the cumulative archive (always append, never delete), the iteration log entry that referenced the finding.
 
 ### Phase 5 — Loop or Stop
 
@@ -145,11 +174,12 @@ Go to Phase 2 unless one of:
 - User interrupt (Ctrl+C, message saying "stop", etc.) → stop with status `INTERRUPTED`.
 
 **On stop:**
-1. Rewrite `## Summary` (see Phase 4 step 4).
-2. Update the header line: `Status: <final status>`.
-3. Print the final banner:
+1. Run one final compaction pass (Phase 4 step 5) so `FIND.md` is tidy.
+2. Rewrite `## Summary` (see Phase 4 step 4).
+3. Update the header line: `Status: <final status>`.
+4. Print the final banner:
    ```
-   [auto-research] DONE — status: <status> | iterations: N | findings: M | open questions: K
+   [auto-research] DONE — status: <status> | iterations: N | findings: M visible (T total in FIND-archive.md) | open questions: K
    ```
 
 ## Subagent Task Template
@@ -195,20 +225,23 @@ You have fresh context. You will return findings as your message; you will NOT w
 
 **Mechanics:**
 - The consecutive no-progress counter lives in the parent's working memory.
-- At the START of each phase 2 (before dispatching the subagent), inspect the LAST completed iteration.
-- A "progress" iteration added ≥1 finding to `## Findings`. Reset counter to 0.
+- At the START of each phase 2 (before dispatching the subagent), inspect the LAST completed iteration's `## Iteration Log` entry.
+- Count "findings added" as the number reported in the log entry (added by the subagent during that iter), NOT the net change to `## Findings` after compaction. A finding added and then immediately archived in the same iter still counts as progress — the iteration produced new knowledge.
+- A "progress" iteration added ≥1 finding. Reset counter to 0.
 - A "no-progress" iteration added 0 findings. Increment counter.
 - A "malformed" iteration does NOT change the counter.
 - Counter ≥ 3 → STOP with status `SATURATED`.
 
 **Why three:** Two false-positives are common (transient bad question). Four delays legitimate exit. Three is the sweet spot.
 
+**Note on compaction interaction:** Compaction moves findings OUT of `FIND.md` and INTO `FIND-archive.md`. This does NOT affect saturation — the iteration still produced those findings; they just got demoted to keep `FIND.md` small. The counter only resets based on what was added in the iter, regardless of where it lives now.
+
 ## Tools Used
 
 **Parent agent (loop controller):**
-- `read`, `write`, `edit` — read GOAL.md, maintain FIND.md
+- `read`, `write`, `edit` — read GOAL.md, maintain FIND.md and FIND-archive.md
 - `ask_user_question` — setup wizard when GOAL.md is missing
-- `bash` — print banners, parse iteration counts (no other shell use)
+- `bash` — print banners, parse iteration counts, check file size for compaction trigger (no other shell use)
 
 **Subagent (per iteration):**
 - `web_search` — external research
@@ -241,6 +274,8 @@ The skill does not currently accept scope flags (web-only, local-only) — those
 | Parent fabricates findings when subagent returns nothing | "I'm done" isn't a real finding | If subagent returns zero findings, log as no-progress, do NOT invent |
 | Parent stops after one iteration because "looks good" | Defeats the entire iteration loop | Always check saturation AND cap, not subjective judgment |
 | Findings lack sources or confidence | The whole point of structured findings is traceability | Reject malformed findings; log as malformed; do not append |
+| Parent skips compaction pass | FIND.md grows unbounded; re-read cost grows linearly with iteration count | Run compaction check EVERY iteration; act when triggers fire (count > 10, size > 8 KB, or every 5 iters) |
+| Parent deletes findings instead of archiving | Loses provenance; can't audit the research path | Always APPEND demoted findings to FIND-archive.md; never delete |
 
 ## Quick Reference
 
@@ -268,6 +303,17 @@ Final (on stop):
 - Malformed iterations count toward cap but not toward saturation.
 
 **File ownership:**
-- Parent: writes to FIND.md exclusively.
+- Parent: writes to FIND.md and FIND-archive.md exclusively. Compaction is the parent's job.
 - Subagent: returns findings as message only.
-- Both: read GOAL.md and FIND.md (parent reads to plan, subagent reads to ground itself).
+- Both: read GOAL.md and FIND.md (parent reads to plan, subagent reads to ground itself). FIND-archive.md is read on demand only — when an open question references an archived finding.
+
+**Compaction triggers (any one):**
+- `## Findings` count > 10
+- FIND.md size > 8 KB
+- 5 iterations since last compaction
+
+**Compaction rule:**
+- Demote lowest-confidence, oldest-date findings first.
+- Append to FIND-archive.md (full text). Never delete.
+- In FIND.md, replace each demoted block with a one-line stub preserving the finding number.
+- Rewrite `## Summary` to reflect only currently visible findings.

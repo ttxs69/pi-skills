@@ -12,6 +12,7 @@ You write a research goal in `GOAL.md`. The skill reads it, dispatches a fresh-c
 auto-research/
 ├── SKILL.md              # The skill protocol — read this to understand the loop
 ├── template-FIND.md      # Starter template for FIND.md
+├── package.json          # pi-package manifest
 └── tests/
     ├── baseline/         # RED-phase: what an agent does WITHOUT the skill
     ├── with-skill/       # GREEN-phase: 3-iter run, killed by timeout mid-iter-3
@@ -19,6 +20,18 @@ auto-research/
     ├── BASELINE_FINDINGS.md
     └── GREEN_FINDINGS.md
 ```
+
+## State files
+
+The skill maintains two files in your working directory:
+
+| File | Purpose | Read by parent |
+|---|---|---|
+| `GOAL.md` | The research goal (you write this) | Every iteration |
+| `FIND.md` | Current state — summary, last 10 findings, open questions, last 5 iteration log entries | Every iteration |
+| `FIND-archive.md` | Full history — demoted findings with full text + sources | On demand only |
+
+**Compaction rules:** `FIND.md` stays bounded (≤10 visible findings, ≤8 KB) via the **Compaction Pass** (Phase 4 step 5). Triggers: count > 10, size > 8 KB, or every 5 iterations. Demoted findings go to `FIND-archive.md` (append-only, never deleted). Stubs in `FIND.md` preserve finding numbers for cross-reference.
 
 ## Quick start
 
