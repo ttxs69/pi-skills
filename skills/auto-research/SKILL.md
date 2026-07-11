@@ -76,7 +76,7 @@ _Started: <YYYY-MM-DD> | Last updated: <YYYY-MM-DD> | Iterations: N | Status: in
 - iter 2 (<YYYY-MM-DD>): <one-line>
 ```
 
-A starter template is at `template-FIND.md` — copy it if `FIND.md` does not exist.
+A starter template is at `assets/template-FIND.md` — copy it if `FIND.md` does not exist.
 
 ### `FIND-archive.md` — full history (append-only)
 
@@ -98,7 +98,7 @@ The parent agent runs phases 1, 2, 4, 5. Phase 3 runs in a fresh-context subagen
 
 1. **Read `GOAL.md`.** If missing or empty → run the **Setup Wizard** (see below). If after the wizard the file is still empty → STOP with status `EMPTY_GOAL`.
 2. **Read `FIND.md`.** If missing:
-   - If `template-FIND.md` exists at the skill's path → copy it to `FIND.md`.
+   - If `assets/template-FIND.md` exists at the skill's path → copy it to `FIND.md`.
    - Else → create a minimal scaffold with empty `## Summary`, `## Findings`, `## Open Questions`, `## Iteration Log` sections, and the header line set to `Iterations: 0 | Status: in-progress`.
 3. **Parse invocation for `Iterations: N`** (default 25) or `Iterations: unlimited`.
 4. **Print the banner:**
