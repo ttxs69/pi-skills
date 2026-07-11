@@ -1,0 +1,19 @@
+{
+  "name": "auto-research",
+  "version": "0.1.0",
+  "description": "Autonomous goal-directed research loop: reads GOAL.md, dispatches a fresh-context subagent per iteration, records structured findings in FIND.md, stops on saturation or iteration cap.",
+  "keywords": [
+    "pi-package",
+    "skill",
+    "research",
+    "iteration",
+    "saturation"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "pi": {
+    "skills": [
+      "./SKILL.md"
+    ]
+  }
+}

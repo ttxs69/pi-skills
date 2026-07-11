@@ -34,36 +34,36 @@ Optional inline overrides:
 
 ## Install (pi-coding-agent)
 
-Pi's documented pattern for loading skills from a specific path is `settings.json`'s `skills` array, not symlinks. Symlinks work but cause confusion (the `<location>` in the system prompt shows the symlink path, not the real file), and they break silently if the source moves.
+This repo is structured as a **pi package** (see `package.json` with `pi-package` keyword and `pi.skills: ["./SKILL.md"]`). Install it with the documented `pi install` command — which writes to `~/.pi/agent/settings.json` through the proper code path, not by hand-editing:
 
-Add to `~/.pi/agent/settings.json`:
-
-```json
-{
-  "skills": [
-    "/Users/sarace/dev/projects/skills/auto-research"
-  ]
-}
+```bash
+pi install /Users/sarace/dev/projects/skills/auto-research
 ```
 
-The path can be a directory containing `SKILL.md` (pi discovers it as a skill root) or a single `.md` file. Directory is preferred — it lets `SKILL.md` reference sibling files like `template-FIND.md` via relative paths.
+That's it. Restart pi, then `/skill auto-research` is available. Edits to files in this project are picked up on the next session — no reinstall needed.
 
-Restart pi, then `/skill auto-research` becomes available. Edits to files in this project are picked up on the next session — no reinstall needed.
+To uninstall:
 
-To uninstall, remove the entry from `skills`.
+```bash
+pi remove /Users/sarace/dev/projects/skills/auto-research
+```
 
-**Other valid install locations** (per pi docs):
+To see what's installed:
 
-| Location | Scope | Trust required |
-|---|---|---|
-| `~/.pi/agent/skills/<name>/SKILL.md` | global (auto-loaded, no settings entry) | no |
-| `~/.agents/skills/<name>/SKILL.md` | global (alternative) | no |
-| `<cwd>/.pi/skills/<name>/SKILL.md` | project | yes |
-| `<cwd>/.agents/skills/<name>/SKILL.md` | project | yes |
-| `settings.json` → `skills: ["…"]` | global (explicit path) | no |
-| CLI: `--skill <path>` | per-invocation | no |
+```bash
+pi list
+```
 
-For a skill under active development in a project repo, the `settings.json` approach is the cleanest — path is explicit, no indirection, no breakage if either side moves.
+**Why a package, not a symlink or settings.json edit?** Pi's package system handles path resolution, dedup, and source tracking correctly. Symlinks work but show the wrong path in `<available_skills>` and dangle if the source moves. Hand-editing `settings.json` skips the install validation (path exists, manifest valid) and is what pi's docs explicitly tell you not to do.
+
+**Other valid install paths** (per `packages.md`):
+
+```bash
+pi install npm:auto-research                 # if published to npm
+pi install git:github.com/you/auto-research  # if published to a git repo
+pi install ./relative/path                   # relative path
+pi install -l /abs/path                      # install project-locally (.pi/settings.json)
+```
 
 ## How it differs from autoresearch
 
