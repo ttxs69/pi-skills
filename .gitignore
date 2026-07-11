@@ -1,0 +1,8 @@
+# Subagent runtime artifacts (created by pi-subagents during async runs)
+.pi-subagents/
+
+# Scratch space used by the subagent-driven-development skill
+.superpowers/
+
+# Dependencies (only relevant if this package is ever installed via npm)
+node_modules/
