@@ -56,7 +56,7 @@ Rebasing to a convention layout at the repo root makes adding new skills a one-d
 |---|---|---|
 | `auto-research/SKILL.md` | `skills/auto-research/SKILL.md` | verbatim |
 | `auto-research/template-FIND.md` | `skills/auto-research/template-FIND.md` | verbatim |
-| `auto-research/README.md` | `skills/auto-research/README.md` | edit: install path updates from `.../skills/auto-research` → `.../skills` |
+| `auto-research/README.md` | `skills/auto-research/README.md` | edits: see README updates section |
 | `auto-research/tests/**` | `skills/auto-research/tests/**` | verbatim, all four subdirs plus `GREEN_FINDINGS.md` |
 | `auto-research/package.json` | (deleted) | superseded by root manifest |
 | `auto-research/` (now empty) | (removed) | `git rm` of the directory |
@@ -105,19 +105,17 @@ Sections, in order:
 
 ### `skills/auto-research/README.md` (moved + edited)
 
-All existing content preserved. **One edit:** the install command changes from:
+Five edits, all path-or-name updates. No prose changes.
 
-```
-pi install /Users/sarace/dev/projects/skills/auto-research
-```
+| Line | Old | New |
+|---|---|---|
+| ~50 | `(see \`package.json\` with \`pi-package\` keyword and \`pi.skills: ["./SKILL.md"]\`)` | `(see root \`package.json\` with \`pi-package\` keyword and \`pi.skills: ["./skills"]\`)` |
+| 53 | `pi install /Users/sarace/dev/projects/skills/auto-research` | `pi install /Users/sarace/dev/projects/skills` |
+| 61 | `pi remove /Users/sarace/dev/projects/skills/auto-research` | `pi remove /Users/sarace/dev/projects/skills` |
+| 75 | `pi install npm:auto-research` | `pi install npm:pi-skills` |
+| 76 | `pi install git:github.com/you/auto-research` | `pi install git:github.com/you/pi-skills` |
 
-to:
-
-```
-pi install /Users/sarace/dev/projects/skills
-```
-
-The "Other valid install paths" section is kept as-is (it's still accurate at the repo level).
+Line numbers are approximate (pre-move). The "Other valid install paths" section (lines 75–78) is preserved as a reference block; only the two concrete examples are renamed to match the new package name.
 
 ## Verification
 
@@ -129,7 +127,7 @@ Run all of these after implementation. Do not claim "done" until every step pass
 4. **Skill registration** — starting pi shows `auto-research` in `<available_skills>` and `/skill auto-research` is invocable.
 5. **No manifest at the old path** — `cat /Users/sarace/dev/projects/skills/auto-research/package.json` fails (path no longer exists).
 6. **Git diff sanity** — `git status` shows: (a) `auto-research/` deleted, (b) `skills/auto-research/` created with the same file contents, (c) `package.json` added at root, (d) two READMEs in expected states. No stray files.
-7. **Protocol regression** — re-run a small slice of `skills/auto-research/tests/GREEN_FINDINGS.md`-style iteration to confirm the skill still produces the same outputs after the move (e.g. the `compaction-test` or `completion-test` fixtures if they're quick to execute).
+7. **Frontmatter sanity** — `head -10 skills/auto-research/SKILL.md` shows intact `name` and `description` frontmatter. (Pi validates this on install; step 4 already implicitly confirms it, but this step gives a clearer failure signal if the frontmatter got mangled in transit.)
 
 If any step fails, stop and report. Do not commit-and-pretend.
 
