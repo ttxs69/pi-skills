@@ -40,7 +40,8 @@ Rebasing to a convention layout at the repo root makes adding new skills a one-d
 └── skills/
     └── auto-research/
         ├── SKILL.md                          # moved from auto-research/
-        ├── template-FIND.md                  # moved from auto-research/
+        ├── assets/                           # NEW — Agent Skills standard "templates/resources" dir
+        │   └── template-FIND.md              # moved from auto-research/
         ├── README.md                         # moved + edited from auto-research/
         └── tests/                            # moved from auto-research/
             ├── baseline/
@@ -50,12 +51,14 @@ Rebasing to a convention layout at the repo root makes adding new skills a one-d
             └── GREEN_FINDINGS.md
 ```
 
+Per the Agent Skills standard layout (`docs/skills.md` lines 95–105), `assets/` is the canonical home for templates and reusable resources. With only one template today, this is a one-file parent — created now to follow the standard rather than retrofitted later.
+
 ## File moves (concrete)
 
 | Source | Destination | Notes |
 |---|---|---|
 | `auto-research/SKILL.md` | `skills/auto-research/SKILL.md` | verbatim |
-| `auto-research/template-FIND.md` | `skills/auto-research/template-FIND.md` | verbatim |
+| `auto-research/template-FIND.md` | `skills/auto-research/assets/template-FIND.md` | verbatim; moved under assets/ per Agent Skills standard |
 | `auto-research/README.md` | `skills/auto-research/README.md` | edits: see README updates section |
 | `auto-research/tests/**` | `skills/auto-research/tests/**` | verbatim, all four subdirs plus `GREEN_FINDINGS.md` |
 | `auto-research/package.json` | (deleted) | superseded by root manifest |
@@ -105,17 +108,51 @@ Sections, in order:
 
 ### `skills/auto-research/README.md` (moved + edited)
 
-Five edits, all path-or-name updates. No prose changes.
+Six edits, all path-or-name updates. No prose changes.
 
 | Line | Old | New |
 |---|---|---|
+| ~14 | `├── template-FIND.md      # Starter template for FIND.md` | `├── assets/<br>│   └── template-FIND.md  # Starter template for FIND.md` |
 | ~50 | `(see \`package.json\` with \`pi-package\` keyword and \`pi.skills: ["./SKILL.md"]\`)` | `(see root \`package.json\` with \`pi-package\` keyword and \`pi.skills: ["./skills"]\`)` |
 | 53 | `pi install /Users/sarace/dev/projects/skills/auto-research` | `pi install /Users/sarace/dev/projects/skills` |
 | 61 | `pi remove /Users/sarace/dev/projects/skills/auto-research` | `pi remove /Users/sarace/dev/projects/skills` |
 | 75 | `pi install npm:auto-research` | `pi install npm:pi-skills` |
 | 76 | `pi install git:github.com/you/auto-research` | `pi install git:github.com/you/pi-skills` |
 
-Line numbers are approximate (pre-move). The "Other valid install paths" section (lines 75–78) is preserved as a reference block; only the two concrete examples are renamed to match the new package name.
+Line numbers are approximate (pre-move). The "Other valid install paths" section (lines 75–78) is preserved as a reference block; only the two concrete examples are renamed to match the new package name. The layout-tree edit at line 14 reflects the new `assets/` parent for `template-FIND.md`.
+
+### `skills/auto-research/SKILL.md` (edited in place after move)
+
+Two path references must update because `template-FIND.md` is now under `assets/`:
+
+| Line | Old | New |
+|---|---|---|
+| 79 | `A starter template is at \`template-FIND.md\` — copy it if \`FIND.md\` does not exist.` | `A starter template is at \`assets/template-FIND.md\` — copy it if \`FIND.md\` does not exist.` |
+| 101 | `If \`template-FIND.md\` exists at the skill's path → copy it to \`FIND.md\`.` | `If \`assets/template-FIND.md\` exists at the skill's path → copy it to \`FIND.md\`.` |
+
+The skill is the runtime behavior spec — these paths must match the new file location or the bootstrap step will fail when the agent looks for the template.
+
+### Historical test artifacts — NOT edited
+
+The following files contain absolute path references to `auto-research/template-FIND.md` that will become stale after the move. **Do not edit them** — they are historical records of past test runs, not live docs:
+
+- `skills/auto-research/tests/GREEN_FINDINGS.md`
+- `skills/auto-research/tests/completion-test/FIND.md`
+- `skills/auto-research/tests/completion-test/COMPLETION_OUTPUT.md`
+- `skills/auto-research/tests/completion-test/COMPLETION_NOTES.md`
+- `skills/auto-research/tests/completion-test/.pi-subagents/artifacts/1bc3cb19_delegate_0_input.md`
+- `skills/auto-research/tests/completion-test/.pi-subagents/artifacts/1bc3cb19_delegate_0_output.md`
+- `skills/auto-research/tests/baseline/BASELINE_FINDINGS.md`
+- `skills/auto-research/tests/with-skill/.pi-subagents/artifacts/3dce7dd0_delegate_0_input.md`
+
+Editing these would falsify the historical record. The new RED-phase artifact (next time the skill is tested) will reference the new path naturally.
+
+Test-local fixture files — **also NOT moved**:
+
+- `skills/auto-research/tests/completion-test/template-FIND.md`
+- `skills/auto-research/tests/with-skill/template-FIND.md`
+
+These are test-fixture-local copies of the template (so each test runs in isolation), not the skill's canonical template. They stay where they are.
 
 ## Verification
 
@@ -128,6 +165,7 @@ Run all of these after implementation. Do not claim "done" until every step pass
 5. **No manifest at the old path** — `cat /Users/sarace/dev/projects/skills/auto-research/package.json` fails (path no longer exists).
 6. **Git diff sanity** — `git status` shows: (a) `auto-research/` deleted, (b) `skills/auto-research/` created with the same file contents, (c) `package.json` added at root, (d) two READMEs in expected states. No stray files.
 7. **Frontmatter sanity** — `head -10 skills/auto-research/SKILL.md` shows intact `name` and `description` frontmatter. (Pi validates this on install; step 4 already implicitly confirms it, but this step gives a clearer failure signal if the frontmatter got mangled in transit.)
+8. **Path consistency** — `grep -n 'template-FIND' skills/auto-research/SKILL.md skills/auto-research/README.md` returns only `assets/template-FIND.md` references, never bare `template-FIND.md`. Confirms the two SKILL.md path updates and the README tree update all landed.
 
 If any step fails, stop and report. Do not commit-and-pretend.
 
