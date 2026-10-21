@@ -1,14 +1,24 @@
 # pi-skills
 
-A collection of pi skills bundled as a single installable package. Install the repo and each skill under `skills/<name>/` becomes available as `/skill <name>`.
+A collection of [Agent Skills](https://agentskills.io/specification) packaged as one installable pi package. Every skill under `skills/<name>/` works in pi, and the same directory installs into any Agent Skills-compatible harness (Claude Code, Codex, Cursor, Gemini CLI, DeepSeek Harness, ...) through the [skills CLI](https://github.com/vercel-labs/skills).
 
 ## Install
 
+Install into any supported agent (the skills CLI writes to `~/.agents/skills` and links each agent's own skills directory):
+
 ```bash
-pi install /Users/sarace/dev/projects/skills
+npx skills add ttxs69/pi-skills --list
+npx skills add ttxs69/pi-skills --skill python-quality-gate -g -y
 ```
 
-The repo root is the package — installing it adds every skill under `skills/` to your pi agent's available skills. No symlinks, no hand-edited `settings.json`.
+Or install this repository as a pi package, which adds every skill under `skills/` at once:
+
+```bash
+pi install git:github.com/ttxs69/pi-skills
+pi list
+```
+
+Uninstall with `npx skills remove <skill> -g` or `pi remove git:github.com/ttxs69/pi-skills`.
 
 ## Layout
 
@@ -16,12 +26,14 @@ The repo root is the package — installing it adds every skill under `skills/` 
 .
 ├── package.json          # pi-package manifest (pi-package keyword, pi.skills: ["./skills"])
 ├── README.md             # this file
+├── LICENSE
 ├── docs/                 # design specs, plans
 └── skills/
     └── <skill-name>/     # one directory per skill
         ├── SKILL.md      # required — frontmatter + instructions
-        ├── assets/       # templates and resources (Agent Skills standard)
         ├── README.md     # per-skill docs
+        ├── agents/       # optional per-harness metadata
+        ├── assets/       # templates and resources (Agent Skills standard)
         └── tests/        # RED/GREEN artifacts
 ```
 
@@ -32,3 +44,8 @@ Pi auto-discovers skills from the `skills/` directory; the explicit `pi.skills` 
 | Skill | Description |
 |---|---|
 | [auto-research](skills/auto-research/) | Autonomous goal-directed research loop: reads `GOAL.md`, dispatches a fresh-context subagent per iteration, records structured findings in `FIND.md`, stops on saturation or iteration cap. |
+| [python-quality-gate](skills/python-quality-gate/) | One Python quality gate — ruff format and lint (mccabe complexity ≤10), mypy strict, pytest branch coverage ≥90% — all run by one `scripts/quality.sh` that CI reuses. |
+
+## License
+
+MIT — see [LICENSE](LICENSE).

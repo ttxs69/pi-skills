@@ -1,15 +1,20 @@
 {
   "name": "pi-skills",
-  "version": "0.1.0",
-  "description": "Collection of pi skills — currently bundles auto-research.",
+  "version": "0.2.0",
+  "description": "Collection of Agent Skills — auto-research and python-quality-gate.",
   "keywords": [
     "pi-package",
     "skill",
-    "auto-research"
+    "agent-skills",
+    "auto-research",
+    "python",
+    "quality-gate"
   ],
   "type": "module",
   "license": "MIT",
   "pi": {
-    "skills": ["./skills"]
+    "skills": [
+      "./skills"
+    ]
   }
 }

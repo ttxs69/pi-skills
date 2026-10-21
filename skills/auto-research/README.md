@@ -51,7 +51,7 @@ Optional inline overrides:
 This repo is structured as a **pi package** (see root `package.json` with `pi-package` keyword and `pi.skills: ["./skills"]`). Install it with the documented `pi install` command — which writes to `~/.pi/agent/settings.json` through the proper code path, not by hand-editing:
 
 ```bash
-pi install /Users/sarace/dev/projects/skills
+pi install git:github.com/ttxs69/pi-skills
 ```
 
 That's it. Restart pi, then `/skill auto-research` is available. Edits to files in this project are picked up on the next session — no reinstall needed.
@@ -59,13 +59,19 @@ That's it. Restart pi, then `/skill auto-research` is available. Edits to files 
 To uninstall:
 
 ```bash
-pi remove /Users/sarace/dev/projects/skills
+pi remove git:github.com/ttxs69/pi-skills
 ```
 
 To see what's installed:
 
 ```bash
 pi list
+```
+
+You can also install just this skill into any Agent Skills-compatible harness:
+
+```bash
+npx skills add ttxs69/pi-skills --skill auto-research -g -y
 ```
 
 **Why a package, not a symlink or settings.json edit?** Pi's package system handles path resolution, dedup, and source tracking correctly. Symlinks work but show the wrong path in `<available_skills>` and dangle if the source moves. Hand-editing `settings.json` skips the install validation (path exists, manifest valid) and is what pi's docs explicitly tell you not to do.
