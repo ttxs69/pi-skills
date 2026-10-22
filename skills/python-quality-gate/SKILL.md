@@ -175,3 +175,77 @@ Replace every ad-hoc Python step in the CI job with:
 ```
 
 On GitLab or another runner, the job is the same two commands. Mark the job required: CI runs the identical file developers run, so the two cannot drift.
+
+## Legacy repos: ratchet, don't ignore
+
+A 4000-line repo will not reach zero on day one — mpdt's first run reported 2423 ruff
+findings and 836 mypy-strict errors. Two wrong exits and one right one:
+
+- **Ignore the rules.** The gate stops seeing new violations too; the debt becomes invisible
+  and nothing ever converges.
+- **Fix everything in one commit.** On a repo with thin tests this is where regressions land,
+  and the highest-risk code (the report generator, the send path) is exactly what you'd touch.
+- **Ratchet.** Commit the number, fail on any increase, update the baseline only downward.
+
+```python
+# tools/quality_budget.py — counts ruff + mypy findings, compares to a committed baseline
+cur = {"ruff": count_ruff(), "mypy": count_mypy()}
+regressed = {k: v for k, v in cur.items() if v > base.get(k, 0)}
+if regressed:
+    sys.exit(1)          # prints the new findings
+# --update refuses to raise a baseline
+```
+
+Commit the baseline JSON, list the categories and their counts in a `QUALITY.md`
+(biggest first, with the reason each one is deferred), and keep the rules **enabled**.
+Coverage is the exception: `fail_under` starts at today's floor and rises in the same
+commit that adds the tests.
+
+Two exemptions are legitimate and worth writing down explicitly:
+
+- **Non-ASCII text.** `RUF001/002/003` (`ambiguous-unicode-character-*`) fire on every
+  full-width comma and colon in a Chinese codebase — 2077 of mpdt's 2423 findings, none of
+  them a real confusable-character bug. Ignore those three, keep the rest of `RUF`.
+- **`E501`** when the formatter owns line width.
+
+## CI parity: coverage must not depend on the developer's machine
+
+The gate went green locally at 90.01% and red in CI at 88.87% — same code, same tool versions.
+The cause: two functions read `~/.hermes/.env`, which exists on the dev box and not on the
+runner, so the parsing branch was covered by accident locally and never in CI.
+
+Rules:
+
+- **Any branch guarded by `Path.exists()` on a home-directory file needs a fixture that
+  creates the file.** Point the env var (`MP_DOTENV`) at a temp file inside the test.
+- **Verify parity, don't assume it:** rerun the suite with `HOME` pointed at an empty temp
+  directory. Local and CI must report the same `Missing` count. If they differ, that diff
+  *is* the environment dependence.
+- Tests that `skipTest` on a shallow checkout are fine; tests whose coverage changes with
+  the environment are not.
+
+## Resolve the interpreter inside `quality.sh`
+
+`python -m ruff` fails on machines where `python` is not the project interpreter, and the
+error reads like the gate is broken rather than the environment. Resolve it once:
+
+```bash
+if [ -n "${PYTHON:-}" ]; then PY="$PYTHON"
+elif [ -x .venv/bin/python ]; then PY=".venv/bin/python"
+else PY="python3"; fi
+"$PY" -m ruff format --check .
+```
+
+## Expect the first run to find real bugs
+
+The gate pays for itself immediately on legacy code. mpdt's first run surfaced two:
+
+- a format string with 7 arguments for 6 placeholders — a guaranteed `TypeError` on a branch
+  the existing tests deliberately avoided (`verdict != "FAMILY_SPLIT"`);
+- `result()` returning `0` unconditionally while `payload()` hardcoded `"ok": True`, so a
+  failed send exited 0 and cron recorded success.
+
+Budget time for fixing what it finds, and add a **negative control** for each fix: put the bug
+back, confirm the test goes red, then remove it. A regression test you never saw fail is a
+test you don't know works.
+
