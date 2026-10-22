@@ -1,0 +1,279 @@
+{
+ "date": "2026-09-25",
+ "gh": [
+  {
+   "slug": "rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars_today": 347
+  },
+  {
+   "slug": "vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars_today": 1668
+  },
+  {
+   "slug": "dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars_today": 1082
+  },
+  {
+   "slug": "google/ax",
+   "desc": "Google's open agentic orchestration runtime",
+   "lang": "Go",
+   "stars_today": 1373
+  },
+  {
+   "slug": "NVIDIA/Model-Optimizer",
+   "desc": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+   "lang": "Python",
+   "stars_today": 44
+  },
+  {
+   "slug": "FxEmbed/FxEmbed",
+   "desc": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
+   "lang": "TypeScript",
+   "stars_today": 182
+  },
+  {
+   "slug": "anthropics/financial-services",
+   "desc": "",
+   "lang": "Python",
+   "stars_today": 509
+  },
+  {
+   "slug": "HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "lang": "Python",
+   "stars_today": 413
+  },
+  {
+   "slug": "mvt-project/mvt",
+   "desc": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+   "lang": "Python",
+   "stars_today": 272
+  },
+  {
+   "slug": "obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars_today": 611
+  },
+  {
+   "slug": "strands-agents/harness-sdk",
+   "desc": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+   "lang": "Python",
+   "stars_today": 455
+  },
+  {
+   "slug": "julyx10/lap",
+   "desc": "An offline-first photo manager for large local libraries",
+   "lang": "Vue",
+   "stars_today": 122
+  },
+  {
+   "slug": "superdesigndev/treg",
+   "desc": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+   "lang": "Python",
+   "stars_today": 468
+  }
+ ],
+ "hn": [
+  {
+   "id": 49831968,
+   "title": "F-Droid 2.0",
+   "url": "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+   "points": 889,
+   "by": "daveoc64"
+  },
+  {
+   "id": 49823738,
+   "title": "Show HN: Make cursed fonts like Times New Bastard",
+   "url": "https://bastardica.mitpit.com",
+   "points": 426,
+   "by": "MitPitt"
+  },
+  {
+   "id": 49833867,
+   "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+   "url": "https://github.com/devdotfast/whiteboard",
+   "points": 173,
+   "by": "sidharthkmenon"
+  },
+  {
+   "id": 49832938,
+   "title": "Why is the liver so weirdly regenerative?",
+   "url": "https://dynomight.substack.com/p/liver",
+   "points": 213,
+   "by": "jbotz"
+  },
+  {
+   "id": 49801436,
+   "title": "2DWillNeverDie",
+   "url": "https://2dwillneverdie.com/",
+   "points": 78,
+   "by": "surprisetalk"
+  },
+  {
+   "id": 49800085,
+   "title": "Fearless SIMD v1.0",
+   "url": "https://linebender.org/blog/fearless-simd-1-0/",
+   "points": 162,
+   "by": "verdagon"
+  },
+  {
+   "id": 49817680,
+   "title": "Rails World 2026 Opening Keynote [video]",
+   "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
+   "points": 212,
+   "by": "an0malous"
+  },
+  {
+   "id": 49805344,
+   "title": "My weird new hobby: Wandering around Tokyo on Google Maps",
+   "url": "https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/",
+   "points": 196,
+   "by": "ahmedhossamdev"
+  },
+  {
+   "id": 49837006,
+   "title": "Show HN: Koi.rest – watch some fish and regain your balance",
+   "url": "https://koi.rest",
+   "points": 105,
+   "by": "hxii"
+  },
+  {
+   "id": 49823568,
+   "title": "Toyota is taking the Corolla electric",
+   "url": "https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric/",
+   "points": 189,
+   "by": "cisc"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 3396
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 37618,
+   "downloads_fmt": "38k",
+   "likes": 2196
+  },
+  {
+   "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 2991233,
+   "downloads_fmt": "3.0M",
+   "likes": 2039
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 575697,
+   "downloads_fmt": "576k",
+   "likes": 1629
+  },
+  {
+   "repo": "XingChen-AGI/Xing4.0-29B-A4B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 41923,
+   "downloads_fmt": "42k",
+   "likes": 1646
+  },
+  {
+   "repo": "Comfy-Org/Qwen-Image-2.1",
+   "tag": "",
+   "downloads": 2858923,
+   "downloads_fmt": "2.9M",
+   "likes": 683
+  },
+  {
+   "repo": "Altworld/Hemmingway-1",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 4541,
+   "downloads_fmt": "5k",
+   "likes": 631
+  },
+  {
+   "repo": "secemp9/arxiv-complete",
+   "tag": "",
+   "downloads": 70698,
+   "downloads_fmt": "71k",
+   "likes": 435
+  },
+  {
+   "repo": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 606028,
+   "downloads_fmt": "606k",
+   "likes": 3714
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 6765008,
+   "downloads_fmt": "6.8M",
+   "likes": 16221
+  }
+ ],
+ "ph": [
+  {
+   "name": "LockLines",
+   "tagline": "Design Mac lock screen messages that fit",
+   "url": "https://www.producthunt.com/products/locklines"
+  },
+  {
+   "name": "Floot MCP",
+   "tagline": "Build and ship web and mobile apps inside Claude or ChatGPT",
+   "url": "https://www.producthunt.com/products/floot"
+  },
+  {
+   "name": "Hookest",
+   "tagline": "Your swipe file for viral video hooks",
+   "url": "https://www.producthunt.com/products/hookest"
+  },
+  {
+   "name": "Harness Manager",
+   "tagline": "Your AI coding stack manager, all in one place",
+   "url": "https://www.producthunt.com/products/harness-manager"
+  },
+  {
+   "name": "IntellAgents.io",
+   "tagline": "One AI agent for every call, chat, and DM",
+   "url": "https://www.producthunt.com/products/intellagents-io"
+  },
+  {
+   "name": "Opencontroller by lyzr",
+   "tagline": "Govern All your agents with a unified control plane",
+   "url": "https://www.producthunt.com/products/opencontroller-by-lyzr"
+  },
+  {
+   "name": "Storytailor®",
+   "tagline": "A personal world built around your child’s imagination",
+   "url": "https://www.producthunt.com/products/storytailor"
+  },
+  {
+   "name": "Gemini 3.8 text-to-speech models",
+   "tagline": "Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS",
+   "url": "https://www.producthunt.com/products/gemini-3-8-text-to-speech-models"
+  },
+  {
+   "name": "Autonomous Product Delivery",
+   "tagline": "Discover, plan, build, ship, repeat. Product teams run it",
+   "url": "https://www.producthunt.com/products/autonomyai"
+  },
+  {
+   "name": "jev-seo",
+   "tagline": "Free Rust CLI SEO/GEO auditor, no subscription needed",
+   "url": "https://www.producthunt.com/products/jev-seo"
+  }
+ ]
+}

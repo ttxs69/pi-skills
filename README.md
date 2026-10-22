@@ -9,6 +9,7 @@ Install into any supported agent (the skills CLI writes to `~/.agents/skills` an
 ```bash
 npx skills add ttxs69/pi-skills --list
 npx skills add ttxs69/pi-skills --skill python-quality-gate -g -y
+npx skills add ttxs69/pi-skills --skill agent-ecosystem-intel -g -y
 ```
 
 Or install this repository as a pi package, which adds every skill under `skills/` at once:
@@ -45,6 +46,29 @@ Pi auto-discovers skills from the `skills/` directory; the explicit `pi.skills` 
 |---|---|
 | [auto-research](skills/auto-research/) | Autonomous goal-directed research loop: reads `GOAL.md`, dispatches a fresh-context subagent per iteration, records structured findings in `FIND.md`, stops on saturation or iteration cap. |
 | [python-quality-gate](skills/python-quality-gate/) | One Python quality gate — ruff format and lint (mccabe complexity ≤10), mypy strict, pytest branch coverage ≥90% — all run by one `scripts/quality.sh` that CI reuses. |
+| [agent-ecosystem-intel](skills/agent-ecosystem-intel/) | Positions a project in the AI-agent ecosystem: which of 8 lanes it occupies, how crowded that lane is, and which projects it competes with — from 34 days of GitHub Trending records (402 records, nothing deleted) that ship with the skill. |
+
+## agent-ecosystem-intel
+
+Ask the agent where a project sits in the agent ecosystem and how crowded that lane is:
+
+```bash
+npx skills add ttxs69/pi-skills --skill agent-ecosystem-intel -g -y
+```
+
+```bash
+cd ~/.agents/skills/agent-ecosystem-intel
+python3 scripts/project_positioning.py --repo owner/repo   # locate one project
+python3 scripts/agent_landscape.py --verify                # recompute the lane table
+```
+
+The 8 lanes are defined by *which step of an agent's workflow a project replaces*
+(skills / memory / runtime / harness / orchestration / CLI-ification / vertical / vendor),
+not by tech stack. 34 days of raw Trending records ship with the skill, so every
+number can be recomputed by the reader.
+
+**Scope limit:** the data source is the English GitHub Trending feed — Chinese and
+niche projects are often absent (0 hits means "not in my sample", not "not worth doing").
 
 ## License
 

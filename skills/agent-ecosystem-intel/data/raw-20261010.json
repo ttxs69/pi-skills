@@ -1,0 +1,267 @@
+{
+ "date": "2026-10-10",
+ "gh": [
+  {
+   "slug": "morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars_today": 14927
+  },
+  {
+   "slug": "boykopovar/AnyPS5",
+   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "lang": "C++",
+   "stars_today": 5868
+  },
+  {
+   "slug": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars_today": 1687
+  },
+  {
+   "slug": "cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars_today": 1739
+  },
+  {
+   "slug": "alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars_today": 326
+  },
+  {
+   "slug": "anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars_today": 709
+  },
+  {
+   "slug": "BerriAI/litellm",
+   "desc": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+   "lang": "Python",
+   "stars_today": 95
+  },
+  {
+   "slug": "addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars_today": 436
+  },
+  {
+   "slug": "storytold/artcraft",
+   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "lang": "Rust",
+   "stars_today": 3752
+  },
+  {
+   "slug": "Robbyant/lingbot-map",
+   "desc": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+   "lang": "Python",
+   "stars_today": 110
+  },
+  {
+   "slug": "twostraws/SwiftUI-Agent-Skill",
+   "desc": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+   "lang": "",
+   "stars_today": 65
+  }
+ ],
+ "hn": [
+  {
+   "id": 50019911,
+   "title": "Cloudflare acquires Deno",
+   "url": "https://deno.com/blog/cloudflare",
+   "points": 1035,
+   "by": "ilreb"
+  },
+  {
+   "id": 50022292,
+   "title": "Triple-A Minesweeper",
+   "url": "https://minesweeper.mikelacher.com/",
+   "points": 565,
+   "by": "robin_reala"
+  },
+  {
+   "id": 50024499,
+   "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+   "url": "https://carrierexplode.com/",
+   "points": 197,
+   "by": "simplyalec"
+  },
+  {
+   "id": 50020014,
+   "title": "Our $445M Series D",
+   "url": "https://oxide.computer/blog/our-445m-series-d",
+   "points": 572,
+   "by": "ahlCVA"
+  },
+  {
+   "id": 50027167,
+   "title": "Japan's Most Famous Tuna Buyer Says He Turned Somali Pirates into Fishermen",
+   "url": "https://www.japaninsides.com/the-sushi-king-who-went-to-somalia-how-japans-most-famous-tuna-buyer-says-he-turned-pirates-into-fishermen-55344",
+   "points": 37,
+   "by": "robaato"
+  },
+  {
+   "id": 50026555,
+   "title": "YouTuber Says Cops Visited Him After He Built a Flock-Style Camera to Track Cops",
+   "url": "https://gizmodo.com/youtuber-says-cops-paid-him-a-visit-after-he-built-flock-style-camera-to-track-cops-2000824306",
+   "points": 363,
+   "by": "gumby"
+  },
+  {
+   "id": 50018088,
+   "title": "Sorry, I'm in a meeting",
+   "url": "https://iminafleeting.com/",
+   "points": 737,
+   "by": "splintersio"
+  },
+  {
+   "id": 50023450,
+   "title": "Typesafe AI raises $870M at $7.5B",
+   "url": "https://typesafe.ai/blog/series-ai",
+   "points": 240,
+   "by": "tosh"
+  },
+  {
+   "id": 50019056,
+   "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+   "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+   "points": 98,
+   "by": "piratebroadcast"
+  },
+  {
+   "id": 50018817,
+   "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "points": 368,
+   "by": "franze"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "google/embeddinggemma-2",
+   "tag": "FEATURE-EXTRACTION · 特征提取",
+   "downloads": 29185,
+   "downloads_fmt": "29k",
+   "likes": 1345
+  },
+  {
+   "repo": "Cloudflare/clef",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 12066,
+   "downloads_fmt": "12k",
+   "likes": 1942
+  },
+  {
+   "repo": "Aleph-Alpha/Kolibri-1",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 8474,
+   "downloads_fmt": "8k",
+   "likes": 842
+  },
+  {
+   "repo": "jialinyyzz/humanizer",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 29470,
+   "downloads_fmt": "29k",
+   "likes": 746
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 2013268,
+   "downloads_fmt": "2.0M",
+   "likes": 3769
+  },
+  {
+   "repo": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 38740,
+   "downloads_fmt": "39k",
+   "likes": 674
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1687531,
+   "downloads_fmt": "1.7M",
+   "likes": 7064
+  },
+  {
+   "repo": "Cloudflare/clef-flash",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 18971,
+   "downloads_fmt": "19k",
+   "likes": 713
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 6783589,
+   "downloads_fmt": "6.8M",
+   "likes": 17349
+  },
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 41468,
+   "downloads_fmt": "41k",
+   "likes": 5426
+  }
+ ],
+ "ph": [
+  {
+   "name": "Busabase",
+   "tagline": "The general system of record for AI agents",
+   "url": "https://www.producthunt.com/products/busabase"
+  },
+  {
+   "name": "Ambiguous Workspace",
+   "tagline": "18 productivity apps built for AI agents and humans",
+   "url": "https://www.producthunt.com/products/ambiguous-workspace"
+  },
+  {
+   "name": "Rune",
+   "tagline": "Write it down on one Mac, find it on the other",
+   "url": "https://www.producthunt.com/products/rune"
+  },
+  {
+   "name": "iwant",
+   "tagline": "Find available GPUs and host open models in one command",
+   "url": "https://www.producthunt.com/products/iwant"
+  },
+  {
+   "name": "Murmur",
+   "tagline": "A private voice-first notepad for your thoughts",
+   "url": "https://www.producthunt.com/products/murmur-15"
+  },
+  {
+   "name": "Opposable",
+   "tagline": "Computer use for phones to give your AI thumbs",
+   "url": "https://www.producthunt.com/products/opposable"
+  },
+  {
+   "name": "Phonable",
+   "tagline": "Missed calls, handled: callers get a text, you get the gist",
+   "url": "https://www.producthunt.com/products/phonable"
+  },
+  {
+   "name": "Melete",
+   "tagline": "An Always On Personal Agent With a Team Workspace",
+   "url": "https://www.producthunt.com/products/melete"
+  },
+  {
+   "name": "BrightBean Studio",
+   "tagline": "Open-source Buffer alternative for social media teams",
+   "url": "https://www.producthunt.com/products/brightbean-studio-social-media"
+  },
+  {
+   "name": "Amazon Alexa Tablets",
+   "tagline": "Full Google Play, Alexa+ and a Kindle reading mode",
+   "url": "https://www.producthunt.com/products/amazon-alexa-tablets"
+  }
+ ]
+}

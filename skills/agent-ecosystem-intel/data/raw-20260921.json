@@ -1,0 +1,279 @@
+{
+ "date": "2026-09-21",
+ "gh": [
+  {
+   "slug": "affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars_today": 826
+  },
+  {
+   "slug": "BuilderIO/agent-native",
+   "desc": "A framework for building agentic apps",
+   "lang": "TypeScript",
+   "stars_today": 98
+  },
+  {
+   "slug": "cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars_today": 2428
+  },
+  {
+   "slug": "trycua/cua",
+   "desc": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+   "lang": "HTML",
+   "stars_today": 1018
+  },
+  {
+   "slug": "anthropics/financial-services",
+   "desc": "",
+   "lang": "Python",
+   "stars_today": 260
+  },
+  {
+   "slug": "paperless-ngx/paperless-ngx",
+   "desc": "A community-supported supercharged document management system: scan, index and archive all your documents",
+   "lang": "Python",
+   "stars_today": 57
+  },
+  {
+   "slug": "anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "TypeScript",
+   "stars_today": 419
+  },
+  {
+   "slug": "mihail911/modern-software-dev-assignments",
+   "desc": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
+   "lang": "Python",
+   "stars_today": 172
+  },
+  {
+   "slug": "higgsfield-ai/higgsfield",
+   "desc": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+   "lang": "Jupyter Notebook",
+   "stars_today": 465
+  },
+  {
+   "slug": "Open-Dev-Society/OpenStock",
+   "desc": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+   "lang": "TypeScript",
+   "stars_today": 755
+  },
+  {
+   "slug": "coder/coder",
+   "desc": "Secure environments for developers and their agents",
+   "lang": "Go",
+   "stars_today": 379
+  },
+  {
+   "slug": "vercel-labs/json-render",
+   "desc": "The Generative UI framework",
+   "lang": "TypeScript",
+   "stars_today": 291
+  },
+  {
+   "slug": "addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars_today": 736
+  }
+ ],
+ "hn": [
+  {
+   "id": 49780797,
+   "title": "Google's Open Agentic Orchestrator",
+   "url": "https://agentexecutor.io",
+   "points": 147,
+   "by": "blazarquasar"
+  },
+  {
+   "id": 49780820,
+   "title": "What happened to the Snowden archive",
+   "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+   "points": 125,
+   "by": "EXHades"
+  },
+  {
+   "id": 49778029,
+   "title": "Samsung is expected to more than double output of its HBM4 and HBM4E DRAM",
+   "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+   "points": 337,
+   "by": "giuliomagnifico"
+  },
+  {
+   "id": 49776729,
+   "title": "ChatGPT now knows what you do on other websites via ad collector",
+   "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+   "points": 571,
+   "by": "lmbbuchodi"
+  },
+  {
+   "id": 49780064,
+   "title": "Nobody pays for FOSS, we can force them to",
+   "url": "https://seldo.com/posts/nobody-pays-for-open-source-we-can-force-them-to/",
+   "points": 131,
+   "by": "Muhammad523"
+  },
+  {
+   "id": 49781436,
+   "title": "Amiga Unix, Again",
+   "url": "https://amigaux.org/",
+   "points": 11,
+   "by": "doener"
+  },
+  {
+   "id": 49768336,
+   "title": "The Effect of CRTs on Pixel Art (2024)",
+   "url": "https://datagubbe.se/crt/",
+   "points": 86,
+   "by": "tobr"
+  },
+  {
+   "id": 49775499,
+   "title": "Qwen Image 2.1",
+   "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+   "points": 480,
+   "by": "jmillikin"
+  },
+  {
+   "id": 49776699,
+   "title": "Pirate Face Rescues LLM Models from Deletion",
+   "url": "https://pirateface.co/",
+   "points": 424,
+   "by": "skepticalgenius"
+  },
+  {
+   "id": 49780630,
+   "title": "Bill to Ban Private Equity from Owning Medical Practices",
+   "url": "https://truthout.org/articles/warren-introduces-bill-to-ban-private-equity-from-owning-medical-practices/",
+   "points": 185,
+   "by": "paimapi"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 1908396,
+   "downloads_fmt": "1.9M",
+   "likes": 1495
+  },
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 1099
+  },
+  {
+   "repo": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 496684,
+   "downloads_fmt": "497k",
+   "likes": 3433
+  },
+  {
+   "repo": "XingChen-AGI/Xing4.0-29B-A4B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 12617,
+   "downloads_fmt": "13k",
+   "likes": 890
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 183,
+   "downloads_fmt": "183",
+   "likes": 759
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 7331932,
+   "downloads_fmt": "7.3M",
+   "likes": 15862
+  },
+  {
+   "repo": "m-a-p/YuE2-3B",
+   "tag": "TEXT-TO-AUDIO · TEXT-TO-AUDIO",
+   "downloads": 17403,
+   "downloads_fmt": "17k",
+   "likes": 916
+  },
+  {
+   "repo": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 1217204,
+   "downloads_fmt": "1.2M",
+   "likes": 1480
+  },
+  {
+   "repo": "harshatheg/Qwen-2.5-1B-RLCD",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 477
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1609559,
+   "downloads_fmt": "1.6M",
+   "likes": 4552
+  }
+ ],
+ "ph": [
+  {
+   "name": "Scrapboard Cloud 4",
+   "tagline": "Digital family refrigerator door, now pocket-sized n synced",
+   "url": "https://www.producthunt.com/products/scrapboard-cloud-4"
+  },
+  {
+   "name": "SmartPause",
+   "tagline": "The play/pause key, finally aimed at what's playing",
+   "url": "https://www.producthunt.com/products/smartpause-2"
+  },
+  {
+   "name": "Embedful",
+   "tagline": "Launch customer dashboards in minutes",
+   "url": "https://www.producthunt.com/products/embedful"
+  },
+  {
+   "name": "Mycel",
+   "tagline": "Bring one past deliverable. Mycel drafts every future one.",
+   "url": "https://www.producthunt.com/products/mycel"
+  },
+  {
+   "name": "Launchie 1.6.1",
+   "tagline": "Launchpad Replacement for MacOS 27 Golden Gate",
+   "url": "https://www.producthunt.com/products/launchie"
+  },
+  {
+   "name": "Morsa Signals",
+   "tagline": "GTM and AI visibility workflows for developer tools",
+   "url": "https://www.producthunt.com/products/morsa-signals"
+  },
+  {
+   "name": "Epismo OS",
+   "tagline": "Keep your work when you switch AI tools",
+   "url": "https://www.producthunt.com/products/epismo"
+  },
+  {
+   "name": "YABAI",
+   "tagline": "Real Japanese slang, one giant word at a time",
+   "url": "https://www.producthunt.com/products/yabai"
+  },
+  {
+   "name": "Answers by Context.dev",
+   "tagline": "Give it a research task + the JSON shape you want back.",
+   "url": "https://www.producthunt.com/products/context-dev"
+  },
+  {
+   "name": "Minicart",
+   "tagline": "Launch your store. Let AI run the busywork.",
+   "url": "https://www.producthunt.com/products/minicart"
+  }
+ ]
+}

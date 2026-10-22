@@ -1,0 +1,279 @@
+{
+ "date": "2026-10-19",
+ "gh": [
+  {
+   "slug": "MadsLorentzen/ai-job-search",
+   "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+   "lang": "Python",
+   "stars_today": 2232
+  },
+  {
+   "slug": "anthropics/claude-plugins-official",
+   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "lang": "Python",
+   "stars_today": 1175
+  },
+  {
+   "slug": "anomalyco/opencode",
+   "desc": "The open source coding agent.",
+   "lang": "TypeScript",
+   "stars_today": 1414
+  },
+  {
+   "slug": "cursor/plugins",
+   "desc": "Cursor plugin specification and official plugins",
+   "lang": "TypeScript",
+   "stars_today": 350
+  },
+  {
+   "slug": "ruvnet/ruflo",
+   "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+   "lang": "TypeScript",
+   "stars_today": 513
+  },
+  {
+   "slug": "akitaonrails/ai-memory",
+   "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+   "lang": "Rust",
+   "stars_today": 512
+  },
+  {
+   "slug": "stablyai/orca",
+   "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "lang": "TypeScript",
+   "stars_today": 1146
+  },
+  {
+   "slug": "HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "lang": "Python",
+   "stars_today": 589
+  },
+  {
+   "slug": "debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars_today": 2082
+  },
+  {
+   "slug": "android/skills",
+   "desc": "",
+   "lang": "Kotlin",
+   "stars_today": 375
+  },
+  {
+   "slug": "mlabonne/llm-course",
+   "desc": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+   "lang": "",
+   "stars_today": 81
+  },
+  {
+   "slug": "Kruk2/jasna",
+   "desc": "Video restoration tool",
+   "lang": "Python",
+   "stars_today": 115
+  },
+  {
+   "slug": "Comfy-Org/ComfyUI",
+   "desc": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+   "lang": "Python",
+   "stars_today": 154
+  }
+ ],
+ "hn": [
+  {
+   "id": 50145337,
+   "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+   "url": "https://arxiv.org/abs/2610.18861",
+   "points": 162,
+   "by": "allinonai"
+  },
+  {
+   "id": 50146625,
+   "title": "William Gibson and the Trademarking of Cyberspace",
+   "url": "https://colo.to/cyberspace.html",
+   "points": 7,
+   "by": "Eric_Gullichsen"
+  },
+  {
+   "id": 50142573,
+   "title": "Someone behind the software",
+   "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+   "points": 285,
+   "by": "tosh"
+  },
+  {
+   "id": 50136150,
+   "title": "There's never been a better time to go into math (by: 3blue1brown) [video]",
+   "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
+   "points": 121,
+   "by": "mdp2021"
+  },
+  {
+   "id": 50144066,
+   "title": "Free Pascal compiler now supports dynamic packages",
+   "url": "https://www.getlazarus.org/dynamic/",
+   "points": 102,
+   "by": "sysrpl"
+  },
+  {
+   "id": 50141076,
+   "title": "RepRapMicron",
+   "url": "https://github.com/VikOlliver/RepRapMicron/wiki",
+   "points": 324,
+   "by": "RobotToaster"
+  },
+  {
+   "id": 50136979,
+   "title": "Dogs seem to agree with humans that 'bouba' is round and 'kiki' is spiky",
+   "url": "https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky",
+   "points": 110,
+   "by": "gmays"
+  },
+  {
+   "id": 50145715,
+   "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+   "url": "https://github.com/finereli/whatsapp-mcp",
+   "points": 27,
+   "by": "zoozla"
+  },
+  {
+   "id": 50143536,
+   "title": "PalmOS Lemmings",
+   "url": "https://github.com/ardiri/palmos-lemmings",
+   "points": 81,
+   "by": "memalign"
+  },
+  {
+   "id": 50138531,
+   "title": "DeepSeek search and fetch – $0.75 per 1000 successful requests",
+   "url": "https://api-docs.deepseek.com/guides/search/",
+   "points": 531,
+   "by": "fagnerbrack"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 10233,
+   "downloads_fmt": "10k",
+   "likes": 1333
+  },
+  {
+   "repo": "openbmb/MiniCPM-V-4.7-35B-A3B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 57935,
+   "downloads_fmt": "58k",
+   "likes": 1007
+  },
+  {
+   "repo": "google/embeddinggemma-2",
+   "tag": "FEATURE-EXTRACTION · 特征提取",
+   "downloads": 164339,
+   "downloads_fmt": "164k",
+   "likes": 2661
+  },
+  {
+   "repo": "jialinyyzz/humanizer",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 103709,
+   "downloads_fmt": "104k",
+   "likes": 1946
+  },
+  {
+   "repo": "fishaudio/drama-3",
+   "tag": "TEXT-TO-SPEECH · TEXT-TO-SPEECH",
+   "downloads": 9620,
+   "downloads_fmt": "10k",
+   "likes": 691
+  },
+  {
+   "repo": "black-forest-labs/flux-3-image-klein-comfy",
+   "tag": "IMAGE-TO-IMAGE · IMAGE-TO-IMAGE",
+   "downloads": 338036,
+   "downloads_fmt": "338k",
+   "likes": 809
+  },
+  {
+   "repo": "meta-models/Muse-Spark-Open-816B-A42B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 1809,
+   "downloads_fmt": "2k",
+   "likes": 545
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 2012496,
+   "downloads_fmt": "2.0M",
+   "likes": 8377
+  },
+  {
+   "repo": "LiquidAI/LFM2.5-24B-A2B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 13007,
+   "downloads_fmt": "13k",
+   "likes": 470
+  },
+  {
+   "repo": "black-forest-labs/flux-3-image-klein",
+   "tag": "IMAGE-TO-IMAGE · IMAGE-TO-IMAGE",
+   "downloads": 52315,
+   "downloads_fmt": "52k",
+   "likes": 487
+  }
+ ],
+ "ph": [
+  {
+   "name": "shim-cli",
+   "tagline": "See what your coding agent sends. Mask what you can.",
+   "url": "https://www.producthunt.com/products/shim-cli"
+  },
+  {
+   "name": "Inbox Zero",
+   "tagline": "Open-source Superhuman alternative",
+   "url": "https://www.producthunt.com/products/inbox-zero-2"
+  },
+  {
+   "name": "Krea 3",
+   "tagline": "Krea's AI image model: 2K edits in under 8 seconds",
+   "url": "https://www.producthunt.com/products/krea"
+  },
+  {
+   "name": "SpeechFast",
+   "tagline": "Local Whisper for Mac",
+   "url": "https://www.producthunt.com/products/speechfast"
+  },
+  {
+   "name": "Gravity Notes",
+   "tagline": "One list of notes, for you and your AI agents",
+   "url": "https://www.producthunt.com/products/gravity-notes-for-mac"
+  },
+  {
+   "name": "Popcraft",
+   "tagline": "Generate video, images & audio from any AI agent",
+   "url": "https://www.producthunt.com/products/popcraft"
+  },
+  {
+   "name": "PasteKit",
+   "tagline": "Format JSON, YAML & SQL privately",
+   "url": "https://www.producthunt.com/products/pastekit-2"
+  },
+  {
+   "name": "Tomo for ChatGPT",
+   "tagline": "Ask anything. Then play it, Duolingo-style.",
+   "url": "https://www.producthunt.com/products/tomo-for-chatgpt"
+  },
+  {
+   "name": "Vampire Crawlers™",
+   "tagline": "The Turbo Wildcard from Vampire Survivors",
+   "url": "https://www.producthunt.com/products/vampire-crawlers"
+  },
+  {
+   "name": "Openbroca",
+   "tagline": "Lightweight AI dictation for Mac that sounds like you",
+   "url": "https://www.producthunt.com/products/openbroca"
+  }
+ ]
+}

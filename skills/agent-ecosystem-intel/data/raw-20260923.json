@@ -1,0 +1,249 @@
+{
+ "date": "2026-09-23",
+ "gh": [
+  {
+   "slug": "anthropics/financial-services",
+   "desc": "",
+   "lang": "Python",
+   "stars_today": 438
+  },
+  {
+   "slug": "agent-substrate/substrate",
+   "desc": "Agent Substrate: the core system",
+   "lang": "Go",
+   "stars_today": 245
+  },
+  {
+   "slug": "dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars_today": 255
+  },
+  {
+   "slug": "davila7/claude-code-templates",
+   "desc": "CLI tool for configuring and monitoring Claude Code",
+   "lang": "Python",
+   "stars_today": 64
+  },
+  {
+   "slug": "google/ax",
+   "desc": "Google's open agentic orchestration runtime",
+   "lang": "Go",
+   "stars_today": 2305
+  },
+  {
+   "slug": "mvt-project/mvt",
+   "desc": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+   "lang": "Python",
+   "stars_today": 441
+  },
+  {
+   "slug": "superdesigndev/treg",
+   "desc": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+   "lang": "Python",
+   "stars_today": 230
+  },
+  {
+   "slug": "browser-use/video-use",
+   "desc": "Edit videos with coding agents",
+   "lang": "Python",
+   "stars_today": 191
+  }
+ ],
+ "hn": [
+  {
+   "id": 49805509,
+   "title": "GPT-6 Sol and Luna",
+   "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+   "points": 1105,
+   "by": "OfficialTurkey"
+  },
+  {
+   "id": 49803892,
+   "title": "Claude Opus 5.5",
+   "url": "https://www.anthropic.com/claude-opus-5-5",
+   "points": 1145,
+   "by": "km144"
+  },
+  {
+   "id": 49805278,
+   "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
+   "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+   "points": 342,
+   "by": "spenvo"
+  },
+  {
+   "id": 49801324,
+   "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+   "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+   "points": 544,
+   "by": "sohkamyung"
+  },
+  {
+   "id": 49781862,
+   "title": "ReBarUEFI: Resizable BAR for almost any UEFI system",
+   "url": "https://github.com/xCuri0/ReBarUEFI",
+   "points": 44,
+   "by": "nateb2022"
+  },
+  {
+   "id": 49808023,
+   "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+   "url": "https://foxscript.org/",
+   "points": 141,
+   "by": "boredjohnny"
+  },
+  {
+   "id": 49796379,
+   "title": "What California is learning from solar panels built over irrigation canals",
+   "url": "https://www.kqed.org/science/2002033/heres-what-california-is-learning-from-solar-panels-built-over-irrigation-canals",
+   "points": 80,
+   "by": "Jtsummers"
+  },
+  {
+   "id": 49804316,
+   "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+   "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+   "points": 224,
+   "by": "theanonymousone"
+  },
+  {
+   "id": 49806335,
+   "title": "SAML: A fractal of bad design",
+   "url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+   "points": 134,
+   "by": "aray07"
+  },
+  {
+   "id": 49805748,
+   "title": "Unreal Agent",
+   "url": "https://unreallabs.ai/blog/unreal-agent/",
+   "points": 119,
+   "by": "trollied"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 2541
+  },
+  {
+   "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 2569604,
+   "downloads_fmt": "2.6M",
+   "likes": 1881
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 16242,
+   "downloads_fmt": "16k",
+   "likes": 1795
+  },
+  {
+   "repo": "XingChen-AGI/Xing4.0-29B-A4B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 30627,
+   "downloads_fmt": "31k",
+   "likes": 1383
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 182313,
+   "downloads_fmt": "182k",
+   "likes": 1100
+  },
+  {
+   "repo": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 542014,
+   "downloads_fmt": "542k",
+   "likes": 3609
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 7079646,
+   "downloads_fmt": "7.1M",
+   "likes": 16075
+  },
+  {
+   "repo": "Comfy-Org/Qwen-Image-2.1",
+   "tag": "",
+   "downloads": 1429925,
+   "downloads_fmt": "1.4M",
+   "likes": 569
+  },
+  {
+   "repo": "secemp9/arxiv-complete",
+   "tag": "",
+   "downloads": 19589,
+   "downloads_fmt": "20k",
+   "likes": 387
+  },
+  {
+   "repo": "harshatheg/Qwen-2.5-1B-RLCD",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 545
+  }
+ ],
+ "ph": [
+  {
+   "name": "Googlebook",
+   "tagline": "The laptop your Android phone has been waiting for",
+   "url": "https://www.producthunt.com/products/googlebook-4"
+  },
+  {
+   "name": "Plane Agents",
+   "tagline": "Assign work to AI agents, like any teammate",
+   "url": "https://www.producthunt.com/products/planehq"
+  },
+  {
+   "name": "PixelCrew",
+   "tagline": "Production-ready design from a crew of AI agents",
+   "url": "https://www.producthunt.com/products/pixelcrew"
+  },
+  {
+   "name": "Valori",
+   "tagline": "The deterministic memory layer for AI",
+   "url": "https://www.producthunt.com/products/valori-systems-deleted-1168484"
+  },
+  {
+   "name": "thestory.run",
+   "tagline": "A writing coach for corporate influencers.",
+   "url": "https://www.producthunt.com/products/thestory-run"
+  },
+  {
+   "name": "SereneDB",
+   "tagline": "Ultra-Fast Search & Analytics Database, Agentic AI ready",
+   "url": "https://www.producthunt.com/products/serenedb-krummelanke"
+  },
+  {
+   "name": "WZRD",
+   "tagline": "AI-native documents, slides, forms and sheets that talk back",
+   "url": "https://www.producthunt.com/products/wzrd"
+  },
+  {
+   "name": "Fulvid",
+   "tagline": "A standalone desktop editor for Markdown and MDX",
+   "url": "https://www.producthunt.com/products/fulvid"
+  },
+  {
+   "name": "gg-friggin-ez",
+   "tagline": "Fast & free profanity and toxicity screening via Jev & Laya",
+   "url": "https://www.producthunt.com/products/gg-friggin-ez"
+  },
+  {
+   "name": "Grok 4.7",
+   "tagline": "SpaceXAI's most powerful model for coding and knowledge work",
+   "url": "https://www.producthunt.com/products/grok-4-7-8"
+  }
+ ]
+}

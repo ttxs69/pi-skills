@@ -1,0 +1,279 @@
+{
+ "date": "2026-10-03",
+ "gh": [
+  {
+   "slug": "Panniantong/Agent-Reach",
+   "desc": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+   "lang": "Python",
+   "stars_today": 696
+  },
+  {
+   "slug": "JuliusBrussee/caveman",
+   "desc": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+   "lang": "Go",
+   "stars_today": 209
+  },
+  {
+   "slug": "obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars_today": 556
+  },
+  {
+   "slug": "DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars_today": 1435
+  },
+  {
+   "slug": "pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "JavaScript",
+   "stars_today": 722
+  },
+  {
+   "slug": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars_today": 955
+  },
+  {
+   "slug": "NVIDIA/OpenShell",
+   "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
+   "lang": "Rust",
+   "stars_today": 594
+  },
+  {
+   "slug": "coreyhaines31/marketingskills",
+   "desc": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+   "lang": "JavaScript",
+   "stars_today": 140
+  },
+  {
+   "slug": "heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars_today": 580
+  },
+  {
+   "slug": "mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars_today": 282
+  },
+  {
+   "slug": "google/skills",
+   "desc": "Agent Skills for Google products and technologies",
+   "lang": "Python",
+   "stars_today": 39
+  },
+  {
+   "slug": "getsentry/sentry",
+   "desc": "Developer-first error tracking and performance monitoring",
+   "lang": "Python",
+   "stars_today": 16
+  },
+  {
+   "slug": "colbymchenry/codegraph",
+   "desc": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+   "lang": "C",
+   "stars_today": 98
+  }
+ ],
+ "hn": [
+  {
+   "id": 49933869,
+   "title": "The Forgetful CPU (Linux on M4)",
+   "url": "https://yuka.dev/blog-2026-10-02-linux-m4.html",
+   "points": 53,
+   "by": "signa11"
+  },
+  {
+   "id": 49937276,
+   "title": "Apple Pass Designer",
+   "url": "https://developer.apple.com/pass-designer/",
+   "points": 290,
+   "by": "soheilpro"
+  },
+  {
+   "id": 49927754,
+   "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+   "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
+   "points": 467,
+   "by": "hn_acker"
+  },
+  {
+   "id": 49932147,
+   "title": "A 12-year sequence of telescope images of a star and four planets orbiting",
+   "url": "https://bsky.app/profile/theplanetaryguy.com/post/3mwucf5ert22f",
+   "points": 178,
+   "by": "mariuz"
+  },
+  {
+   "id": 49933740,
+   "title": "With most information hidden, the game Stratego had stumped AI until now",
+   "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+   "points": 162,
+   "by": "PaulHoule"
+  },
+  {
+   "id": 49925184,
+   "title": "Mike Tomlin spent 12 years building a Minecraft city",
+   "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
+   "points": 223,
+   "by": "CoryOndrejka"
+  },
+  {
+   "id": 49937504,
+   "title": "Muse Gadgets",
+   "url": "https://gadgets.muse.ai",
+   "points": 106,
+   "by": "anant"
+  },
+  {
+   "id": 49926411,
+   "title": "Loss of cell identity drives human aging: Two new papers",
+   "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
+   "points": 165,
+   "by": "bookofjoe"
+  },
+  {
+   "id": 49936575,
+   "title": "From the creator of Redis; run LLM locally with ds4",
+   "url": "https://dwarfstar.sh/",
+   "points": 127,
+   "by": "fibo"
+  },
+  {
+   "id": 49929391,
+   "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+   "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+   "points": 161,
+   "by": "usernomdeguerre"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 5003
+  },
+  {
+   "repo": "XiaomiMiMo/MiMo-V2.6-RL-oss",
+   "tag": "",
+   "downloads": 57802,
+   "downloads_fmt": "58k",
+   "likes": 727
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 1376248,
+   "downloads_fmt": "1.4M",
+   "likes": 2840
+  },
+  {
+   "repo": "Cloudflare/clef",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 824,
+   "downloads_fmt": "824",
+   "likes": 773
+  },
+  {
+   "repo": "Contrastive-LM/CLM-v0.1-8B",
+   "tag": "TEXT-RANKING · TEXT-RANKING",
+   "downloads": 2951,
+   "downloads_fmt": "3k",
+   "likes": 666
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1584129,
+   "downloads_fmt": "1.6M",
+   "likes": 5990
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 81738,
+   "downloads_fmt": "82k",
+   "likes": 2835
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 6934867,
+   "downloads_fmt": "6.9M",
+   "likes": 16802
+  },
+  {
+   "repo": "SupersonicLabs/Julia-1",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 2909,
+   "downloads_fmt": "3k",
+   "likes": 366
+  },
+  {
+   "repo": "Viggle/Qwen-Image-2.1-viggle-turbo",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 240660,
+   "downloads_fmt": "241k",
+   "likes": 537
+  }
+ ],
+ "ph": [
+  {
+   "name": "Gauth Unlimited Digital Canvas",
+   "tagline": "An AI tutor on an infinite whiteboard, not a chat thread",
+   "url": "https://www.producthunt.com/products/gauth-ai-course"
+  },
+  {
+   "name": "Teachoo",
+   "tagline": "AI that helps you learn anything and everything.",
+   "url": "https://www.producthunt.com/products/teachoo-2"
+  },
+  {
+   "name": "Open Inspector",
+   "tagline": "Hover any website, get its design system. Open-source. Free.",
+   "url": "https://www.producthunt.com/products/open-inspector"
+  },
+  {
+   "name": "Audryo",
+   "tagline": "Customer email your agent can operate.",
+   "url": "https://www.producthunt.com/products/audryo"
+  },
+  {
+   "name": "Communicate",
+   "tagline": "AI support agents grounded in your knowledge, with handoff",
+   "url": "https://www.producthunt.com/products/communicate"
+  },
+  {
+   "name": "Anthroposcaper",
+   "tagline": "Tag a 2D plan, get a 3D urban environment model",
+   "url": "https://www.producthunt.com/products/anthroposcaper"
+  },
+  {
+   "name": "GitSync",
+   "tagline": "Sync branches between GitHub repos, right from Chrome",
+   "url": "https://www.producthunt.com/products/gitsync"
+  },
+  {
+   "name": "ShipHQ",
+   "tagline": "Build your own app studio, powered by your real apps",
+   "url": "https://www.producthunt.com/products/shiphq"
+  },
+  {
+   "name": "JarvisCore",
+   "tagline": "Build agents as peers in a mesh network with zero-trust",
+   "url": "https://www.producthunt.com/products/jarviscore"
+  },
+  {
+   "name": "WeftCut",
+   "tagline": "The open-source video editor your AI agent can drive",
+   "url": "https://www.producthunt.com/products/weftcut"
+  }
+ ]
+}

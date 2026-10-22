@@ -1,0 +1,121 @@
+{
+ "gh_items": 402,
+ "gh_days": 34,
+ "gh_agent_hi_n": 37,
+ "landscape_cats": 8,
+ "landscape_covered": 37,
+ "landscape_uncovered": [],
+ "landscape_orphan": [],
+ "vendor_n": 7,
+ "vendor_pct": 19,
+ "skills_n": 9,
+ "skills_vendor_n": 0,
+ "density": {
+  "skills": 6.2,
+  "memory": 6.8,
+  "runtime": 3.7,
+  "harness": 7.3,
+  "orchestration": 5.4,
+  "cli": 4.0,
+  "vertical": 4.5,
+  "vendor": 4.2
+ },
+ "per_cat": {
+  "skills": {
+   "mattpocock/skills": 10,
+   "addyosmani/agent-skills": 8,
+   "obra/superpowers": 8,
+   "cathrynlavery/diagram-design": 8,
+   "cloudflare/security-audit-skill": 6,
+   "DietrichGebert/ponytail": 6,
+   "K-Dense-AI/scientific-agent-skills": 4,
+   "JuliusBrussee/caveman": 3,
+   "earthtojake/text-to-cad": 3
+  },
+  "memory": {
+   "vectorize-io/hindsight": 6,
+   "thedotmack/claude-mem": 6,
+   "akitaonrails/ai-memory": 5,
+   "mksglu/context-mode": 10
+  },
+  "runtime": {
+   "coder/coder": 3,
+   "NVIDIA/OpenShell": 4,
+   "google/ax": 4
+  },
+  "harness": {
+   "affaan-m/ECC": 7,
+   "ruvnet/ruflo": 5,
+   "mattpocock/skills": 10
+  },
+  "orchestration": {
+   "morluto/rea": 10,
+   "stablyai/orca": 4,
+   "mvschwarz/openrig": 5,
+   "paperclipai/paperclip": 5,
+   "anomalyco/opencode": 3
+  },
+  "cli": {
+   "HKUDS/CLI-Anything": 7,
+   "BuilderIO/agent-native": 3,
+   "superdesigndev/treg": 3,
+   "xerj-org/xerj": 3,
+   "Panniantong/Agent-Reach": 4
+  },
+  "vertical": {
+   "MadsLorentzen/ai-job-search": 4,
+   "dream-num/univer": 8,
+   "anthropics/knowledge-work-plugins": 6,
+   "heygen-com/hyperframes": 3,
+   "lyogavin/airllm": 3,
+   "alibaba/open-code-review": 3
+  },
+  "vendor": {
+   "anthropics/claude-code": 6,
+   "anthropics/claude-plugins-official": 5,
+   "cursor/plugins": 3,
+   "google/ax": 4,
+   "NVIDIA/OpenShell": 4,
+   "alibaba/open-code-review": 3
+  }
+ },
+ "per_project_stars": {
+  "cloudflare/security-audit-skill": 14196,
+  "anthropics/claude-code": 2134,
+  "alibaba/open-code-review": 5754,
+  "affaan-m/ECC": 6861,
+  "addyosmani/agent-skills": 4345,
+  "anthropics/knowledge-work-plugins": 2606,
+  "coder/coder": 1241,
+  "BuilderIO/agent-native": 792,
+  "akitaonrails/ai-memory": 1809,
+  "dream-num/univer": 7068,
+  "google/ax": 6600,
+  "superdesigndev/treg": 1204,
+  "obra/superpowers": 4696,
+  "HKUDS/CLI-Anything": 2623,
+  "vectorize-io/hindsight": 17124,
+  "paperclipai/paperclip": 12773,
+  "anthropics/claude-plugins-official": 4514,
+  "mattpocock/skills": 11537,
+  "mvschwarz/openrig": 2851,
+  "NVIDIA/OpenShell": 5321,
+  "mksglu/context-mode": 4683,
+  "DietrichGebert/ponytail": 8626,
+  "heygen-com/hyperframes": 1556,
+  "cursor/plugins": 778,
+  "Panniantong/Agent-Reach": 4527,
+  "JuliusBrussee/caveman": 1149,
+  "thedotmack/claude-mem": 3023,
+  "earthtojake/text-to-cad": 1139,
+  "morluto/rea": 255022,
+  "cathrynlavery/diagram-design": 10121,
+  "lyogavin/airllm": 2428,
+  "K-Dense-AI/scientific-agent-skills": 3290,
+  "ruvnet/ruflo": 2316,
+  "xerj-org/xerj": 3523,
+  "MadsLorentzen/ai-job-search": 8351,
+  "stablyai/orca": 5107,
+  "anomalyco/opencode": 3163
+ }
+}

@@ -1,0 +1,279 @@
+{
+ "date": "2026-10-08",
+ "gh": [
+  {
+   "slug": "morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars_today": 4655
+  },
+  {
+   "slug": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars_today": 1403
+  },
+  {
+   "slug": "boykopovar/AnyPS5",
+   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "lang": "C++",
+   "stars_today": 2716
+  },
+  {
+   "slug": "ayghri/i-have-adhd",
+   "desc": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+   "lang": "Python",
+   "stars_today": 619
+  },
+  {
+   "slug": "cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars_today": 825
+  },
+  {
+   "slug": "addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars_today": 677
+  },
+  {
+   "slug": "EpicGames/raddebugger",
+   "desc": "A native, user-mode, multi-process, graphical debugger.",
+   "lang": "C",
+   "stars_today": 90
+  },
+  {
+   "slug": "thedotmack/claude-mem",
+   "desc": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+   "lang": "TypeScript",
+   "stars_today": 578
+  },
+  {
+   "slug": "manaflow-ai/cmux",
+   "desc": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
+   "lang": "Swift",
+   "stars_today": 44
+  },
+  {
+   "slug": "trycua/cua",
+   "desc": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+   "lang": "Rust",
+   "stars_today": 228
+  },
+  {
+   "slug": "cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars_today": 576
+  },
+  {
+   "slug": "tester-army/e2e",
+   "desc": "Next generation e2e testing framework for web and mobile apps.",
+   "lang": "TypeScript",
+   "stars_today": 1390
+  },
+  {
+   "slug": "DuarteSantos8/openGym",
+   "desc": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+   "lang": "JavaScript",
+   "stars_today": 1493
+  }
+ ],
+ "hn": [
+  {
+   "id": 49996437,
+   "title": "Claude Haiku 5.5",
+   "url": "https://www.anthropic.com/claude-haiku-5-5",
+   "points": 638,
+   "by": "sfkgtbor"
+  },
+  {
+   "id": 49998895,
+   "title": "Margaret Hamilton has died",
+   "url": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+   "points": 489,
+   "by": "muglug"
+  },
+  {
+   "id": 49998066,
+   "title": "'Jonathan' is the oldest land animal on Earth",
+   "url": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise/",
+   "points": 30,
+   "by": "gumby"
+  },
+  {
+   "id": 49996425,
+   "title": "GPT‑6 and Intelligent UI for everyone",
+   "url": "https://openai.com/index/gpt-6-for-everyone/",
+   "points": 469,
+   "by": "joshuawright11"
+  },
+  {
+   "id": 49969073,
+   "title": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
+   "url": "https://www.science.org/content/article/how-did-rosalind-franklin-miss-helix-her-iconic-dna-image-she-didn-t",
+   "points": 40,
+   "by": "pavel_lishin"
+  },
+  {
+   "id": 49994443,
+   "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
+   "url": "https://bigwords.page/",
+   "points": 328,
+   "by": "SpeakingOfBrad"
+  },
+  {
+   "id": 49996259,
+   "title": "Docker Agent",
+   "url": "https://github.com/docker/docker-agent",
+   "points": 166,
+   "by": "saikatsg"
+  },
+  {
+   "id": 49996406,
+   "title": "In Vienna and Beijing, the first (thorium) nuclear clocks begin to tick",
+   "url": "https://www.nytimes.com/2026/10/07/science/first-nuclear-clocks-thorium-229.html",
+   "points": 13,
+   "by": "gumby"
+  },
+  {
+   "id": 49997073,
+   "title": "Push ifs up and fors down: The idiom, its algebra, and its limits",
+   "url": "https://debasishg.github.io/blog/push-ifs-up-fors-down/",
+   "points": 94,
+   "by": "speckx"
+  },
+  {
+   "id": 49991227,
+   "title": "Shipping JPEG XL in Chrome",
+   "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
+   "points": 473,
+   "by": "AshleysBrain"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "Cloudflare/clef",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 9513,
+   "downloads_fmt": "10k",
+   "likes": 1814
+  },
+  {
+   "repo": "autotrust/JEV-27B-VL",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 1529210,
+   "downloads_fmt": "1.5M",
+   "likes": 1936
+  },
+  {
+   "repo": "autotrust/GEV-26B-Decide",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 895867,
+   "downloads_fmt": "896k",
+   "likes": 1287
+  },
+  {
+   "repo": "google/embeddinggemma-2",
+   "tag": "FEATURE-EXTRACTION · 特征提取",
+   "downloads": 7562,
+   "downloads_fmt": "8k",
+   "likes": 944
+  },
+  {
+   "repo": "Aleph-Alpha/Kolibri-1",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 5775,
+   "downloads_fmt": "6k",
+   "likes": 774
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 1820627,
+   "downloads_fmt": "1.8M",
+   "likes": 3558
+  },
+  {
+   "repo": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 33633,
+   "downloads_fmt": "34k",
+   "likes": 625
+  },
+  {
+   "repo": "Cloudflare/clef-flash",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 15722,
+   "downloads_fmt": "16k",
+   "likes": 649
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1674291,
+   "downloads_fmt": "1.7M",
+   "likes": 6795
+  },
+  {
+   "repo": "jialinyyzz/humanizer",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 19483,
+   "downloads_fmt": "19k",
+   "likes": 462
+  }
+ ],
+ "ph": [
+  {
+   "name": "ImageFlow",
+   "tagline": "Free Photoshop-grade image editor with AI features",
+   "url": "https://www.producthunt.com/products/imageflow-6"
+  },
+  {
+   "name": "Databench by Alkera",
+   "tagline": "Open-source collaborative agentic workspace for data teams",
+   "url": "https://www.producthunt.com/products/alkera"
+  },
+  {
+   "name": "Proofsource",
+   "tagline": "AI search visibility, with agents that fix the gaps",
+   "url": "https://www.producthunt.com/products/proofsource"
+  },
+  {
+   "name": "ParakeetAI 2.0",
+   "tagline": "The ultimate way to prepare for your job interview",
+   "url": "https://www.producthunt.com/products/parakeetai"
+  },
+  {
+   "name": "Knuff App",
+   "tagline": "Family check-in app to know your people are okay",
+   "url": "https://www.producthunt.com/products/knuff-app"
+  },
+  {
+   "name": "Introducing Video Editor in Manus 2.0",
+   "tagline": "Anyone Can Now Make A Video Worth Posting",
+   "url": "https://www.producthunt.com/products/manus"
+  },
+  {
+   "name": "Rhem Labs",
+   "tagline": "Health assistant robots for your parents’",
+   "url": "https://www.producthunt.com/products/rhem-labs"
+  },
+  {
+   "name": "Rool",
+   "tagline": "Your private AI machine. Files, ideas, AI in one workspace.",
+   "url": "https://www.producthunt.com/products/rool"
+  },
+  {
+   "name": "Nano Banana 2.1",
+   "tagline": "Google's image model with sharper design and mask editing",
+   "url": "https://www.producthunt.com/products/google"
+  },
+  {
+   "name": "Ownfeed",
+   "tagline": "A social feed of people who need your product",
+   "url": "https://www.producthunt.com/products/ownfeed"
+  }
+ ]
+}

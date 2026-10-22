@@ -1,0 +1,59 @@
+GitHub Trending agent 赛道地图（402 条 / 34 天 / 上榜≥3次的 37 个项目 / 8 个赛道）
+
+skills｜给 agent 装技能包  (9 个项目, 拥挤度 6.2)
+    10次  mattpocock/skills
+     8次  addyosmani/agent-skills
+     8次  obra/superpowers
+     8次  cathrynlavery/diagram-design
+     6次  cloudflare/security-audit-skill
+     6次  DietrichGebert/ponytail
+     4次  K-Dense-AI/scientific-agent-skills
+     3次  JuliusBrussee/caveman
+     3次  earthtojake/text-to-cad
+
+memory｜跨会话记忆  (4 个项目, 拥挤度 6.8)
+    10次  mksglu/context-mode
+     6次  vectorize-io/hindsight
+     6次  thedotmack/claude-mem
+     5次  akitaonrails/ai-memory
+
+runtime｜安全执行环境  (3 个项目, 拥挤度 3.7)
+     4次  NVIDIA/OpenShell
+     4次  google/ax
+     3次  coder/coder
+
+harness｜agent 的骨架/外壳  (3 个项目, 拥挤度 7.3)
+    10次  mattpocock/skills
+     7次  affaan-m/ECC
+     5次  ruvnet/ruflo
+
+编排｜多 agent 调度  (5 个项目, 拥挤度 5.4)
+    10次  morluto/rea
+     5次  mvschwarz/openrig
+     5次  paperclipai/paperclip
+     4次  stablyai/orca
+     3次  anomalyco/opencode
+
+CLI 化｜把软件变成 agent 可调  (5 个项目, 拥挤度 4.0)
+     7次  HKUDS/CLI-Anything
+     4次  Panniantong/Agent-Reach
+     3次  BuilderIO/agent-native
+     3次  superdesigndev/treg
+     3次  xerj-org/xerj
+
+垂直场景｜解决一个具体的活儿  (6 个项目, 拥挤度 4.5)
+     8次  dream-num/univer
+     6次  anthropics/knowledge-work-plugins
+     4次  MadsLorentzen/ai-job-search
+     3次  heygen-com/hyperframes
+     3次  lyogavin/airllm
+     3次  alibaba/open-code-review
+
+厂商官方  (6 个项目, 拥挤度 4.2)
+     6次  anthropics/claude-code
+     5次  anthropics/claude-plugins-official
+     4次  google/ax
+     4次  NVIDIA/OpenShell
+     3次  cursor/plugins
+     3次  alibaba/open-code-review
+

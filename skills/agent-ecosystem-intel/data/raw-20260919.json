@@ -1,0 +1,279 @@
+{
+ "date": "2026-09-19",
+ "gh": [
+  {
+   "slug": "cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars_today": 3006
+  },
+  {
+   "slug": "anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "TypeScript",
+   "stars_today": 444
+  },
+  {
+   "slug": "alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars_today": 2704
+  },
+  {
+   "slug": "affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars_today": 958
+  },
+  {
+   "slug": "Tencent/BrowserSkill",
+   "desc": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+   "lang": "TypeScript",
+   "stars_today": 1306
+  },
+  {
+   "slug": "addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars_today": 675
+  },
+  {
+   "slug": "TencentCloud/Octop",
+   "desc": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+   "lang": "Python",
+   "stars_today": 569
+  },
+  {
+   "slug": "Fission-AI/OpenSpec",
+   "desc": "Spec-driven development (SDD) for AI coding assistants.",
+   "lang": "TypeScript",
+   "stars_today": 296
+  },
+  {
+   "slug": "ankitects/anki",
+   "desc": "Anki is a smart spaced repetition flashcard program",
+   "lang": "Rust",
+   "stars_today": 174
+  },
+  {
+   "slug": "anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars_today": 299
+  },
+  {
+   "slug": "supermemoryai/supermemory",
+   "desc": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+   "lang": "TypeScript",
+   "stars_today": 140
+  },
+  {
+   "slug": "tradesdontlie/tradingview-mcp",
+   "desc": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+   "lang": "JavaScript",
+   "stars_today": 79
+  },
+  {
+   "slug": "rustfs/rustfs",
+   "desc": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+   "lang": "Rust",
+   "stars_today": 267
+  }
+ ],
+ "hn": [
+  {
+   "id": 49760187,
+   "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+   "url": "https://code.claude.com/docs/en/changelog",
+   "points": 466,
+   "by": "datadrivenangel"
+  },
+  {
+   "id": 49758736,
+   "title": "Android 17 is the first since 3.x to add new APIs without releasing to the AOSP",
+   "url": "https://grapheneos.social/@GrapheneOS/117282080803799576",
+   "points": 451,
+   "by": "theanonymousone"
+  },
+  {
+   "id": 49761432,
+   "title": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+   "url": "https://spectrum.ieee.org/llms-for-chip-design",
+   "points": 30,
+   "by": "maxall4"
+  },
+  {
+   "id": 49754785,
+   "title": "Cloudflare Quick Tunnels",
+   "url": "https://try.cloudflare.com/",
+   "points": 539,
+   "by": "jcbhmr"
+  },
+  {
+   "id": 49758580,
+   "title": "Saving another 100TB of RAM",
+   "url": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+   "points": 194,
+   "by": "f311a"
+  },
+  {
+   "id": 49744036,
+   "title": "A 1542 papal cipher cracked with simulated annealing",
+   "url": "https://simonklee.dk/farnese-letter",
+   "points": 18,
+   "by": "grigolin"
+  },
+  {
+   "id": 49758419,
+   "title": "Xcode 27.1 Beta Release Notes",
+   "url": "https://developer.apple.com/documentation/xcode-release-notes/xcode-27_1-release-notes",
+   "points": 110,
+   "by": "CameronBanga"
+  },
+  {
+   "id": 49747070,
+   "title": "How to Write with an LLM",
+   "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+   "points": 368,
+   "by": "joeriddles"
+  },
+  {
+   "id": 49758615,
+   "title": "Cache-to-Cache: Direct Semantic Communication Between LLMs (2025)",
+   "url": "https://arxiv.org/abs/2510.03215",
+   "points": 61,
+   "by": "rochansinha"
+  },
+  {
+   "id": 49757050,
+   "title": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug",
+   "url": "https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/",
+   "points": 145,
+   "by": "synack"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "Edge0/Edge0-35B-A3B-preview",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 52519,
+   "downloads_fmt": "53k",
+   "likes": 3397
+  },
+  {
+   "repo": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 429865,
+   "downloads_fmt": "430k",
+   "likes": 3168
+  },
+  {
+   "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 405609,
+   "downloads_fmt": "406k",
+   "likes": 914
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 7358662,
+   "downloads_fmt": "7.4M",
+   "likes": 15649
+  },
+  {
+   "repo": "m-a-p/YuE2-3B",
+   "tag": "TEXT-TO-AUDIO · TEXT-TO-AUDIO",
+   "downloads": 13668,
+   "downloads_fmt": "14k",
+   "likes": 803
+  },
+  {
+   "repo": "TokenRhythm/NeoHorse-1-4B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 22666,
+   "downloads_fmt": "23k",
+   "likes": 2368
+  },
+  {
+   "repo": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 1078301,
+   "downloads_fmt": "1.1M",
+   "likes": 1329
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1590087,
+   "downloads_fmt": "1.6M",
+   "likes": 4333
+  },
+  {
+   "repo": "ukisai/Swift-Qwen3.8-27b",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 6293,
+   "downloads_fmt": "6k",
+   "likes": 438
+  },
+  {
+   "repo": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 1197378,
+   "downloads_fmt": "1.2M",
+   "likes": 900
+  }
+ ],
+ "ph": [
+  {
+   "name": "Makersclaw 2.0",
+   "tagline": "The operating system for a company run by agents",
+   "url": "https://www.producthunt.com/products/makersclaw"
+  },
+  {
+   "name": "Toone",
+   "tagline": "Build complex, reliable AI agent workflows & routines",
+   "url": "https://www.producthunt.com/products/toone"
+  },
+  {
+   "name": "Edgee Codex Compressor V2",
+   "tagline": "Use Codex at 35.6% lower costs",
+   "url": "https://www.producthunt.com/products/edgee"
+  },
+  {
+   "name": "citizen404",
+   "tagline": "The AGI runs the world with GPT-6 Astra. Hunt citizen404!",
+   "url": "https://www.producthunt.com/products/citizen404"
+  },
+  {
+   "name": "ApplySeed",
+   "tagline": "Raise your seed from accelerators",
+   "url": "https://www.producthunt.com/products/applyseed"
+  },
+  {
+   "name": "Pushary",
+   "tagline": "Every agent accessible via your Mac’s notch",
+   "url": "https://www.producthunt.com/products/pushary"
+  },
+  {
+   "name": "Sider Omni Sidebar",
+   "tagline": "Give every Mac app an Agent Sidebar",
+   "url": "https://www.producthunt.com/products/sider-omni"
+  },
+  {
+   "name": "Ami AI",
+   "tagline": "Lovable for getting customers",
+   "url": "https://www.producthunt.com/products/ami-ai"
+  },
+  {
+   "name": "Nepotism Network",
+   "tagline": "Great things start by knowing friend of a friend of a friend",
+   "url": "https://www.producthunt.com/products/nepo-network"
+  },
+  {
+   "name": "ProductBridge",
+   "tagline": "AI-native customer support and feedback agent",
+   "url": "https://www.producthunt.com/products/productbridge"
+  }
+ ]
+}

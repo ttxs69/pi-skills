@@ -1,0 +1,279 @@
+{
+ "date": "2026-09-27",
+ "gh": [
+  {
+   "slug": "paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars_today": 2608
+  },
+  {
+   "slug": "vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars_today": 2147
+  },
+  {
+   "slug": "NVIDIA/Model-Optimizer",
+   "desc": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+   "lang": "Python",
+   "stars_today": 357
+  },
+  {
+   "slug": "dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars_today": 849
+  },
+  {
+   "slug": "tensorflow/tensorflow",
+   "desc": "An Open Source Machine Learning Framework for Everyone",
+   "lang": "C++",
+   "stars_today": 46
+  },
+  {
+   "slug": "rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars_today": 827
+  },
+  {
+   "slug": "openbao/openbao",
+   "desc": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+   "lang": "Go",
+   "stars_today": 364
+  },
+  {
+   "slug": "block/buzz",
+   "desc": "A hive mind communication platform",
+   "lang": "Rust",
+   "stars_today": 339
+  },
+  {
+   "slug": "microsoft/vscode",
+   "desc": "Visual Studio Code",
+   "lang": "TypeScript",
+   "stars_today": 95
+  },
+  {
+   "slug": "zhaoxuya520/reverse-skill",
+   "desc": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+   "lang": "PowerShell",
+   "stars_today": 361
+  },
+  {
+   "slug": "llvm/llvm-project",
+   "desc": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+   "lang": "LLVM",
+   "stars_today": 41
+  },
+  {
+   "slug": "anthropics/claude-code-action",
+   "desc": "",
+   "lang": "TypeScript",
+   "stars_today": 31
+  },
+  {
+   "slug": "actions/runner-images",
+   "desc": "GitHub Actions runner images",
+   "lang": "PowerShell",
+   "stars_today": 19
+  }
+ ],
+ "hn": [
+  {
+   "id": 49844657,
+   "title": "Does Georgism work? Five years later",
+   "url": "https://www.astralcodexten.com/p/does-georgism-work-five-years-later",
+   "points": 37,
+   "by": "silveraxe93"
+  },
+  {
+   "id": 49859112,
+   "title": "DeepSeek Elastic Compute (DSec)",
+   "url": "https://arxiv.org/abs/2609.22978",
+   "points": 138,
+   "by": "shenli3514"
+  },
+  {
+   "id": 49842764,
+   "title": "PipePipe: NewPipe hard fork implementing SponsorBlock",
+   "url": "https://github.com/InfinityLoop1308/PipePipe",
+   "points": 309,
+   "by": "Qision"
+  },
+  {
+   "id": 49839567,
+   "title": "Evolving programming languages in the AI era",
+   "url": "https://dashbit.co/blog/evolving-ai-era",
+   "points": 14,
+   "by": "pjm331"
+  },
+  {
+   "id": 49858513,
+   "title": "Show HN: Reladraw – A diagram language where you decide where to place things",
+   "url": "https://github.com/reladraw/reladraw",
+   "points": 161,
+   "by": "jpwalsh234"
+  },
+  {
+   "id": 49853137,
+   "title": "An agent used DNS to reach an external chatbot",
+   "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+   "points": 24,
+   "by": "apsec112"
+  },
+  {
+   "id": 49832768,
+   "title": "A searchable library of forgotten public-domain film clips from 1915 onward",
+   "url": "https://www.movingimagearchive.com/",
+   "points": 101,
+   "by": "momentmaker"
+  },
+  {
+   "id": 49860074,
+   "title": "Welcome to the Medical Clinic at the Interplanetary Relay Station",
+   "url": "https://www.lightspeedmagazine.com/fiction/welcome-to-the-medical-clinic-at-the-interplanetary-relay-station/",
+   "points": 40,
+   "by": "bucket2015"
+  },
+  {
+   "id": 49833444,
+   "title": "LA Metro has some of the slowest escalators on Earth",
+   "url": "https://basin.la/articles/ninety-feet-a-minute.html",
+   "points": 71,
+   "by": "big_toast"
+  },
+  {
+   "id": 49857729,
+   "title": "Drawgent: Coding agent on a live Excalidraw canvas",
+   "url": "https://tangled.org/yanndegat.tngl.sh/drawgent",
+   "points": 102,
+   "by": "parasitid"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 3894
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 48361,
+   "downloads_fmt": "48k",
+   "likes": 2399
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 876673,
+   "downloads_fmt": "877k",
+   "likes": 1933
+  },
+  {
+   "repo": "XingChen-AGI/Xing4.0-29B-A4B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 43947,
+   "downloads_fmt": "44k",
+   "likes": 1725
+  },
+  {
+   "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 3247527,
+   "downloads_fmt": "3.2M",
+   "likes": 2134
+  },
+  {
+   "repo": "Comfy-Org/Qwen-Image-2.1",
+   "tag": "",
+   "downloads": 3641785,
+   "downloads_fmt": "3.6M",
+   "likes": 776
+  },
+  {
+   "repo": "Edge0/Audio8-ASR-Infinite",
+   "tag": "AUTOMATIC-SPEECH-RECOGNITION · 语音识别",
+   "downloads": 7859,
+   "downloads_fmt": "8k",
+   "likes": 782
+  },
+  {
+   "repo": "Altworld/Hemmingway-1",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 5590,
+   "downloads_fmt": "6k",
+   "likes": 710
+  },
+  {
+   "repo": "secemp9/arxiv-complete",
+   "tag": "",
+   "downloads": 84140,
+   "downloads_fmt": "84k",
+   "likes": 465
+  },
+  {
+   "repo": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 74497,
+   "downloads_fmt": "74k",
+   "likes": 526
+  }
+ ],
+ "ph": [
+  {
+   "name": "Chit",
+   "tagline": "A printed receipt of your day in Claude Code",
+   "url": "https://www.producthunt.com/products/chit-2"
+  },
+  {
+   "name": "Kleanly",
+   "tagline": "One tap in the notch locks your keyboard and trackpad",
+   "url": "https://www.producthunt.com/products/kleanly"
+  },
+  {
+   "name": "SOUND",
+   "tagline": "Give every Mac app its own EQ, volume, and speaker.",
+   "url": "https://www.producthunt.com/products/sound"
+  },
+  {
+   "name": "Psst",
+   "tagline": "A shared shopping list that remembers what things cost",
+   "url": "https://www.producthunt.com/products/psst-3"
+  },
+  {
+   "name": "Hemory",
+   "tagline": "Keep listening. Searchable memory for your AI agents.",
+   "url": "https://www.producthunt.com/products/hemory"
+  },
+  {
+   "name": "Paragraph Notes",
+   "tagline": "A private Markdown notes app for Mac",
+   "url": "https://www.producthunt.com/products/paragraph-notes"
+  },
+  {
+   "name": "MakerMap",
+   "tagline": "A living map of makers and what they’re building",
+   "url": "https://www.producthunt.com/products/makermap"
+  },
+  {
+   "name": "GoodSocials",
+   "tagline": "AI social media manager for LinkedIn. Only authentic content",
+   "url": "https://www.producthunt.com/products/goodsocials"
+  },
+  {
+   "name": "Fewer",
+   "tagline": "The launcher that counts how often you pick up your phone",
+   "url": "https://www.producthunt.com/products/fewer"
+  },
+  {
+   "name": "Eclatira",
+   "tagline": "Conversational Video Agent That Plugs Into Any Stack",
+   "url": "https://www.producthunt.com/products/eclatira"
+  }
+ ]
+}

@@ -1,0 +1,279 @@
+{
+ "date": "2026-10-11",
+ "gh": [
+  {
+   "slug": "morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars_today": 25793
+  },
+  {
+   "slug": "boykopovar/AnyPS5",
+   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "lang": "C++",
+   "stars_today": 5805
+  },
+  {
+   "slug": "storytold/artcraft",
+   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "lang": "Rust",
+   "stars_today": 3222
+  },
+  {
+   "slug": "cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars_today": 1190
+  },
+  {
+   "slug": "mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars_today": 178
+  },
+  {
+   "slug": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars_today": 1736
+  },
+  {
+   "slug": "flutter/flutter",
+   "desc": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+   "lang": "Dart",
+   "stars_today": 88
+  },
+  {
+   "slug": "tensorflow/tensorflow",
+   "desc": "An Open Source Machine Learning Framework for Everyone",
+   "lang": "C++",
+   "stars_today": 26
+  },
+  {
+   "slug": "hugohe3/ppt-master",
+   "desc": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+   "lang": "Python",
+   "stars_today": 461
+  },
+  {
+   "slug": "pytorch/pytorch",
+   "desc": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+   "lang": "Python",
+   "stars_today": 84
+  },
+  {
+   "slug": "huggingface/transformers",
+   "desc": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+   "lang": "Python",
+   "stars_today": 96
+  },
+  {
+   "slug": "anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars_today": 625
+  },
+  {
+   "slug": "multica-ai/andrej-karpathy-skills",
+   "desc": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+   "lang": "",
+   "stars_today": 278
+  }
+ ],
+ "hn": [
+  {
+   "id": 50037949,
+   "title": "Build your own decision model",
+   "url": "https://nishtahir.com/build-your-own-decision-model/",
+   "points": 62,
+   "by": "softwaredoug"
+  },
+  {
+   "id": 49991852,
+   "title": "2D Vehicles",
+   "url": "https://patkerr.co.uk/2d-vehicles/",
+   "points": 334,
+   "by": "Michelangelo11"
+  },
+  {
+   "id": 50036864,
+   "title": "A city-building game in which the city would prefer you didn't",
+   "url": "https://housing.over.pizza/",
+   "points": 142,
+   "by": "JumpCrisscross"
+  },
+  {
+   "id": 50017247,
+   "title": "Nix wrote half of my debugger",
+   "url": "https://fzakaria.com/2026/10/07/nix-wrote-half-of-my-debugger",
+   "points": 108,
+   "by": "ingve"
+  },
+  {
+   "id": 50029487,
+   "title": "The Lightbulb Computer",
+   "url": "https://lightbulbcomputer.com/",
+   "points": 199,
+   "by": "oskarth"
+  },
+  {
+   "id": 50034081,
+   "title": "Knuth reward check",
+   "url": "https://www.thomas-huehn.com/knuth-reward-check/",
+   "points": 134,
+   "by": "Curiositry"
+  },
+  {
+   "id": 50035530,
+   "title": "Why DuckDB 2.0 is faster",
+   "url": "https://motherduck.com/blog/why-duckdb-20-is-faster/",
+   "points": 125,
+   "by": "tosh"
+  },
+  {
+   "id": 50021899,
+   "title": "Five months treating bugs like patients and coding agents like a medical team",
+   "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
+   "points": 39,
+   "by": "rafiss"
+  },
+  {
+   "id": 50031614,
+   "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+   "url": "https://github.com/rociiu/talorys",
+   "points": 236,
+   "by": "rociiu"
+  },
+  {
+   "id": 50016956,
+   "title": "Mxc: Microsoft Execution Containers version 1.0.0",
+   "url": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
+   "points": 153,
+   "by": "smokel"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "google/embeddinggemma-2",
+   "tag": "FEATURE-EXTRACTION · 特征提取",
+   "downloads": 45605,
+   "downloads_fmt": "46k",
+   "likes": 1506
+  },
+  {
+   "repo": "jialinyyzz/humanizer",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 33664,
+   "downloads_fmt": "34k",
+   "likes": 951
+  },
+  {
+   "repo": "Cloudflare/clef",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 13579,
+   "downloads_fmt": "14k",
+   "likes": 1987
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 2096562,
+   "downloads_fmt": "2.1M",
+   "likes": 3871
+  },
+  {
+   "repo": "Aleph-Alpha/Kolibri-1",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 10496,
+   "downloads_fmt": "10k",
+   "likes": 860
+  },
+  {
+   "repo": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 45199,
+   "downloads_fmt": "45k",
+   "likes": 679
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1720888,
+   "downloads_fmt": "1.7M",
+   "likes": 7172
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1-Turbo",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 2138,
+   "downloads_fmt": "2k",
+   "likes": 444
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 6768654,
+   "downloads_fmt": "6.8M",
+   "likes": 17425
+  },
+  {
+   "repo": "Cloudflare/clef-flash",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 20670,
+   "downloads_fmt": "21k",
+   "likes": 731
+  }
+ ],
+ "ph": [
+  {
+   "name": "AdsNotch",
+   "tagline": "Turn your Mac’s screen into ad space and earn money",
+   "url": "https://www.producthunt.com/products/adsnotch"
+  },
+  {
+   "name": "Tuck",
+   "tagline": "A tidy menu bar for macOS 27",
+   "url": "https://www.producthunt.com/products/tuck-6"
+  },
+  {
+   "name": "Letra",
+   "tagline": "Copy the text your Mac won’t let you select",
+   "url": "https://www.producthunt.com/products/letra-3"
+  },
+  {
+   "name": "Notchzy",
+   "tagline": "Interactive dynamic island for windows",
+   "url": "https://www.producthunt.com/products/notchzy-dynamic-island-for-windows"
+  },
+  {
+   "name": "Isly",
+   "tagline": "Your MacBook notch, brought to life.",
+   "url": "https://www.producthunt.com/products/isly"
+  },
+  {
+   "name": "PocketWebTools for Mac",
+   "tagline": "Local AI chat, transcription and video tools in one Mac app",
+   "url": "https://www.producthunt.com/products/pocketwebtools"
+  },
+  {
+   "name": "Lune",
+   "tagline": "The search engine built for scientific AI agents",
+   "url": "https://www.producthunt.com/products/lune-research"
+  },
+  {
+   "name": "PixRater",
+   "tagline": "Cull and rate your photos faster",
+   "url": "https://www.producthunt.com/products/pixrater"
+  },
+  {
+   "name": "AgentDock",
+   "tagline": "Answer Claude Code & Codex from one Inbox, in any terminal",
+   "url": "https://www.producthunt.com/products/agentdock"
+  },
+  {
+   "name": "Baby Desk",
+   "tagline": "Let your baby smash the keyboard and your work stays safe",
+   "url": "https://www.producthunt.com/products/baby-desk"
+  }
+ ]
+}

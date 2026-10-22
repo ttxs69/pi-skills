@@ -1,0 +1,273 @@
+{
+ "date": "2026-10-16",
+ "gh": [
+  {
+   "slug": "morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars_today": 32314
+  },
+  {
+   "slug": "anthropics/claude-plugins-official",
+   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "lang": "Python",
+   "stars_today": 307
+  },
+  {
+   "slug": "K-Dense-AI/scientific-agent-skills",
+   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+   "lang": "Python",
+   "stars_today": 1091
+  },
+  {
+   "slug": "JuliusBrussee/caveman",
+   "desc": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+   "lang": "Go",
+   "stars_today": 433
+  },
+  {
+   "slug": "debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars_today": 3024
+  },
+  {
+   "slug": "obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars_today": 582
+  },
+  {
+   "slug": "ruvnet/ruflo",
+   "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+   "lang": "TypeScript",
+   "stars_today": 147
+  },
+  {
+   "slug": "mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars_today": 904
+  },
+  {
+   "slug": "NationalSecurityAgency/ghidra",
+   "desc": "Ghidra is a software reverse engineering (SRE) framework",
+   "lang": "Java",
+   "stars_today": 1369
+  },
+  {
+   "slug": "affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars_today": 1013
+  },
+  {
+   "slug": "lightseekorg/tokenspeed",
+   "desc": "TokenSpeed is a speed-of-light LLM inference engine.",
+   "lang": "Python",
+   "stars_today": 30
+  },
+  {
+   "slug": "xerj-org/xerj",
+   "desc": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+   "lang": "Rust",
+   "stars_today": 715
+  }
+ ],
+ "hn": [
+  {
+   "id": 50107379,
+   "title": "Muse Spark Open",
+   "url": "https://research.meta.ai/blog/muse-spark-open",
+   "points": 585,
+   "by": "bigwheels"
+  },
+  {
+   "id": 50109715,
+   "title": "What I Self-Host",
+   "url": "https://viceconsole.fyi/blog/2026/10/10/what-i-self-host/",
+   "points": 213,
+   "by": "BrunoBernardino"
+  },
+  {
+   "id": 50105647,
+   "title": "Neural networks are clean",
+   "url": "https://already-clean.goodfire.com/",
+   "points": 473,
+   "by": "themgt"
+  },
+  {
+   "id": 50108872,
+   "title": "Someone on Torrent Sites Kept Fucking with My Sonarr",
+   "url": "https://thereallo.dev/blog/someone-on-torrent-sites-kept-fucking-with-my-sonarr-setup",
+   "points": 201,
+   "by": "speckx"
+  },
+  {
+   "id": 50103338,
+   "title": "Wayland desktop for Linux with skeuomorphic design",
+   "url": "https://github.com/fyzugx/DEsk",
+   "points": 477,
+   "by": "FinalDestiny"
+  },
+  {
+   "id": 50106023,
+   "title": "Jev meets the Trolley Problem",
+   "url": "https://zachlandes.com/trolley-problem/",
+   "points": 270,
+   "by": "zlandes86"
+  },
+  {
+   "id": 50101813,
+   "title": "AdFection: Targeted ads turned into a pipeline for zero-click mercenary spyware",
+   "url": "https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
+   "points": 375,
+   "by": "jcomp"
+  },
+  {
+   "id": 50109375,
+   "title": "New Withings Users Must Pay $99/Year for Apple Health Syncing",
+   "url": "https://support.withings.com/hc/en-us/community/posts/51887047154577-Unacceptable-Apple-Health-Sync-is-now-behind-a-99-year-paywall-for-new-accounts",
+   "points": 144,
+   "by": "johnbehnke"
+  },
+  {
+   "id": 50105648,
+   "title": "Krea 3 – An image model built for editing at scale",
+   "url": "https://www.krea.ai/krea-3",
+   "points": 232,
+   "by": "dvrp"
+  },
+  {
+   "id": 50082637,
+   "title": "The 8-mile hole in a Hawaii national park that no one can explain",
+   "url": "https://www.sfgate.com/national-parks/article/hawaii-volcanoes-park-great-crack-22358849.php",
+   "points": 33,
+   "by": "elsewhen"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "google/embeddinggemma-2",
+   "tag": "FEATURE-EXTRACTION · 特征提取",
+   "downloads": 144280,
+   "downloads_fmt": "144k",
+   "likes": 2398
+  },
+  {
+   "repo": "jialinyyzz/humanizer",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 75253,
+   "downloads_fmt": "75k",
+   "likes": 1730
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1-Turbo",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 15315,
+   "downloads_fmt": "15k",
+   "likes": 876
+  },
+  {
+   "repo": "openbmb/MiniCPM-V-4.7-35B-A3B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 9278,
+   "downloads_fmt": "9k",
+   "likes": 793
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 2415278,
+   "downloads_fmt": "2.4M",
+   "likes": 4385
+  },
+  {
+   "repo": "fishaudio/drama-3",
+   "tag": "TEXT-TO-SPEECH · TEXT-TO-SPEECH",
+   "downloads": 4048,
+   "downloads_fmt": "4k",
+   "likes": 476
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1866657,
+   "downloads_fmt": "1.9M",
+   "likes": 7951
+  },
+  {
+   "repo": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 296253,
+   "downloads_fmt": "296k",
+   "likes": 490
+  },
+  {
+   "repo": "LiquidAI/LFM2.5-24B-A2B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 6286,
+   "downloads_fmt": "6k",
+   "likes": 388
+  },
+  {
+   "repo": "ConwayResearch/Underdog-Saluki-27B-1.0",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 344177,
+   "downloads_fmt": "344k",
+   "likes": 497
+  }
+ ],
+ "ph": [
+  {
+   "name": "Audio Lip Sync Pro for Blender",
+   "tagline": "Generate high-quality facial animations, direct from audio.",
+   "url": "https://www.producthunt.com/products/audio-lip-sync-pro-for-blender"
+  },
+  {
+   "name": "CmdRound",
+   "tagline": "Assess how engineers build with artificial intelligence",
+   "url": "https://www.producthunt.com/products/cmdround"
+  },
+  {
+   "name": "Atticus",
+   "tagline": "Hold a key, talk, and your Mac does what you asked",
+   "url": "https://www.producthunt.com/products/atticus"
+  },
+  {
+   "name": "Basedash Connector gallery",
+   "tagline": "See what you'll build before you connect a data source",
+   "url": "https://www.producthunt.com/products/basedash"
+  },
+  {
+   "name": "CodeCrab",
+   "tagline": "AI code reviews with deep analysis & multi-tool integrations",
+   "url": "https://www.producthunt.com/products/codecrab"
+  },
+  {
+   "name": "CinemaLut",
+   "tagline": "Any frame's color, as a LUT for yours.",
+   "url": "https://www.producthunt.com/products/cinemalut"
+  },
+  {
+   "name": "Superdraft",
+   "tagline": "Automatically identify opportunities to email your customers",
+   "url": "https://www.producthunt.com/products/superdraft"
+  },
+  {
+   "name": "Actually Asked",
+   "tagline": "A self-improving branded AI FAQ page",
+   "url": "https://www.producthunt.com/products/actually-asked"
+  },
+  {
+   "name": "Shrine",
+   "tagline": "A home for your agents",
+   "url": "https://www.producthunt.com/products/shrine-2"
+  },
+  {
+   "name": "SuperLocalMemory",
+   "tagline": "Agent memory with Laya, Jev + Google Gemma",
+   "url": "https://www.producthunt.com/products/superlocalmemory-v2"
+  }
+ ]
+}

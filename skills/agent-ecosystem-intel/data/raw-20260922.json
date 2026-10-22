@@ -1,0 +1,273 @@
+{
+ "date": "2026-09-22",
+ "gh": [
+  {
+   "slug": "BuilderIO/agent-native",
+   "desc": "A framework for building agentic apps",
+   "lang": "TypeScript",
+   "stars_today": 607
+  },
+  {
+   "slug": "trycua/cua",
+   "desc": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+   "lang": "HTML",
+   "stars_today": 609
+  },
+  {
+   "slug": "Open-Dev-Society/OpenStock",
+   "desc": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+   "lang": "TypeScript",
+   "stars_today": 844
+  },
+  {
+   "slug": "akitaonrails/ai-memory",
+   "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+   "lang": "Rust",
+   "stars_today": 167
+  },
+  {
+   "slug": "coder/coder",
+   "desc": "Secure environments for developers and their agents",
+   "lang": "Go",
+   "stars_today": 460
+  },
+  {
+   "slug": "anthropics/financial-services",
+   "desc": "",
+   "lang": "Python",
+   "stars_today": 424
+  },
+  {
+   "slug": "cloudflare/quiche",
+   "desc": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+   "lang": "Rust",
+   "stars_today": 32
+  },
+  {
+   "slug": "mvt-project/mvt",
+   "desc": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+   "lang": "Python",
+   "stars_today": 169
+  },
+  {
+   "slug": "zhouxiaoka/autoclip",
+   "desc": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+   "lang": "Python",
+   "stars_today": 250
+  },
+  {
+   "slug": "ruanyf/weekly",
+   "desc": "科技爱好者周刊，每周五发布",
+   "lang": "",
+   "stars_today": 182
+  },
+  {
+   "slug": "Crosstalk-Solutions/project-nomad",
+   "desc": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+   "lang": "TypeScript",
+   "stars_today": 394
+  },
+  {
+   "slug": "yynxxxxx/Codex-X",
+   "desc": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+   "lang": "Rust",
+   "stars_today": 50
+  }
+ ],
+ "hn": [
+  {
+   "id": 49792730,
+   "title": "Xiaomi MiMo v2.6",
+   "url": "https://mimo.xiaomi.com/mimo-v2-6",
+   "points": 462,
+   "by": "volf_"
+  },
+  {
+   "id": 49794354,
+   "title": "Data Protection Commission fines Google €403M over processing of location data",
+   "url": "https://www.dataprotection.ie/en/news-media/latest-news/data-protection-commission-fines-google-eu403-million-following-inquiry-googles-processing-location",
+   "points": 64,
+   "by": "DeepLogin"
+  },
+  {
+   "id": 49794615,
+   "title": "Spymarks, Not Watermarks",
+   "url": "https://brand.io/article/spymarks/",
+   "points": 38,
+   "by": "possibilistic"
+  },
+  {
+   "id": 49794330,
+   "title": "I don't want to read what you didn't write",
+   "url": "https://blog.colinbreck.com/i-dont-want-to-read-what-you-didnt-write/",
+   "points": 158,
+   "by": "mooreds"
+  },
+  {
+   "id": 49791939,
+   "title": "NASA’s Mars Sample Return mission is dead",
+   "url": "https://www.science.org/content/article/nasa-s-mars-sample-return-mission-dead",
+   "points": 284,
+   "by": "Muhammad523"
+  },
+  {
+   "id": 49792342,
+   "title": "Transformers Explained Visually",
+   "url": "https://poloclub.github.io/transformer-explainer/",
+   "points": 165,
+   "by": "aray07"
+  },
+  {
+   "id": 49787436,
+   "title": "What Sun got wrong",
+   "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+   "points": 486,
+   "by": "chmaynard"
+  },
+  {
+   "id": 49787726,
+   "title": "Attention is all you have",
+   "url": "https://alicegg.tech/2026/09/21/attention",
+   "points": 553,
+   "by": "zer0tonin"
+  },
+  {
+   "id": 49793322,
+   "title": "Suspension of the de minimis administrative exemption for imports $800 or less",
+   "url": "https://www.personalimportation.org/advocacy",
+   "points": 126,
+   "by": "burnt-resistor"
+  },
+  {
+   "id": 49792067,
+   "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+   "url": "https://linear.app/now/ci-bottleneck-reworked",
+   "points": 122,
+   "by": "julian_digital"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 1740
+  },
+  {
+   "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 2227879,
+   "downloads_fmt": "2.2M",
+   "likes": 1730
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 6523,
+   "downloads_fmt": "7k",
+   "likes": 1438
+  },
+  {
+   "repo": "XingChen-AGI/Xing4.0-29B-A4B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 18394,
+   "downloads_fmt": "18k",
+   "likes": 1121
+  },
+  {
+   "repo": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 512120,
+   "downloads_fmt": "512k",
+   "likes": 3525
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 7153238,
+   "downloads_fmt": "7.2M",
+   "likes": 15968
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 33232,
+   "downloads_fmt": "33k",
+   "likes": 620
+  },
+  {
+   "repo": "harshatheg/Qwen-2.5-1B-RLCD",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 518
+  },
+  {
+   "repo": "secemp9/arxiv-complete",
+   "tag": "",
+   "downloads": 9861,
+   "downloads_fmt": "10k",
+   "likes": 343
+  },
+  {
+   "repo": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 1292471,
+   "downloads_fmt": "1.3M",
+   "likes": 1534
+  }
+ ],
+ "ph": [
+  {
+   "name": "Jev",
+   "tagline": "Fast, structured AI decisions for software automation",
+   "url": "https://www.producthunt.com/products/jev-2"
+  },
+  {
+   "name": "Jevtown",
+   "tagline": "10,000 AI readers react to your post before you publish it",
+   "url": "https://www.producthunt.com/products/jevtown"
+  },
+  {
+   "name": "Gradio Workflow",
+   "tagline": "connect nodes to build AI pipelines, powered by Hugging Face",
+   "url": "https://www.producthunt.com/products/gradio"
+  },
+  {
+   "name": "Milliseconds.ai",
+   "tagline": "Fast AI decisions on text and images, via one API",
+   "url": "https://www.producthunt.com/products/milliseconds-ai"
+  },
+  {
+   "name": "Flicka",
+   "tagline": "Launch-ready product demos, from a Chrome extension",
+   "url": "https://www.producthunt.com/products/flicka"
+  },
+  {
+   "name": "slop-grader",
+   "tagline": "Jev-AI CLI tool that evaluates text against custom rulesets",
+   "url": "https://www.producthunt.com/products/slop-grader"
+  },
+  {
+   "name": "PostSider",
+   "tagline": "Social media scheduling platform for humans and agents",
+   "url": "https://www.producthunt.com/products/postsider"
+  },
+  {
+   "name": "Cronhq",
+   "tagline": "Cron jobs that actually run",
+   "url": "https://www.producthunt.com/products/cronhq"
+  },
+  {
+   "name": "Turfs",
+   "tagline": "Keep content across your Mac organized in defined areas",
+   "url": "https://www.producthunt.com/products/turfs-fences-on-the-mac-desktop"
+  },
+  {
+   "name": "AI Creative Insights by Decode",
+   "tagline": "Predict which ad wins before you spend on media",
+   "url": "https://www.producthunt.com/products/decode-by-entropik"
+  }
+ ]
+}

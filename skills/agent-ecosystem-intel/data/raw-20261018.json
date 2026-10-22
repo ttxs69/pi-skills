@@ -1,0 +1,279 @@
+{
+ "date": "2026-10-18",
+ "gh": [
+  {
+   "slug": "anthropics/claude-plugins-official",
+   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "lang": "Python",
+   "stars_today": 1397
+  },
+  {
+   "slug": "MadsLorentzen/ai-job-search",
+   "desc": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+   "lang": "Python",
+   "stars_today": 1365
+  },
+  {
+   "slug": "affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars_today": 1145
+  },
+  {
+   "slug": "HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "lang": "Python",
+   "stars_today": 574
+  },
+  {
+   "slug": "K-Dense-AI/scientific-agent-skills",
+   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+   "lang": "Python",
+   "stars_today": 878
+  },
+  {
+   "slug": "akitaonrails/ai-memory",
+   "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+   "lang": "Rust",
+   "stars_today": 178
+  },
+  {
+   "slug": "android/skills",
+   "desc": "",
+   "lang": "Kotlin",
+   "stars_today": 355
+  },
+  {
+   "slug": "stablyai/orca",
+   "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "lang": "TypeScript",
+   "stars_today": 830
+  },
+  {
+   "slug": "anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "TypeScript",
+   "stars_today": 179
+  },
+  {
+   "slug": "debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars_today": 2125
+  },
+  {
+   "slug": "anomalyco/opencode",
+   "desc": "The open source coding agent.",
+   "lang": "TypeScript",
+   "stars_today": 438
+  },
+  {
+   "slug": "ruvnet/ruflo",
+   "desc": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+   "lang": "TypeScript",
+   "stars_today": 420
+  },
+  {
+   "slug": "xerj-org/xerj",
+   "desc": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.",
+   "lang": "Rust",
+   "stars_today": 1160
+  }
+ ],
+ "hn": [
+  {
+   "id": 50126253,
+   "title": "Bleached corals thrive within days when touching healthy neighbour",
+   "url": "https://www.nature.com/articles/d41586-026-03266-x",
+   "points": 281,
+   "by": "alkyon"
+  },
+  {
+   "id": 50126312,
+   "title": "Dam removals are bringing fish back across the northeastern United States",
+   "url": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/",
+   "points": 166,
+   "by": "sohkamyung"
+  },
+  {
+   "id": 50100994,
+   "title": "Furifont, a Japanese font that shows furigana",
+   "url": "https://furifont.antfu.me/",
+   "points": 240,
+   "by": "plaguna"
+  },
+  {
+   "id": 50129045,
+   "title": "DeepSeek-v4.1-Flash-1017",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "points": 670,
+   "by": "theykk"
+  },
+  {
+   "id": 50132193,
+   "title": "Pele – Mermaid diagrams as themeable SVG",
+   "url": "https://pele.run/",
+   "points": 208,
+   "by": "dchest"
+  },
+  {
+   "id": 50100366,
+   "title": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+   "url": "https://github.com/antirez/c64-hw-simulator",
+   "points": 133,
+   "by": "antirez"
+  },
+  {
+   "id": 50131213,
+   "title": "Making chicken transparent using Dorito dust",
+   "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+   "points": 245,
+   "by": "crescit_eundo"
+  },
+  {
+   "id": 50090927,
+   "title": "Types of types: Haskell's Kind system",
+   "url": "https://thunk.blog/posts/types-of-types-haskell-kind-system/",
+   "points": 28,
+   "by": "Thom2503"
+  },
+  {
+   "id": 50132870,
+   "title": "Gold is now the top U.S. export",
+   "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+   "points": 206,
+   "by": "iamnothere"
+  },
+  {
+   "id": 50127586,
+   "title": "Source code of the Estonian online voting system",
+   "url": "https://github.com/valimised/ivxv",
+   "points": 150,
+   "by": "theanonymousone"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "google/embeddinggemma-2",
+   "tag": "FEATURE-EXTRACTION · 特征提取",
+   "downloads": 158490,
+   "downloads_fmt": "158k",
+   "likes": 2593
+  },
+  {
+   "repo": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 929
+  },
+  {
+   "repo": "jialinyyzz/humanizer",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 95870,
+   "downloads_fmt": "96k",
+   "likes": 1895
+  },
+  {
+   "repo": "openbmb/MiniCPM-V-4.7-35B-A3B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 36252,
+   "downloads_fmt": "36k",
+   "likes": 902
+  },
+  {
+   "repo": "fishaudio/drama-3",
+   "tag": "TEXT-TO-SPEECH · TEXT-TO-SPEECH",
+   "downloads": 8193,
+   "downloads_fmt": "8k",
+   "likes": 618
+  },
+  {
+   "repo": "black-forest-labs/flux-3-image-klein-comfy",
+   "tag": "IMAGE-TO-IMAGE · IMAGE-TO-IMAGE",
+   "downloads": 224108,
+   "downloads_fmt": "224k",
+   "likes": 649
+  },
+  {
+   "repo": "meta-models/Muse-Spark-Open-816B-A42B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 1600,
+   "downloads_fmt": "2k",
+   "likes": 502
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1993003,
+   "downloads_fmt": "2.0M",
+   "likes": 8225
+  },
+  {
+   "repo": "LiquidAI/LFM2.5-24B-A2B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 11926,
+   "downloads_fmt": "12k",
+   "likes": 448
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 2571722,
+   "downloads_fmt": "2.6M",
+   "likes": 4493
+  }
+ ],
+ "ph": [
+  {
+   "name": "Train with Pasta",
+   "tagline": "A personal trainer powered by Apple Intelligence",
+   "url": "https://www.producthunt.com/products/train-with-pasta"
+  },
+  {
+   "name": "Caldera",
+   "tagline": "Your Obsidian vault as a living profile and linked garden",
+   "url": "https://www.producthunt.com/products/caldera"
+  },
+  {
+   "name": "NitroStack",
+   "tagline": "Build, test, and deploy MCP servers in one place",
+   "url": "https://www.producthunt.com/products/nitrostack"
+  },
+  {
+   "name": "Emochi",
+   "tagline": "Voice journal to understand yourself through art and science",
+   "url": "https://www.producthunt.com/products/emochi-2"
+  },
+  {
+   "name": "Spiralens",
+   "tagline": "Golden ratio camera that tells you where to move your phone",
+   "url": "https://www.producthunt.com/products/spiralens"
+  },
+  {
+   "name": "LooGo",
+   "tagline": "Find public restrooms fast",
+   "url": "https://www.producthunt.com/products/loogo"
+  },
+  {
+   "name": "Unfenced",
+   "tagline": "Land for sale that actually borders public land",
+   "url": "https://www.producthunt.com/products/unfenced"
+  },
+  {
+   "name": "Parrot",
+   "tagline": "Smart Meeting Assistant for Mac that helps during the call",
+   "url": "https://www.producthunt.com/products/parrot-10"
+  },
+  {
+   "name": "CrewTower Mod for Claude Code",
+   "tagline": "Talk to Claude Code right from your MacBook notch",
+   "url": "https://www.producthunt.com/products/crew-tower"
+  },
+  {
+   "name": "Step 5 Preview",
+   "tagline": "600B open weights, trained for long-running agents",
+   "url": "https://www.producthunt.com/products/step-3-5-flash"
+  }
+ ]
+}

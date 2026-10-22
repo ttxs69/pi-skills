@@ -1,0 +1,279 @@
+{
+ "date": "2026-09-30",
+ "gh": [
+  {
+   "slug": "debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars_today": 4758
+  },
+  {
+   "slug": "NVIDIA/OpenShell",
+   "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
+   "lang": "Rust",
+   "stars_today": 990
+  },
+  {
+   "slug": "vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars_today": 2575
+  },
+  {
+   "slug": "paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars_today": 2458
+  },
+  {
+   "slug": "t8y2/dbx",
+   "desc": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+   "lang": "Rust",
+   "stars_today": 232
+  },
+  {
+   "slug": "mvschwarz/openrig",
+   "desc": "Multi-agent harness that runs Claude Code and Codex together as one system",
+   "lang": "TypeScript",
+   "stars_today": 737
+  },
+  {
+   "slug": "oblien/openship",
+   "desc": "Self-hosted deployment platform",
+   "lang": "TypeScript",
+   "stars_today": 437
+  },
+  {
+   "slug": "averygan/reclip",
+   "desc": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+   "lang": "HTML",
+   "stars_today": 113
+  },
+  {
+   "slug": "cs341-illinois/coursebook",
+   "desc": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+   "lang": "TeX",
+   "stars_today": 572
+  },
+  {
+   "slug": "rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars_today": 786
+  },
+  {
+   "slug": "VectifyAI/PageIndex",
+   "desc": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+   "lang": "Python",
+   "stars_today": 835
+  },
+  {
+   "slug": "willfaust/Madeira",
+   "desc": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+   "lang": "C",
+   "stars_today": 81
+  },
+  {
+   "slug": "dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars_today": 696
+  }
+ ],
+ "hn": [
+  {
+   "id": 49901736,
+   "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+   "url": "https://github.com/ninjahawk/livenerf",
+   "points": 127,
+   "by": "bryan0"
+  },
+  {
+   "id": 49890733,
+   "title": "NASA asked several former SR-71A staffers to help secret restart",
+   "url": "https://aviationweek.com/defense/aircraft-propulsion/nasa-asked-several-former-sr-71a-staffers-help-secret-restart",
+   "points": 32,
+   "by": "ilamont"
+  },
+  {
+   "id": 49899090,
+   "title": "U.S. postal inspectors shut down website selling counterfeit postage labels",
+   "url": "https://postalemployeenetwork.com/news/2026/09/26/u-s-postal-inspectors-shut-down-website-selling-millions-of-counterfeit-postage-labels/",
+   "points": 156,
+   "by": "ilamont"
+  },
+  {
+   "id": 49896757,
+   "title": "Show HN: A working 3D model of an Enigma machine",
+   "url": "https://enigma.design",
+   "points": 21,
+   "by": "primitivesuave"
+  },
+  {
+   "id": 49896586,
+   "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+   "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+   "points": 752,
+   "by": "crorella"
+  },
+  {
+   "id": 49897993,
+   "title": "Vermont replacing power plants with home batteries",
+   "url": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
+   "points": 44,
+   "by": "devonnull"
+  },
+  {
+   "id": 49898778,
+   "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
+   "url": "https://space.bl2.net/",
+   "points": 89,
+   "by": "wanick"
+  },
+  {
+   "id": 49898050,
+   "title": "We’re forgetting what darkness feels like",
+   "url": "https://www.theguardian.com/environment/2026/sep/29/night-sky-darkness-city-regulation",
+   "points": 30,
+   "by": "pseudolus"
+  },
+  {
+   "id": 49893509,
+   "title": "America.gov",
+   "url": "https://america.gov/",
+   "points": 306,
+   "by": "plesiv"
+  },
+  {
+   "id": 49892245,
+   "title": "How Delhi cut electricity loss from 50 to 5 percent",
+   "url": "https://spectrum.ieee.org/delhi-electricity-loss",
+   "points": 424,
+   "by": "rbanffy"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 4508
+  },
+  {
+   "repo": "Edge0/Audio8-ASR-Infinite",
+   "tag": "AUTOMATIC-SPEECH-RECOGNITION · 语音识别",
+   "downloads": 23674,
+   "downloads_fmt": "24k",
+   "likes": 1515
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 1152523,
+   "downloads_fmt": "1.2M",
+   "likes": 2435
+  },
+  {
+   "repo": "XiaomiMiMo/MiMo-V2.6-RL-oss",
+   "tag": "",
+   "downloads": 40036,
+   "downloads_fmt": "40k",
+   "likes": 547
+  },
+  {
+   "repo": "XingChen-AGI/TeleOCR",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 30354,
+   "downloads_fmt": "30k",
+   "likes": 868
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 64362,
+   "downloads_fmt": "64k",
+   "likes": 2656
+  },
+  {
+   "repo": "Contrastive-LM/CLM-v0.1-8B",
+   "tag": "TEXT-RANKING · TEXT-RANKING",
+   "downloads": 1910,
+   "downloads_fmt": "2k",
+   "likes": 528
+  },
+  {
+   "repo": "nvidia/Nemotron-3-Diarization",
+   "tag": "VOICE-ACTIVITY-DETECTION · VOICE-ACTIVITY-DETECTION",
+   "downloads": 30931,
+   "downloads_fmt": "31k",
+   "likes": 518
+  },
+  {
+   "repo": "XingChen-AGI/Xing4.0-29B-A4B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 46557,
+   "downloads_fmt": "47k",
+   "likes": 1808
+  },
+  {
+   "repo": "TaichuAI/ZDTaichu5.0-9B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 11836,
+   "downloads_fmt": "12k",
+   "likes": 1947
+  }
+ ],
+ "ph": [
+  {
+   "name": "Claude Sonnet 5.5",
+   "tagline": "Anthropic's second model in the Claude 5.5 family",
+   "url": "https://www.producthunt.com/products/claude"
+  },
+  {
+   "name": "Tipword",
+   "tagline": "Hold a key to translate any word on your Mac",
+   "url": "https://www.producthunt.com/products/tipword"
+  },
+  {
+   "name": "Jotform Sign for ChatGPT and Claude",
+   "tagline": "Create, send, and sign documents in ChatGPT and Claude",
+   "url": "https://www.producthunt.com/products/jotform"
+  },
+  {
+   "name": "Would you pay?",
+   "tagline": "Find out who'd pay before you build more",
+   "url": "https://www.producthunt.com/products/would-you-pay"
+  },
+  {
+   "name": "iFixAi",
+   "tagline": "Independent auditing of AI agents to uncover misalignment",
+   "url": "https://www.producthunt.com/products/ifixai"
+  },
+  {
+   "name": "Imejis.io",
+   "tagline": "Give your agent a design studio to automate your marketing",
+   "url": "https://www.producthunt.com/products/imejis-io"
+  },
+  {
+   "name": "Gladys Assistant 5",
+   "tagline": "Private, self-hosted smart home, no YAML required",
+   "url": "https://www.producthunt.com/products/gladys-assistant"
+  },
+  {
+   "name": "Supertake",
+   "tagline": "AI that turn your ideas into real investments",
+   "url": "https://www.producthunt.com/products/supertake"
+  },
+  {
+   "name": "Arsaze",
+   "tagline": "Let Claude, ChatGPT or Gemini edit your real timeline",
+   "url": "https://www.producthunt.com/products/arsaze-ai-native-video-editor"
+  },
+  {
+   "name": "Curie",
+   "tagline": "Assistant for scientific literature and document analysis.",
+   "url": "https://www.producthunt.com/products/curie-4"
+  }
+ ]
+}

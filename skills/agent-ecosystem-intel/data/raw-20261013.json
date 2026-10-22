@@ -1,0 +1,255 @@
+{
+ "date": "2026-10-13",
+ "gh": [
+  {
+   "slug": "morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars_today": 45327
+  },
+  {
+   "slug": "bilawalsidhu/gods-eye-view",
+   "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+   "lang": "JavaScript",
+   "stars_today": 1895
+  },
+  {
+   "slug": "mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars_today": 246
+  },
+  {
+   "slug": "storytold/artcraft",
+   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "lang": "Rust",
+   "stars_today": 4095
+  },
+  {
+   "slug": "open-webui/open-webui",
+   "desc": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+   "lang": "Python",
+   "stars_today": 157
+  },
+  {
+   "slug": "cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars_today": 2081
+  },
+  {
+   "slug": "lyogavin/airllm",
+   "desc": "AirLLM 2.8T LLM inference with single 4GB GPU",
+   "lang": "Jupyter Notebook",
+   "stars_today": 879
+  },
+  {
+   "slug": "microsoft/BitNet",
+   "desc": "Official inference framework for 1-bit LLMs",
+   "lang": "C++",
+   "stars_today": 97
+  },
+  {
+   "slug": "Alishahryar1/free-claude-code",
+   "desc": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+   "lang": "Python",
+   "stars_today": 626
+  }
+ ],
+ "hn": [
+  {
+   "id": 50064536,
+   "title": "Blood cells from 80-year-old donor become stem cells with molecular age under 20",
+   "url": "https://doi.org/10.1111/acel.70751",
+   "points": 41,
+   "by": "arunc"
+  },
+  {
+   "id": 50058507,
+   "title": "GLM-Legal",
+   "url": "https://z.ai/blog/glm-legal",
+   "points": 407,
+   "by": "ilreb"
+  },
+  {
+   "id": 50064318,
+   "title": "GPT-6 Astra Helped Me Jailbreak My Kindle",
+   "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+   "points": 35,
+   "by": "nirajrajgor"
+  },
+  {
+   "id": 50063138,
+   "title": "Who Is Vfmaddrnd231pd?",
+   "url": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/",
+   "points": 88,
+   "by": "pngmangi"
+  },
+  {
+   "id": 50058528,
+   "title": "A Modern Web App in C",
+   "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+   "points": 362,
+   "by": "prophittcorey"
+  },
+  {
+   "id": 50063417,
+   "title": "Phreak.ing – Internet Phone Switch",
+   "url": "https://phreak.ing/",
+   "points": 51,
+   "by": "rickcarlino"
+  },
+  {
+   "id": 50064827,
+   "title": "Instant Software Factories",
+   "url": "https://github.com/mikolalysenko/instant-factory",
+   "points": 6,
+   "by": "33a"
+  },
+  {
+   "id": 50041866,
+   "title": "The baffling intelligence of a single cell (2024)",
+   "url": "https://jsomers.net/e-coli-chemotaxis/",
+   "points": 14,
+   "by": "jsomers"
+  },
+  {
+   "id": 50055304,
+   "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+   "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+   "points": 408,
+   "by": "Zeekaas"
+  },
+  {
+   "id": 50061791,
+   "title": "Making big downloads resumable in Firefox",
+   "url": "https://lunarwatcher.codeberg.page/til/firefox/resumable-big-downloads.html",
+   "points": 69,
+   "by": "speckx"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "google/embeddinggemma-2",
+   "tag": "FEATURE-EXTRACTION · 特征提取",
+   "downloads": 115763,
+   "downloads_fmt": "116k",
+   "likes": 1935
+  },
+  {
+   "repo": "jialinyyzz/humanizer",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 46070,
+   "downloads_fmt": "46k",
+   "likes": 1320
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1-Turbo",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 6787,
+   "downloads_fmt": "7k",
+   "likes": 633
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 2188658,
+   "downloads_fmt": "2.2M",
+   "likes": 4096
+  },
+  {
+   "repo": "Cloudflare/clef",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 15064,
+   "downloads_fmt": "15k",
+   "likes": 2092
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1719766,
+   "downloads_fmt": "1.7M",
+   "likes": 7481
+  },
+  {
+   "repo": "ConwayResearch/Underdog-Saluki-27B-1.0",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 242329,
+   "downloads_fmt": "242k",
+   "likes": 371
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 6895303,
+   "downloads_fmt": "6.9M",
+   "likes": 17576
+  },
+  {
+   "repo": "LiquidAI/d1-3B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 11866,
+   "downloads_fmt": "12k",
+   "likes": 342
+  },
+  {
+   "repo": "canberkkkkkk/ema-lightning",
+   "tag": "TEXT-TO-SPEECH · TEXT-TO-SPEECH",
+   "downloads": 20310,
+   "downloads_fmt": "20k",
+   "likes": 390
+  }
+ ],
+ "ph": [
+  {
+   "name": "Hexis Cloud",
+   "tagline": "One company brain for all your AI agents",
+   "url": "https://www.producthunt.com/products/bevel-software"
+  },
+  {
+   "name": "Ancher 2.0",
+   "tagline": "Turn everything you read and save into work you can ship",
+   "url": "https://www.producthunt.com/products/ancher-ai"
+  },
+  {
+   "name": "Manifold MCP",
+   "tagline": "SEO, AI answers, social, ads and leads data for your agent",
+   "url": "https://www.producthunt.com/products/manifold-mcp"
+  },
+  {
+   "name": "guilds.run",
+   "tagline": "Create multi-agent workflows that you can trust",
+   "url": "https://www.producthunt.com/products/guilds-run"
+  },
+  {
+   "name": "Base Code",
+   "tagline": "Let your whole team build on your product",
+   "url": "https://www.producthunt.com/products/base44"
+  },
+  {
+   "name": "Knocket",
+   "tagline": "Chat with visitors from your website or link",
+   "url": "https://www.producthunt.com/products/knocket-2"
+  },
+  {
+   "name": "ngram 2.0",
+   "tagline": "Create explainers, screencasts, and AI avatar videos",
+   "url": "https://www.producthunt.com/products/ngram"
+  },
+  {
+   "name": "Google EmbeddingGemma 2",
+   "tagline": "An open, lightweight multimodal embedding model",
+   "url": "https://www.producthunt.com/products/embeddinggemma-2"
+  },
+  {
+   "name": "Milepost",
+   "tagline": "An iOS driving journal for your car, with an MCP server",
+   "url": "https://www.producthunt.com/products/milepost-2"
+  },
+  {
+   "name": "ExcaliClaw",
+   "tagline": "Hand-drawn diagrams your AI agent can draw with you",
+   "url": "https://www.producthunt.com/products/excaliclaw"
+  }
+ ]
+}

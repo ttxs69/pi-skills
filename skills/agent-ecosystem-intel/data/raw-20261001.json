@@ -1,0 +1,279 @@
+{
+ "date": "2026-10-01",
+ "gh": [
+  {
+   "slug": "NVIDIA/OpenShell",
+   "desc": "OpenShell is the safe, private runtime for autonomous AI agents.",
+   "lang": "Rust",
+   "stars_today": 1281
+  },
+  {
+   "slug": "debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars_today": 3483
+  },
+  {
+   "slug": "mvschwarz/openrig",
+   "desc": "Multi-agent harness that runs Claude Code and Codex together as one system",
+   "lang": "TypeScript",
+   "stars_today": 624
+  },
+  {
+   "slug": "mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars_today": 90
+  },
+  {
+   "slug": "DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars_today": 743
+  },
+  {
+   "slug": "harry0703/MoneyPrinterTurbo",
+   "desc": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+   "lang": "Python",
+   "stars_today": 431
+  },
+  {
+   "slug": "openclaw/openclaw",
+   "desc": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+   "lang": "TypeScript",
+   "stars_today": 136
+  },
+  {
+   "slug": "ComposioHQ/awesome-claude-skills",
+   "desc": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+   "lang": "Python",
+   "stars_today": 123
+  },
+  {
+   "slug": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars_today": 876
+  },
+  {
+   "slug": "heygen-com/hyperframes",
+   "desc": "Write HTML. Render video. Built for agents.",
+   "lang": "TypeScript",
+   "stars_today": 349
+  },
+  {
+   "slug": "firebase/firebase-ios-sdk",
+   "desc": "Firebase SDK for Apple App Development",
+   "lang": "C++",
+   "stars_today": 8
+  },
+  {
+   "slug": "modelcontextprotocol/servers",
+   "desc": "Model Context Protocol Servers",
+   "lang": "TypeScript",
+   "stars_today": 50
+  },
+  {
+   "slug": "byoungd/up",
+   "desc": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+   "lang": "JavaScript",
+   "stars_today": 743
+  }
+ ],
+ "hn": [
+  {
+   "id": 49913571,
+   "title": "Gemini 4 Argon",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+   "points": 888,
+   "by": "bradleyg223"
+  },
+  {
+   "id": 49915082,
+   "title": "The top secret URSALA, RAQUEL, and FARRAH satellites",
+   "url": "https://www.thespacereview.com/article/4951/1",
+   "points": 99,
+   "by": "Bluestein"
+  },
+  {
+   "id": 49912955,
+   "title": "Surprisingly complex waves reveal the brain's inner workings",
+   "url": "https://www.quantamagazine.org/surprisingly-complex-waves-reveal-the-brains-inner-workings-20260930/",
+   "points": 109,
+   "by": "ibobev"
+  },
+  {
+   "id": 49906432,
+   "title": "Singapore govt dating app uses Gale-Shapley stable marriage algorithm",
+   "url": "https://twitter.com/tuakdotsol/status/2105105417760391258",
+   "points": 164,
+   "by": "rzk"
+  },
+  {
+   "id": 49913192,
+   "title": "EDG C++ front-end goes public",
+   "url": "https://edgcpp.org/#transition",
+   "points": 140,
+   "by": "iandinwoodie"
+  },
+  {
+   "id": 49915484,
+   "title": "EDG C++ Compiler is open source",
+   "url": "https://github.com/edgcpp/compiler",
+   "points": 21,
+   "by": "zx2c4"
+  },
+  {
+   "id": 49911995,
+   "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+   "url": "https://github.com/magnitudedev/magnitude",
+   "points": 120,
+   "by": "anerli"
+  },
+  {
+   "id": 49906637,
+   "title": "You said no MCP",
+   "url": "https://earendil.com/posts/you-said-no-mcp/",
+   "points": 603,
+   "by": "yarapavan"
+  },
+  {
+   "id": 49912444,
+   "title": "5x faster Edge Functions: V8 isolates to Firecracker MicroVMs",
+   "url": "https://www.netlify.com/blog/edge-functions-firecracker-microvms/",
+   "points": 107,
+   "by": "jbott"
+  },
+  {
+   "id": 49915126,
+   "title": "56k.rip – the 1996 dial-up internet experience",
+   "url": "https://56k.rip/",
+   "points": 19,
+   "by": "adunk"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "Edge0/Audio8-ASR-Infinite",
+   "tag": "AUTOMATIC-SPEECH-RECOGNITION · 语音识别",
+   "downloads": 26749,
+   "downloads_fmt": "27k",
+   "likes": 1857
+  },
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 4683
+  },
+  {
+   "repo": "XingChen-AGI/TeleOCR",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 30383,
+   "downloads_fmt": "30k",
+   "likes": 1099
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 1232685,
+   "downloads_fmt": "1.2M",
+   "likes": 2577
+  },
+  {
+   "repo": "XiaomiMiMo/MiMo-V2.6-RL-oss",
+   "tag": "",
+   "downloads": 47819,
+   "downloads_fmt": "48k",
+   "likes": 617
+  },
+  {
+   "repo": "Contrastive-LM/CLM-v0.1-8B",
+   "tag": "TEXT-RANKING · TEXT-RANKING",
+   "downloads": 2392,
+   "downloads_fmt": "2k",
+   "likes": 573
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 70687,
+   "downloads_fmt": "71k",
+   "likes": 2720
+  },
+  {
+   "repo": "nvidia/Nemotron-3-Diarization",
+   "tag": "VOICE-ACTIVITY-DETECTION · VOICE-ACTIVITY-DETECTION",
+   "downloads": 36386,
+   "downloads_fmt": "36k",
+   "likes": 561
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 7038259,
+   "downloads_fmt": "7.0M",
+   "likes": 16652
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1602348,
+   "downloads_fmt": "1.6M",
+   "likes": 5721
+  }
+ ],
+ "ph": [
+  {
+   "name": "Cyluma",
+   "tagline": "Your Mac’s battery as a living, breathing landscape",
+   "url": "https://www.producthunt.com/products/cyluma"
+  },
+  {
+   "name": "WhisperBrain",
+   "tagline": "Your second brain for meetings.",
+   "url": "https://www.producthunt.com/products/whisperbrain"
+  },
+  {
+   "name": "jambuild",
+   "tagline": "Near instant multiplayer vibecoding, just point and talk",
+   "url": "https://www.producthunt.com/products/jambuild"
+  },
+  {
+   "name": "Evlat",
+   "tagline": "Know which AI coding agent is waiting on you",
+   "url": "https://www.producthunt.com/products/evlat"
+  },
+  {
+   "name": "CrawlRaven MCP",
+   "tagline": "Your SEO work, done from your AI agent",
+   "url": "https://www.producthunt.com/products/crawlraven-mcp"
+  },
+  {
+   "name": "GitBot",
+   "tagline": "Build bots on the coding agent you already use",
+   "url": "https://www.producthunt.com/products/gitbot-2"
+  },
+  {
+   "name": "Flocker Agent Profiles",
+   "tagline": "Profile Pages for Agents: your live AI collaboration network",
+   "url": "https://www.producthunt.com/products/flocker-agent-profiles"
+  },
+  {
+   "name": "lurk",
+   "tagline": "Free, open-source Reddit and Twitter lead monitoring",
+   "url": "https://www.producthunt.com/products/lurk"
+  },
+  {
+   "name": "CoIsland",
+   "tagline": "Your whole engineering stack, in a notch",
+   "url": "https://www.producthunt.com/products/coisland"
+  },
+  {
+   "name": "Bruto",
+   "tagline": "A task board that lives in your repo, for you and your AI",
+   "url": "https://www.producthunt.com/products/bruto"
+  }
+ ]
+}

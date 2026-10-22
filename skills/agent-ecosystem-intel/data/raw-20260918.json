@@ -1,0 +1,279 @@
+{
+ "date": "2026-09-18",
+ "gh": [
+  {
+   "slug": "cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars_today": 3019
+  },
+  {
+   "slug": "anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "TypeScript",
+   "stars_today": 442
+  },
+  {
+   "slug": "alibaba/open-code-review",
+   "desc": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+   "lang": "Go",
+   "stars_today": 2724
+  },
+  {
+   "slug": "affaan-m/ECC",
+   "desc": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+   "lang": "JavaScript",
+   "stars_today": 965
+  },
+  {
+   "slug": "Tencent/BrowserSkill",
+   "desc": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+   "lang": "TypeScript",
+   "stars_today": 1319
+  },
+  {
+   "slug": "addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars_today": 677
+  },
+  {
+   "slug": "TencentCloud/Octop",
+   "desc": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+   "lang": "Python",
+   "stars_today": 571
+  },
+  {
+   "slug": "Fission-AI/OpenSpec",
+   "desc": "Spec-driven development (SDD) for AI coding assistants.",
+   "lang": "TypeScript",
+   "stars_today": 298
+  },
+  {
+   "slug": "ankitects/anki",
+   "desc": "Anki is a smart spaced repetition flashcard program",
+   "lang": "Rust",
+   "stars_today": 177
+  },
+  {
+   "slug": "anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars_today": 300
+  },
+  {
+   "slug": "supermemoryai/supermemory",
+   "desc": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+   "lang": "TypeScript",
+   "stars_today": 140
+  },
+  {
+   "slug": "tradesdontlie/tradingview-mcp",
+   "desc": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+   "lang": "JavaScript",
+   "stars_today": 64
+  },
+  {
+   "slug": "rustfs/rustfs",
+   "desc": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+   "lang": "Rust",
+   "stars_today": 298
+  }
+ ],
+ "hn": [
+  {
+   "id": 49754785,
+   "title": "Cloudflare Quick Tunnels",
+   "url": "https://try.cloudflare.com/",
+   "points": 60,
+   "by": "jcbhmr"
+  },
+  {
+   "id": 49753878,
+   "title": "An Empirical Study of Harness Design for Coding Agents",
+   "url": "https://arxiv.org/abs/2609.20804",
+   "points": 124,
+   "by": "wek"
+  },
+  {
+   "id": 49755160,
+   "title": "North Korean nuclear test sets off years of earthquakes",
+   "url": "https://www.science.org/content/article/north-korean-nuclear-test-sets-years-earthquakes",
+   "points": 31,
+   "by": "rbanffy"
+  },
+  {
+   "id": 49746406,
+   "title": "C++26: Trivial infinite loops are no longer undefined behaviour",
+   "url": "https://www.sandordargo.com/blog/2026/09/16/cpp26-trivial-infinite-loops",
+   "points": 33,
+   "by": "ibobev"
+  },
+  {
+   "id": 49755312,
+   "title": "Show HN: Rickub – The Smartest Git in the Universe",
+   "url": "https://rickub.com/",
+   "points": 10,
+   "by": "ssaboum"
+  },
+  {
+   "id": 49752041,
+   "title": "OpenJev",
+   "url": "https://openjev.com/",
+   "points": 328,
+   "by": "ilreb"
+  },
+  {
+   "id": 49753179,
+   "title": "Bend 2 and the Vibe-Coding Trap",
+   "url": "https://blog.liampwll.com/posts/bend_vibe_coding/",
+   "points": 269,
+   "by": "LiamPowell"
+  },
+  {
+   "id": 49721507,
+   "title": "The Shadows Lurking in the Equations – Underwater Islands",
+   "url": "https://gods.art/articles/equation_shadows",
+   "points": 38,
+   "by": "vismit2000"
+  },
+  {
+   "id": 49753211,
+   "title": "I don't like passkeys",
+   "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
+   "points": 397,
+   "by": "ethanhawksley"
+  },
+  {
+   "id": 49754064,
+   "title": "NATS publishes preliminary report on technical incident of 8 September",
+   "url": "https://www.nats.aero/news/nats-publishes-preliminary-report-on-technical-incident-of-8-september/",
+   "points": 17,
+   "by": "asplake"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "Edge0/Edge0-35B-A3B-preview",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 52519,
+   "downloads_fmt": "53k",
+   "likes": 3378
+  },
+  {
+   "repo": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 429865,
+   "downloads_fmt": "430k",
+   "likes": 3124
+  },
+  {
+   "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 405609,
+   "downloads_fmt": "406k",
+   "likes": 761
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 7358662,
+   "downloads_fmt": "7.4M",
+   "likes": 15615
+  },
+  {
+   "repo": "m-a-p/YuE2-3B",
+   "tag": "TEXT-TO-AUDIO · TEXT-TO-AUDIO",
+   "downloads": 13668,
+   "downloads_fmt": "14k",
+   "likes": 780
+  },
+  {
+   "repo": "TokenRhythm/NeoHorse-1-4B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 22666,
+   "downloads_fmt": "23k",
+   "likes": 2362
+  },
+  {
+   "repo": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 1078301,
+   "downloads_fmt": "1.1M",
+   "likes": 1293
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1590087,
+   "downloads_fmt": "1.6M",
+   "likes": 4294
+  },
+  {
+   "repo": "ukisai/Swift-Qwen3.8-27b",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 6293,
+   "downloads_fmt": "6k",
+   "likes": 428
+  },
+  {
+   "repo": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 1197378,
+   "downloads_fmt": "1.2M",
+   "likes": 880
+  }
+ ],
+ "ph": [
+  {
+   "name": "NM Signals",
+   "tagline": "Make your website work better for people and AI",
+   "url": "https://www.producthunt.com/products/nyman-media-signals"
+  },
+  {
+   "name": "Ami AI",
+   "tagline": "Lovable for getting customers",
+   "url": "https://www.producthunt.com/products/ami-ai"
+  },
+  {
+   "name": "claudebill",
+   "tagline": "See what your Claude Code sessions actually cost",
+   "url": "https://www.producthunt.com/products/claudebill"
+  },
+  {
+   "name": "Edgee Codex Compressor V2",
+   "tagline": "Use Codex at 35.6% lower costs",
+   "url": "https://www.producthunt.com/products/edgee"
+  },
+  {
+   "name": "ApplySeed",
+   "tagline": "Raise your seed from accelerators",
+   "url": "https://www.producthunt.com/products/applyseed"
+  },
+  {
+   "name": "Nepotism Network",
+   "tagline": "Great things start by knowing friend of a friend of a friend",
+   "url": "https://www.producthunt.com/products/nepo-network"
+  },
+  {
+   "name": "MosMos",
+   "tagline": "Voice writing that works before, during, and after meetings",
+   "url": "https://www.producthunt.com/products/mosmos"
+  },
+  {
+   "name": "Toone",
+   "tagline": "Build complex, reliable AI agent workflows & routines",
+   "url": "https://www.producthunt.com/products/toone"
+  },
+  {
+   "name": "AI Class by Kanary",
+   "tagline": "Knight or Ninja? Your Codex & Claude logs decide",
+   "url": "https://www.producthunt.com/products/ai-class-by-kanary"
+  },
+  {
+   "name": "Pushary",
+   "tagline": "Every agent accessible via your Mac’s notch",
+   "url": "https://www.producthunt.com/products/pushary"
+  }
+ ]
+}

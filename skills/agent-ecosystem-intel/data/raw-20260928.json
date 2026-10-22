@@ -1,0 +1,255 @@
+{
+ "date": "2026-09-28",
+ "gh": [
+  {
+   "slug": "paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars_today": 2401
+  },
+  {
+   "slug": "vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars_today": 4520
+  },
+  {
+   "slug": "debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars_today": 3086
+  },
+  {
+   "slug": "rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars_today": 790
+  },
+  {
+   "slug": "InfinityLoop1308/PipePipe",
+   "desc": "An open-source Android app to let you browse YouTube and other services freely.",
+   "lang": "Shell",
+   "stars_today": 242
+  },
+  {
+   "slug": "vercel-labs/scriptc",
+   "desc": "TypeScript-to-Native Compiler",
+   "lang": "TypeScript",
+   "stars_today": 102
+  },
+  {
+   "slug": "mvschwarz/openrig",
+   "desc": "Multi-agent harness that runs Claude Code and Codex together as one system",
+   "lang": "TypeScript",
+   "stars_today": 114
+  },
+  {
+   "slug": "dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars_today": 895
+  },
+  {
+   "slug": "willfaust/Madeira",
+   "desc": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+   "lang": "C",
+   "stars_today": 83
+  }
+ ],
+ "hn": [
+  {
+   "id": 49870367,
+   "title": "When did Google get so weird?",
+   "url": "https://sancho.bearblog.dev/google-weird/",
+   "points": 650,
+   "by": "sancho-panza"
+  },
+  {
+   "id": 49868830,
+   "title": "Ember-1",
+   "url": "https://fireworks.ai/blog/ember-1",
+   "points": 325,
+   "by": "gmays"
+  },
+  {
+   "id": 49870837,
+   "title": "Lunar Terminator Paradox",
+   "url": "https://notes.secretsauce.net/notes/2026/09/27_lunar-terminator-paradox.html",
+   "points": 38,
+   "by": "dima55"
+  },
+  {
+   "id": 49870070,
+   "title": "Alan Kay's answer to “Did the ENIAC have a BIOS”?",
+   "url": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
+   "points": 64,
+   "by": "midnightfish"
+  },
+  {
+   "id": 49869574,
+   "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+   "url": "https://loficities.com/",
+   "points": 146,
+   "by": "safaelmali"
+  },
+  {
+   "id": 49844629,
+   "title": "The state of SIMD in Rust in 2026",
+   "url": "https://shnatsel.github.io/state-of-simd-rust-2026/",
+   "points": 86,
+   "by": "verdagon"
+  },
+  {
+   "id": 49857281,
+   "title": "There is more to code review than (automatable) detection",
+   "url": "https://www.adaptivecapacitylabs.com/2026/08/24/there-is-more-to-code-review-than-automatable-detection/",
+   "points": 46,
+   "by": "utiiiD"
+  },
+  {
+   "id": 49868404,
+   "title": "Don't couple your Go code to GitHub",
+   "url": "https://iain.rocks/blog/dont-couple-your-go-code-to-github",
+   "points": 127,
+   "by": "birdculture"
+  },
+  {
+   "id": 49869773,
+   "title": "What I did at Recurse Center",
+   "url": "https://thill.me/2026/09/11/what-i-did-at-rc.html",
+   "points": 56,
+   "by": "bingden"
+  },
+  {
+   "id": 49869995,
+   "title": "Imp is a full port of DSPy to the BEAM",
+   "url": "https://github.com/deepfates/imp",
+   "points": 39,
+   "by": "mpweiher"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 4087
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 964220,
+   "downloads_fmt": "964k",
+   "likes": 2079
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 52804,
+   "downloads_fmt": "53k",
+   "likes": 2487
+  },
+  {
+   "repo": "Edge0/Audio8-ASR-Infinite",
+   "tag": "AUTOMATIC-SPEECH-RECOGNITION · 语音识别",
+   "downloads": 19434,
+   "downloads_fmt": "19k",
+   "likes": 1029
+  },
+  {
+   "repo": "XingChen-AGI/Xing4.0-29B-A4B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 45028,
+   "downloads_fmt": "45k",
+   "likes": 1781
+  },
+  {
+   "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 3343748,
+   "downloads_fmt": "3.3M",
+   "likes": 2188
+  },
+  {
+   "repo": "Altworld/Hemmingway-1",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 5904,
+   "downloads_fmt": "6k",
+   "likes": 737
+  },
+  {
+   "repo": "XiaomiMiMo/MiMo-V2.6-RL-oss",
+   "tag": "",
+   "downloads": 8294,
+   "downloads_fmt": "8k",
+   "likes": 424
+  },
+  {
+   "repo": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 75079,
+   "downloads_fmt": "75k",
+   "likes": 557
+  },
+  {
+   "repo": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 8839,
+   "downloads_fmt": "9k",
+   "likes": 522
+  }
+ ],
+ "ph": [
+  {
+   "name": "Clicks Communicator",
+   "tagline": "A new kind of mobile communicator designed for doing",
+   "url": "https://www.producthunt.com/products/clicks"
+  },
+  {
+   "name": "GPT-6 Sol & Luna",
+   "tagline": "Frontier AI intelligence, now at half the price",
+   "url": "https://www.producthunt.com/products/openai"
+  },
+  {
+   "name": "Humalike x GTA RP",
+   "tagline": "AI NPCs that talk, remember & act on their own",
+   "url": "https://www.producthunt.com/products/humalike-2"
+  },
+  {
+   "name": "Harmony",
+   "tagline": "AI agents that resolve IT/HR tickets inside Slack and Teams",
+   "url": "https://www.producthunt.com/products/harmony-it"
+  },
+  {
+   "name": "KiwiDesk",
+   "tagline": "Tiling that feels like it shipped with macOS.",
+   "url": "https://www.producthunt.com/products/kiwidesk"
+  },
+  {
+   "name": "Cuey",
+   "tagline": "Compare ChatGPT, Claude & Gemini answers in one tab.",
+   "url": "https://www.producthunt.com/products/cuey-2"
+  },
+  {
+   "name": "Superhuman Go",
+   "tagline": "The AI assistant that works where you do",
+   "url": "https://www.producthunt.com/products/superhuman-go"
+  },
+  {
+   "name": "Chit",
+   "tagline": "A printed receipt of your day in Claude Code",
+   "url": "https://www.producthunt.com/products/chit-2"
+  },
+  {
+   "name": "Eclatira",
+   "tagline": "Conversational Video Agent That Plugs Into Any Stack",
+   "url": "https://www.producthunt.com/products/eclatira"
+  },
+  {
+   "name": "Lisen",
+   "tagline": "Free Read Aloud with Cartesia Voices",
+   "url": "https://www.producthunt.com/products/lisen"
+  }
+ ]
+}

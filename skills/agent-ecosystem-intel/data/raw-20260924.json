@@ -1,0 +1,279 @@
+{
+ "date": "2026-09-24",
+ "gh": [
+  {
+   "slug": "anthropics/financial-services",
+   "desc": "",
+   "lang": "Python",
+   "stars_today": 664
+  },
+  {
+   "slug": "google/ax",
+   "desc": "Google's open agentic orchestration runtime",
+   "lang": "Go",
+   "stars_today": 1543
+  },
+  {
+   "slug": "davila7/claude-code-templates",
+   "desc": "CLI tool for configuring and monitoring Claude Code",
+   "lang": "Python",
+   "stars_today": 389
+  },
+  {
+   "slug": "BuilderIO/agent-native",
+   "desc": "A framework for building agentic apps",
+   "lang": "TypeScript",
+   "stars_today": 87
+  },
+  {
+   "slug": "obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars_today": 474
+  },
+  {
+   "slug": "dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars_today": 1142
+  },
+  {
+   "slug": "Open-Dev-Society/OpenStock",
+   "desc": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+   "lang": "TypeScript",
+   "stars_today": 344
+  },
+  {
+   "slug": "agent-substrate/substrate",
+   "desc": "Agent Substrate: the core system",
+   "lang": "Go",
+   "stars_today": 558
+  },
+  {
+   "slug": "strands-agents/harness-sdk",
+   "desc": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+   "lang": "Python",
+   "stars_today": 115
+  },
+  {
+   "slug": "HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "lang": "Python",
+   "stars_today": 57
+  },
+  {
+   "slug": "superdesigndev/treg",
+   "desc": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+   "lang": "Python",
+   "stars_today": 506
+  },
+  {
+   "slug": "pbakaus/impeccable",
+   "desc": "The design language that makes your AI harness better at design.",
+   "lang": "JavaScript",
+   "stars_today": 304
+  },
+  {
+   "slug": "mvt-project/mvt",
+   "desc": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+   "lang": "Python",
+   "stars_today": 543
+  }
+ ],
+ "hn": [
+  {
+   "id": 49824268,
+   "title": "Meta VR Glasses",
+   "url": "https://www.meta.com/vr-glasses/",
+   "points": 83,
+   "by": "polymorph1sm"
+  },
+  {
+   "id": 49823582,
+   "title": "Linux support is coming to Snapdragon X2 Series",
+   "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+   "points": 86,
+   "by": "aaronday"
+  },
+  {
+   "id": 49820134,
+   "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+   "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+   "points": 453,
+   "by": "raahelb"
+  },
+  {
+   "id": 49822555,
+   "title": "VSCode's SSH Agent Is Bananas (2025)",
+   "url": "https://fly.io/blog/vscode-ssh-wtf/",
+   "points": 104,
+   "by": "Rapzid"
+  },
+  {
+   "id": 49796372,
+   "title": "The \"Windows XP Box\" (2003)",
+   "url": "https://www.mini-itx.com/projects/windowsxpbox/",
+   "points": 22,
+   "by": "doubletwoyou"
+  },
+  {
+   "id": 49823195,
+   "title": "We just shipped support for the ugliest part of HTTP: Vary",
+   "url": "https://blog.cloudflare.com/vary-support/",
+   "points": 48,
+   "by": "thisisfatih"
+  },
+  {
+   "id": 49817469,
+   "title": "Fixing the Portobello Police Station Clock",
+   "url": "https://pointinthecloud.com/2026-04-11-211700.html",
+   "points": 375,
+   "by": "avidly"
+  },
+  {
+   "id": 49823664,
+   "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+   "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
+   "points": 27,
+   "by": "JohnHammersley"
+  },
+  {
+   "id": 49823348,
+   "title": "Mercury 2.5 LLM hits 770 tokens per second",
+   "url": "https://artificialanalysis.ai/models/mercury-2-5",
+   "points": 26,
+   "by": "Retro_Dev"
+  },
+  {
+   "id": 49820496,
+   "title": "LensVLM: Compressing long context as images, expanding only relevant pages",
+   "url": "https://huggingface.co/apple/LensVLM-9B",
+   "points": 43,
+   "by": "victormustar"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 3101
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 28407,
+   "downloads_fmt": "28k",
+   "likes": 2029
+  },
+  {
+   "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 2815979,
+   "downloads_fmt": "2.8M",
+   "likes": 1952
+  },
+  {
+   "repo": "XingChen-AGI/Xing4.0-29B-A4B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 39009,
+   "downloads_fmt": "39k",
+   "likes": 1585
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 350678,
+   "downloads_fmt": "351k",
+   "likes": 1430
+  },
+  {
+   "repo": "Comfy-Org/Qwen-Image-2.1",
+   "tag": "",
+   "downloads": 2220609,
+   "downloads_fmt": "2.2M",
+   "likes": 625
+  },
+  {
+   "repo": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 570909,
+   "downloads_fmt": "571k",
+   "likes": 3666
+  },
+  {
+   "repo": "secemp9/arxiv-complete",
+   "tag": "",
+   "downloads": 51110,
+   "downloads_fmt": "51k",
+   "likes": 416
+  },
+  {
+   "repo": "Altworld/Hemmingway-1",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 3787,
+   "downloads_fmt": "4k",
+   "likes": 577
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 6912469,
+   "downloads_fmt": "6.9M",
+   "likes": 16138
+  }
+ ],
+ "ph": [
+  {
+   "name": "Claude Opus 5.5",
+   "tagline": "Anthropic's first model in their new Claude 5.5 family",
+   "url": "https://www.producthunt.com/products/claude-fable-5-1"
+  },
+  {
+   "name": "Speechka",
+   "tagline": "Real-time voice translation that sounds like you",
+   "url": "https://www.producthunt.com/products/speechka"
+  },
+  {
+   "name": "GBrain",
+   "tagline": "Garry Tan's AI memory, tools, & skills for any harness",
+   "url": "https://www.producthunt.com/products/gbrain"
+  },
+  {
+   "name": "RankControl",
+   "tagline": "Get Cited by ChatGPT & Ranked on Google",
+   "url": "https://www.producthunt.com/products/rankcontrol"
+  },
+  {
+   "name": "Jev State",
+   "tagline": "Turn AI conversations into tests and runnable code",
+   "url": "https://www.producthunt.com/products/jev-state"
+  },
+  {
+   "name": "Koreshield",
+   "tagline": "Security and evidence for AI support agents",
+   "url": "https://www.producthunt.com/products/koreshield"
+  },
+  {
+   "name": "Dub Program Marketplace",
+   "tagline": "Browse and apply to the best SaaS affiliate programs",
+   "url": "https://www.producthunt.com/products/dub"
+  },
+  {
+   "name": "Solid",
+   "tagline": "Agents with their own computers, accounts, and budgets.",
+   "url": "https://www.producthunt.com/products/solid-3"
+  },
+  {
+   "name": "Naise AI",
+   "tagline": "Autonomous marketing agents that actually execute",
+   "url": "https://www.producthunt.com/products/naise-ai"
+  },
+  {
+   "name": "Lightmeter",
+   "tagline": "Film Camera designed for everyday moments",
+   "url": "https://www.producthunt.com/products/lightmeter-2"
+  }
+ ]
+}

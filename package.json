@@ -1,14 +1,18 @@
 {
   "name": "pi-skills",
-  "version": "0.2.0",
-  "description": "Collection of Agent Skills — auto-research and python-quality-gate.",
+  "version": "0.3.0",
+  "description": "Collection of Agent Skills — auto-research, python-quality-gate, agent-ecosystem-intel.",
   "keywords": [
     "pi-package",
     "skill",
     "agent-skills",
     "auto-research",
     "python",
-    "quality-gate"
+    "quality-gate",
+    "agent-ecosystem",
+    "positioning",
+    "trending",
+    "market-intel"
   ],
   "type": "module",
   "license": "MIT",

@@ -1,0 +1,273 @@
+{
+ "date": "2026-10-15",
+ "gh": [
+  {
+   "slug": "morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars_today": 41034
+  },
+  {
+   "slug": "debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars_today": 3538
+  },
+  {
+   "slug": "mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars_today": 947
+  },
+  {
+   "slug": "nvm-sh/nvm",
+   "desc": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+   "lang": "Shell",
+   "stars_today": 52
+  },
+  {
+   "slug": "K-Dense-AI/scientific-agent-skills",
+   "desc": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+   "lang": "Python",
+   "stars_today": 163
+  },
+  {
+   "slug": "HKUDS/CLI-Anything",
+   "desc": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+   "lang": "Python",
+   "stars_today": 103
+  },
+  {
+   "slug": "ifixai-ai/iFixAi",
+   "desc": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+   "lang": "Python",
+   "stars_today": 2109
+  },
+  {
+   "slug": "vxcontrol/pentagi",
+   "desc": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+   "lang": "Go",
+   "stars_today": 1025
+  },
+  {
+   "slug": "rust-lang/rust",
+   "desc": "Empowering everyone to build reliable and efficient software.",
+   "lang": "Rust",
+   "stars_today": 207
+  },
+  {
+   "slug": "xtool-org/xtool",
+   "desc": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+   "lang": "Swift",
+   "stars_today": 1502
+  },
+  {
+   "slug": "ntdevlabs/tiny11builder",
+   "desc": "WinUI app for building smaller, customized Windows 11 images.",
+   "lang": "C#",
+   "stars_today": 139
+  },
+  {
+   "slug": "NationalSecurityAgency/ghidra",
+   "desc": "Ghidra is a software reverse engineering (SRE) framework",
+   "lang": "Java",
+   "stars_today": 1008
+  }
+ ],
+ "hn": [
+  {
+   "id": 50093568,
+   "title": "Things to know when you get cancer – 2026 Edition",
+   "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+   "points": 673,
+   "by": "jjmaxwell4"
+  },
+  {
+   "id": 50094994,
+   "title": "OpenCode 2.0",
+   "url": "https://anoma.ly/notes/opencode-2-0/",
+   "points": 245,
+   "by": "gmays"
+  },
+  {
+   "id": 50096142,
+   "title": "Tiny Little Office",
+   "url": "https://tinylittleoffice.com/",
+   "points": 89,
+   "by": "donohoe"
+  },
+  {
+   "id": 50095353,
+   "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+   "url": "https://typesafe.ai/blog/jev-1-14",
+   "points": 151,
+   "by": "emschwartz"
+  },
+  {
+   "id": 50097369,
+   "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+   "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+   "points": 16,
+   "by": "gmays"
+  },
+  {
+   "id": 50088935,
+   "title": "Passkeys are not a trap",
+   "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/",
+   "points": 442,
+   "by": "speckx"
+  },
+  {
+   "id": 50050553,
+   "title": "Do dentists know what they're doing?",
+   "url": "https://mapwriting.substack.com/p/dentists",
+   "points": 363,
+   "by": "doitLP"
+  },
+  {
+   "id": 50090369,
+   "title": "Better HTTP/1 connection reuse in Go 1.27",
+   "url": "https://go.dev/blog/http-connection-reuse",
+   "points": 190,
+   "by": "allddd"
+  },
+  {
+   "id": 50089921,
+   "title": "Americans' social activity has steeply declined in the past 30 years",
+   "url": "https://www.dataforprogress.org/blog/2026/9/29/americans-social-activity-has-steeply-declined-in-the-past-30-years",
+   "points": 181,
+   "by": "hubraumhugo"
+  },
+  {
+   "id": 50091788,
+   "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+   "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+   "points": 819,
+   "by": "latexr"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "google/embeddinggemma-2",
+   "tag": "FEATURE-EXTRACTION · 特征提取",
+   "downloads": 135175,
+   "downloads_fmt": "135k",
+   "likes": 2261
+  },
+  {
+   "repo": "jialinyyzz/humanizer",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 65616,
+   "downloads_fmt": "66k",
+   "likes": 1632
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1-Turbo",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 12704,
+   "downloads_fmt": "13k",
+   "likes": 772
+  },
+  {
+   "repo": "openbmb/MiniCPM-V-4.7-35B-A3B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 4157,
+   "downloads_fmt": "4k",
+   "likes": 614
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 2315771,
+   "downloads_fmt": "2.3M",
+   "likes": 4306
+  },
+  {
+   "repo": "autotrust/JEV-35B",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 27970,
+   "downloads_fmt": "28k",
+   "likes": 718
+  },
+  {
+   "repo": "ConwayResearch/Underdog-Saluki-27B-1.0",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 311969,
+   "downloads_fmt": "312k",
+   "likes": 458
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1823507,
+   "downloads_fmt": "1.8M",
+   "likes": 7794
+  },
+  {
+   "repo": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 258320,
+   "downloads_fmt": "258k",
+   "likes": 451
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 7221327,
+   "downloads_fmt": "7.2M",
+   "likes": 17699
+  }
+ ],
+ "ph": [
+  {
+   "name": "Confidence by Spotify",
+   "tagline": "Build products at full speed, with both hands on the wheel",
+   "url": "https://www.producthunt.com/products/spotify"
+  },
+  {
+   "name": "AURORA Lifeline",
+   "tagline": "Know who a cyclone will cut off, before the roads close",
+   "url": "https://www.producthunt.com/products/aurora-lifeline"
+  },
+  {
+   "name": "Tiden",
+   "tagline": "Intent verification for coding agents",
+   "url": "https://www.producthunt.com/products/tiden"
+  },
+  {
+   "name": "Winq",
+   "tagline": "Control your Mac with a look and a wink",
+   "url": "https://www.producthunt.com/products/winq"
+  },
+  {
+   "name": "Nimble",
+   "tagline": "SOTA Decision Model",
+   "url": "https://www.producthunt.com/products/nimble-5"
+  },
+  {
+   "name": "AirJelly",
+   "tagline": "Your Proactive, Self-Organizing Second Brain",
+   "url": "https://www.producthunt.com/products/airjelly"
+  },
+  {
+   "name": "Rambox",
+   "tagline": "Ready-to-use workspaces as you switch tasks and contexts",
+   "url": "https://www.producthunt.com/products/rambox"
+  },
+  {
+   "name": "Microsoft Maia 300",
+   "tagline": "Microsoft’s own AI chip, headed to multi-gigawatts",
+   "url": "https://www.producthunt.com/products/microsoft-maia-300"
+  },
+  {
+   "name": "Table Canon",
+   "tagline": "Automated notes, searchable history, prep ideas for GMs",
+   "url": "https://www.producthunt.com/products/table-canon-ttrpg-campaign-memory"
+  },
+  {
+   "name": "Specreel",
+   "tagline": "Product demos that update themselves",
+   "url": "https://www.producthunt.com/products/specreel"
+  }
+ ]
+}

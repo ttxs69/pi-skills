@@ -1,0 +1,249 @@
+{
+ "date": "2026-09-29",
+ "gh": [
+  {
+   "slug": "debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars_today": 3221
+  },
+  {
+   "slug": "paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars_today": 3197
+  },
+  {
+   "slug": "vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars_today": 4561
+  },
+  {
+   "slug": "NawfalMotii79/PLFM_RADAR",
+   "desc": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+   "lang": "PLSQL",
+   "stars_today": 158
+  },
+  {
+   "slug": "cs341-illinois/coursebook",
+   "desc": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+   "lang": "TeX",
+   "stars_today": 195
+  },
+  {
+   "slug": "byoungd/up",
+   "desc": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+   "lang": "JavaScript",
+   "stars_today": 327
+  },
+  {
+   "slug": "mvschwarz/openrig",
+   "desc": "Multi-agent harness that runs Claude Code and Codex together as one system",
+   "lang": "TypeScript",
+   "stars_today": 734
+  },
+  {
+   "slug": "dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars_today": 1099
+  }
+ ],
+ "hn": [
+  {
+   "id": 49883844,
+   "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+   "url": "https://github.com/firelex/jeff",
+   "points": 219,
+   "by": "firelex"
+  },
+  {
+   "id": 49880036,
+   "title": "Pirating the Pirates",
+   "url": "https://mubi.com/en/notebook/posts/pirating-the-pirates",
+   "points": 388,
+   "by": "piotrgrabowski"
+  },
+  {
+   "id": 49855059,
+   "title": "12,000-year-old Göbeklitepe burials explain scattered bones",
+   "url": "https://archaeologymag.com/2026/09/gobeklitepe-burials-hundreds-of-scattered-bones/",
+   "points": 63,
+   "by": "yusufaytas"
+  },
+  {
+   "id": 49882781,
+   "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+   "url": "https://stateofutopia.com/experiments/microllmlab/",
+   "points": 111,
+   "by": "logicallee"
+  },
+  {
+   "id": 49883536,
+   "title": "Scientists solve 1840s space weather mystery",
+   "url": "https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/",
+   "points": 41,
+   "by": "gumby"
+  },
+  {
+   "id": 49883760,
+   "title": "World Labs Is Joining AMD",
+   "url": "https://www.worldlabs.ai/blog/amd-announcement",
+   "points": 155,
+   "by": "mfiguiere"
+  },
+  {
+   "id": 49879702,
+   "title": "Hijacking the PS5's RTMP stream",
+   "url": "https://yashgarg.dev/posts/hijacking-ps5-rtmp-stream/",
+   "points": 181,
+   "by": "ibobev"
+  },
+  {
+   "id": 49875913,
+   "title": "Parley: Federated, decentralised chat that speaks plain IRC",
+   "url": "https://git.mills.io/prologic/parley",
+   "points": 297,
+   "by": "davidcollantes"
+  },
+  {
+   "id": 49879697,
+   "title": "Kids turned low-traffic NPR Spotify comments into a secret group chat",
+   "url": "https://www.thisamericanlife.org/897/transcript",
+   "points": 261,
+   "by": "simonpure"
+  },
+  {
+   "id": 49858643,
+   "title": "What is the best shape of a city? Modelling effect of urban form on distance",
+   "url": "https://journals.sagepub.com/doi/10.1177/23998083261458842",
+   "points": 7,
+   "by": "rustoo"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 4301
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 1062921,
+   "downloads_fmt": "1.1M",
+   "likes": 2264
+  },
+  {
+   "repo": "Edge0/Audio8-ASR-Infinite",
+   "tag": "AUTOMATIC-SPEECH-RECOGNITION · 语音识别",
+   "downloads": 19963,
+   "downloads_fmt": "20k",
+   "likes": 1407
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 58693,
+   "downloads_fmt": "59k",
+   "likes": 2590
+  },
+  {
+   "repo": "XiaomiMiMo/MiMo-V2.6-RL-oss",
+   "tag": "",
+   "downloads": 22597,
+   "downloads_fmt": "23k",
+   "likes": 508
+  },
+  {
+   "repo": "XingChen-AGI/TeleOCR",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 27904,
+   "downloads_fmt": "28k",
+   "likes": 783
+  },
+  {
+   "repo": "XingChen-AGI/Xing4.0-29B-A4B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 45834,
+   "downloads_fmt": "46k",
+   "likes": 1799
+  },
+  {
+   "repo": "TaichuAI/ZDTaichu5.0-9B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 11738,
+   "downloads_fmt": "12k",
+   "likes": 1705
+  },
+  {
+   "repo": "Contrastive-LM/CLM-v0.1-8B",
+   "tag": "TEXT-RANKING · TEXT-RANKING",
+   "downloads": 1271,
+   "downloads_fmt": "1k",
+   "likes": 472
+  },
+  {
+   "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 3457124,
+   "downloads_fmt": "3.5M",
+   "likes": 2233
+  }
+ ],
+ "ph": [
+  {
+   "name": "Lattice",
+   "tagline": "Reshape your text across languages while preserving meaning",
+   "url": "https://www.producthunt.com/products/lattice-11"
+  },
+  {
+   "name": "vantage.ai",
+   "tagline": "See and control what your coding agent does.",
+   "url": "https://www.producthunt.com/products/vantage-ai-2"
+  },
+  {
+   "name": "SaleSmartly",
+   "tagline": "Turn conversations across every channel into customers",
+   "url": "https://www.producthunt.com/products/salesmartly"
+  },
+  {
+   "name": "Statable Analytics",
+   "tagline": "Web analytics built for you and your AI agents",
+   "url": "https://www.producthunt.com/products/statable-analytics"
+  },
+  {
+   "name": "Microsoft Copilot",
+   "tagline": "The Al built for work",
+   "url": "https://www.producthunt.com/products/microsoft-copilot"
+  },
+  {
+   "name": "MCP Connectors by Databox",
+   "tagline": "Give your AI Analyst context to explain performance and act",
+   "url": "https://www.producthunt.com/products/databox"
+  },
+  {
+   "name": "VibeDefend by CybeDefend",
+   "tagline": "The one command line to secure your Cursor and Claude Code",
+   "url": "https://www.producthunt.com/products/cybedefend"
+  },
+  {
+   "name": "Okara",
+   "tagline": "The world's first AI CMO",
+   "url": "https://www.producthunt.com/products/okara-2"
+  },
+  {
+   "name": "MuM",
+   "tagline": "A reading-first Markdown engine for macOS",
+   "url": "https://www.producthunt.com/products/mum-multi-project-markdown"
+  },
+  {
+   "name": "Mochi",
+   "tagline": "A cute Mac desktop pet that organizes your loose files",
+   "url": "https://www.producthunt.com/products/mochi-6"
+  }
+ ]
+}

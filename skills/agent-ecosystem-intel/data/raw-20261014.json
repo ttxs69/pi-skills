@@ -1,0 +1,255 @@
+{
+ "date": "2026-10-14",
+ "gh": [
+  {
+   "slug": "morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars_today": 54679
+  },
+  {
+   "slug": "bilawalsidhu/gods-eye-view",
+   "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+   "lang": "JavaScript",
+   "stars_today": 1961
+  },
+  {
+   "slug": "debpalash/VoiceStudio",
+   "desc": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+   "lang": "Python",
+   "stars_today": 1748
+  },
+  {
+   "slug": "mksglu/context-mode",
+   "desc": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+   "lang": "TypeScript",
+   "stars_today": 969
+  },
+  {
+   "slug": "cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars_today": 1815
+  },
+  {
+   "slug": "vercel-labs/skills",
+   "desc": "The open agent skills tool - npx skills",
+   "lang": "TypeScript",
+   "stars_today": 190
+  },
+  {
+   "slug": "lyogavin/airllm",
+   "desc": "AirLLM 2.8T LLM inference with single 4GB GPU",
+   "lang": "Jupyter Notebook",
+   "stars_today": 1001
+  },
+  {
+   "slug": "storytold/artcraft",
+   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "lang": "Rust",
+   "stars_today": 4081
+  },
+  {
+   "slug": "xtool-org/xtool",
+   "desc": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+   "lang": "Swift",
+   "stars_today": 1198
+  }
+ ],
+ "hn": [
+  {
+   "id": 50073879,
+   "title": "Gemini 4 Argon",
+   "url": "https://deepmind.google/models/gemini/",
+   "points": 938,
+   "by": "737max"
+  },
+  {
+   "id": 50077020,
+   "title": "Show HN: Guitoro, a virtual guitar you strum with your keyboard",
+   "url": "https://guitoro.com/",
+   "points": 228,
+   "by": "talccc"
+  },
+  {
+   "id": 50054092,
+   "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+   "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+   "points": 394,
+   "by": "thm"
+  },
+  {
+   "id": 50073633,
+   "title": "Redesigning source control at Anthropic",
+   "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+   "points": 494,
+   "by": "Philpax"
+  },
+  {
+   "id": 50071017,
+   "title": "Apple HomeView",
+   "url": "https://www.apple.com/apple-homeview/",
+   "points": 639,
+   "by": "etothet"
+  },
+  {
+   "id": 50080275,
+   "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+   "url": "https://pulseos.finance",
+   "points": 16,
+   "by": "niztk"
+  },
+  {
+   "id": 50072913,
+   "title": "Thunderbird for iOS",
+   "url": "https://blog.thunderbird.net/2026/10/thunderbird-for-ios-a-first-look-at-the-native-iphone-email-app-in-development/",
+   "points": 321,
+   "by": "mjorgers"
+  },
+  {
+   "id": 50069499,
+   "title": "11 year old unsoundness bugs found in Rust borrow checker",
+   "url": "https://github.com/rust-lang/rust/issues/164250",
+   "points": 662,
+   "by": "formerly_proven"
+  },
+  {
+   "id": 50079464,
+   "title": "AlphaNIST",
+   "url": "https://alpha-nist.github.io/",
+   "points": 27,
+   "by": "jasonjmcghee"
+  },
+  {
+   "id": 50070302,
+   "title": "Firefox Enterprise",
+   "url": "https://www.firefox.com/en-US/enterprise/",
+   "points": 623,
+   "by": "recvonline"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "google/embeddinggemma-2",
+   "tag": "FEATURE-EXTRACTION · 特征提取",
+   "downloads": 124930,
+   "downloads_fmt": "125k",
+   "likes": 2103
+  },
+  {
+   "repo": "jialinyyzz/humanizer",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 54039,
+   "downloads_fmt": "54k",
+   "likes": 1515
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1-Turbo",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 9665,
+   "downloads_fmt": "10k",
+   "likes": 709
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 2247929,
+   "downloads_fmt": "2.2M",
+   "likes": 4202
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1724548,
+   "downloads_fmt": "1.7M",
+   "likes": 7644
+  },
+  {
+   "repo": "openbmb/MiniCPM-V-4.7-35B-A3B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 630,
+   "downloads_fmt": "630",
+   "likes": 459
+  },
+  {
+   "repo": "ConwayResearch/Underdog-Saluki-27B-1.0",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 269829,
+   "downloads_fmt": "270k",
+   "likes": 421
+  },
+  {
+   "repo": "Cloudflare/clef",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 17173,
+   "downloads_fmt": "17k",
+   "likes": 2143
+  },
+  {
+   "repo": "LiquidAI/d1-3B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 13190,
+   "downloads_fmt": "13k",
+   "likes": 380
+  },
+  {
+   "repo": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 208575,
+   "downloads_fmt": "209k",
+   "likes": 405
+  }
+ ],
+ "ph": [
+  {
+   "name": "Articos MCP",
+   "tagline": "See how simulated buyers react, right in your agent",
+   "url": "https://www.producthunt.com/products/articos"
+  },
+  {
+   "name": "Google Fitbit Edge",
+   "tagline": "Google’s smartest fitness tracker ever with 7-day battery",
+   "url": "https://www.producthunt.com/products/google-fit-2"
+  },
+  {
+   "name": "MausBot",
+   "tagline": "Open source Grok Bot: Free, Local",
+   "url": "https://www.producthunt.com/products/mausbot"
+  },
+  {
+   "name": "OpenCode 2.0",
+   "tagline": "The open source AI coding agent",
+   "url": "https://www.producthunt.com/products/opencode"
+  },
+  {
+   "name": "PostNitro for Agents",
+   "tagline": "Let your AI agent design and publish social posts",
+   "url": "https://www.producthunt.com/products/postnitro"
+  },
+  {
+   "name": "GotEmail",
+   "tagline": "Native macOS mail app with one-click sign-in codes and AI",
+   "url": "https://www.producthunt.com/products/gotemail"
+  },
+  {
+   "name": "The Drive AI",
+   "tagline": "The AI agent that does the work on your files",
+   "url": "https://www.producthunt.com/products/the-drive-ai-2"
+  },
+  {
+   "name": "OpenFlowKit 2",
+   "tagline": "Free, open-source diagrams you and your agent edit together",
+   "url": "https://www.producthunt.com/products/openflowkit"
+  },
+  {
+   "name": "Toby",
+   "tagline": "Realistic mock interviews with an AI hiring manager",
+   "url": "https://www.producthunt.com/products/toby-5"
+  },
+  {
+   "name": "Fina Business",
+   "tagline": "The flexible $20/mo QuickBooks alternative for founders",
+   "url": "https://www.producthunt.com/products/fina"
+  }
+ ]
+}

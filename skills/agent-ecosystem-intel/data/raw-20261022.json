@@ -1,0 +1,267 @@
+{
+ "date": "2026-10-22",
+ "gh": [
+  {
+   "slug": "cloudflare/security-audit-skill",
+   "desc": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+   "lang": "JavaScript",
+   "stars_today": 2012
+  },
+  {
+   "slug": "vllm-project/vllm",
+   "desc": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+   "lang": "Python",
+   "stars_today": 441
+  },
+  {
+   "slug": "stablyai/orca",
+   "desc": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+   "lang": "TypeScript",
+   "stars_today": 1541
+  },
+  {
+   "slug": "headroomlabs-ai/headroom",
+   "desc": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+   "lang": "Python",
+   "stars_today": 474
+  },
+  {
+   "slug": "DietrichGebert/ponytail",
+   "desc": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+   "lang": "JavaScript",
+   "stars_today": 2079
+  },
+  {
+   "slug": "Comfy-Org/ComfyUI",
+   "desc": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+   "lang": "Python",
+   "stars_today": 939
+  },
+  {
+   "slug": "supabase/supabase",
+   "desc": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+   "lang": "TypeScript",
+   "stars_today": 504
+  },
+  {
+   "slug": "twentyhq/twenty",
+   "desc": "The open alternative to Salesforce, designed for AI.",
+   "lang": "TypeScript",
+   "stars_today": 112
+  },
+  {
+   "slug": "shiyu-coder/Kronos",
+   "desc": "Kronos: A Foundation Model for the Language of Financial Markets",
+   "lang": "Python",
+   "stars_today": 575
+  },
+  {
+   "slug": "akitaonrails/ai-memory",
+   "desc": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+   "lang": "Rust",
+   "stars_today": 286
+  },
+  {
+   "slug": "Graphify-Labs/graphify",
+   "desc": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+   "lang": "Python",
+   "stars_today": 1433
+  }
+ ],
+ "hn": [
+  {
+   "id": 50189232,
+   "title": "mitmproxy adds --emudhra option",
+   "url": "https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b",
+   "points": 322,
+   "by": "ahlCVA"
+  },
+  {
+   "id": 50190168,
+   "title": "Epic vs. Apple AU:Court Orders Alt App Stores,Sideloading and 3rd Party Payments",
+   "url": "https://www.judgments.fedcourt.gov.au/judgments/Judgments/fca/single/2026/2026fca1552",
+   "points": 101,
+   "by": "Mayzie"
+  },
+  {
+   "id": 50190455,
+   "title": "The recently proposed o(n log n) integer multiplication algorithm [pdf]",
+   "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf",
+   "points": 48,
+   "by": "craigcitro"
+  },
+  {
+   "id": 50188948,
+   "title": "There isn't an easy exploit for this PHP vulnerability",
+   "url": "https://eliastaylor.com/noexploit/",
+   "points": 269,
+   "by": "zkldi"
+  },
+  {
+   "id": 50188228,
+   "title": "Security Disclosure",
+   "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+   "points": 366,
+   "by": "passenger"
+  },
+  {
+   "id": 50186010,
+   "title": "Rust Style Guide",
+   "url": "https://google.github.io/styleguide/rustguide.html",
+   "points": 244,
+   "by": "kaycebasques"
+  },
+  {
+   "id": 50185869,
+   "title": "GitLab critical patch release",
+   "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+   "points": 271,
+   "by": "artooro"
+  },
+  {
+   "id": 50181114,
+   "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+   "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+   "points": 460,
+   "by": "abhisek"
+  },
+  {
+   "id": 50176082,
+   "title": "Using LLM for confidence scoring is a bad idea",
+   "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
+   "points": 28,
+   "by": "jimauthors"
+  },
+  {
+   "id": 50154100,
+   "title": "Chain of Thought for Humans",
+   "url": "https://www.boristhebrave.com/2026/10/18/chain-of-thought-for-humans/",
+   "points": 52,
+   "by": "ibobev"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 42122,
+   "downloads_fmt": "42k",
+   "likes": 2198
+  },
+  {
+   "repo": "black-forest-labs/flux-3-image-klein-comfy",
+   "tag": "IMAGE-TO-IMAGE · IMAGE-TO-IMAGE",
+   "downloads": 490447,
+   "downloads_fmt": "490k",
+   "likes": 1201
+  },
+  {
+   "repo": "meta-models/Muse-Spark-Open-816B-A42B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 2891,
+   "downloads_fmt": "3k",
+   "likes": 640
+  },
+  {
+   "repo": "black-forest-labs/flux-3-image-klein",
+   "tag": "IMAGE-TO-IMAGE · IMAGE-TO-IMAGE",
+   "downloads": 92604,
+   "downloads_fmt": "93k",
+   "likes": 604
+  },
+  {
+   "repo": "fishaudio/drama-3",
+   "tag": "TEXT-TO-SPEECH · TEXT-TO-SPEECH",
+   "downloads": 15274,
+   "downloads_fmt": "15k",
+   "likes": 893
+  },
+  {
+   "repo": "OpenMOSS-Team/MOSS-Image-SFT",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 5840,
+   "downloads_fmt": "6k",
+   "likes": 539
+  },
+  {
+   "repo": "OpenMOSS-Team/MOSS-Image-Base",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 4344,
+   "downloads_fmt": "4k",
+   "likes": 470
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 2057942,
+   "downloads_fmt": "2.1M",
+   "likes": 8774
+  },
+  {
+   "repo": "google/embeddinggemma-2",
+   "tag": "FEATURE-EXTRACTION · 特征提取",
+   "downloads": 179734,
+   "downloads_fmt": "180k",
+   "likes": 2812
+  },
+  {
+   "repo": "jialinyyzz/humanizer",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 120930,
+   "downloads_fmt": "121k",
+   "likes": 2069
+  }
+ ],
+ "ph": [
+  {
+   "name": "Needle",
+   "tagline": "The agent-native outbound engine",
+   "url": "https://www.producthunt.com/products/needle-3"
+  },
+  {
+   "name": "Scout by Fini",
+   "tagline": "The AI coworker for support teams, on Slack",
+   "url": "https://www.producthunt.com/products/fini-2"
+  },
+  {
+   "name": "TwinMind for Desktop",
+   "tagline": "Transcribe meetings and dictate anywhere on Mac & Windows",
+   "url": "https://www.producthunt.com/products/twinmind"
+  },
+  {
+   "name": "Searchtok",
+   "tagline": "Make TikTok and Instagram searchable for your AI agent",
+   "url": "https://www.producthunt.com/products/searchtok"
+  },
+  {
+   "name": "Burrow MacOS",
+   "tagline": "Start Windows & Linux on your Mac for free",
+   "url": "https://www.producthunt.com/products/burrow-macos"
+  },
+  {
+   "name": "LearnExcel",
+   "tagline": "Learn Excel by typing real formulas, graded instantly",
+   "url": "https://www.producthunt.com/products/learnexcel"
+  },
+  {
+   "name": "UseIt Studio",
+   "tagline": "Your AI design agent for real, editable project files.",
+   "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery"
+  },
+  {
+   "name": "Flyweel",
+   "tagline": "Ad spend cards, cash-gap funding, and agent audit via MCP",
+   "url": "https://www.producthunt.com/products/connect-pipedrive-to-ads-with-flyweel"
+  },
+  {
+   "name": "Intelli for ChatGPT & Claude",
+   "tagline": "Run WhatsApp, Instagram & web chat from ChatGPT or Claude",
+   "url": "https://www.producthunt.com/products/intelli"
+  },
+  {
+   "name": "Mouse-1",
+   "tagline": "A decision model for your agent harness.",
+   "url": "https://www.producthunt.com/products/mouse-1"
+  }
+ ]
+}

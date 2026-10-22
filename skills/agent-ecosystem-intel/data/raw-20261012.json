@@ -1,0 +1,249 @@
+{
+ "date": "2026-10-12",
+ "gh": [
+  {
+   "slug": "morluto/rea",
+   "desc": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+   "lang": "TypeScript",
+   "stars_today": 25599
+  },
+  {
+   "slug": "boykopovar/AnyPS5",
+   "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
+   "lang": "C++",
+   "stars_today": 3952
+  },
+  {
+   "slug": "storytold/artcraft",
+   "desc": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+   "lang": "Rust",
+   "stars_today": 2957
+  },
+  {
+   "slug": "cathrynlavery/diagram-design",
+   "desc": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "lang": "HTML",
+   "stars_today": 1083
+  },
+  {
+   "slug": "bilawalsidhu/gods-eye-view",
+   "desc": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+   "lang": "JavaScript",
+   "stars_today": 886
+  },
+  {
+   "slug": "pytorch/pytorch",
+   "desc": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+   "lang": "Python",
+   "stars_today": 315
+  },
+  {
+   "slug": "lyogavin/airllm",
+   "desc": "AirLLM 70B inference with single 4GB GPU",
+   "lang": "Jupyter Notebook",
+   "stars_today": 548
+  },
+  {
+   "slug": "chrislgarry/Apollo-11",
+   "desc": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+   "lang": "Assembly",
+   "stars_today": 466
+  }
+ ],
+ "hn": [
+  {
+   "id": 50049411,
+   "title": "Whatever became of holography? (2011)",
+   "url": "https://www.americanscientist.org/article/whatever-became-of-holography",
+   "points": 17,
+   "by": "cainxinth"
+  },
+  {
+   "id": 50045984,
+   "title": "Total Annihilation, rebuilt for modern computers",
+   "url": "https://nanolathe.gg",
+   "points": 328,
+   "by": "jttnr"
+  },
+  {
+   "id": 50047091,
+   "title": "Cartographers of North Korea",
+   "url": "https://cartographers-nk.wonyoung.so/",
+   "points": 163,
+   "by": "edent"
+  },
+  {
+   "id": 50048522,
+   "title": "Recursive self-improvement through collective intelligence",
+   "url": "https://pub.sakana.ai/mass/",
+   "points": 35,
+   "by": "hardmaru"
+  },
+  {
+   "id": 50048768,
+   "title": "Google Data Centers around the world",
+   "url": "https://datacenters.google/locations/",
+   "points": 35,
+   "by": "andsoitis"
+  },
+  {
+   "id": 50049133,
+   "title": "Illustration Beyond Proof",
+   "url": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/",
+   "points": 7,
+   "by": "smilelamp"
+  },
+  {
+   "id": 50047422,
+   "title": "The gap in shared understanding of LLM capability is widening",
+   "url": "https://twitter.com/karpathy/status/2109361546505966046",
+   "points": 196,
+   "by": "albertzeyer"
+  },
+  {
+   "id": 50048642,
+   "title": "Fingerprints Are the New Cookies",
+   "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+   "points": 32,
+   "by": "royfish"
+  },
+  {
+   "id": 50047055,
+   "title": "So, You’d Like To Sell Your Print Issues Of The Onion?",
+   "url": "https://theonion.com/archivehunt/",
+   "points": 227,
+   "by": "mooreds"
+  },
+  {
+   "id": 50049302,
+   "title": "Governments are mishandling the affordability crisis",
+   "url": "https://www.economist.com/finance-and-economics/2026/10/08/governments-are-mishandling-the-affordability-crisis",
+   "points": 9,
+   "by": "andsoitis"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "google/embeddinggemma-2",
+   "tag": "FEATURE-EXTRACTION · 特征提取",
+   "downloads": 98829,
+   "downloads_fmt": "99k",
+   "likes": 1696
+  },
+  {
+   "repo": "jialinyyzz/humanizer",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 37647,
+   "downloads_fmt": "38k",
+   "likes": 1076
+  },
+  {
+   "repo": "Cloudflare/clef",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 14351,
+   "downloads_fmt": "14k",
+   "likes": 2027
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 2188658,
+   "downloads_fmt": "2.2M",
+   "likes": 3981
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1-Turbo",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 4702,
+   "downloads_fmt": "5k",
+   "likes": 539
+  },
+  {
+   "repo": "Lightricks/LTX-2.5",
+   "tag": "IMAGE-TO-VIDEO · IMAGE-TO-VIDEO",
+   "downloads": 1726683,
+   "downloads_fmt": "1.7M",
+   "likes": 7317
+  },
+  {
+   "repo": "Aleph-Alpha/Kolibri-1",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 12550,
+   "downloads_fmt": "13k",
+   "likes": 887
+  },
+  {
+   "repo": "Venastine-Research/Xing4.0-29B-A4B-GGUF",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 48389,
+   "downloads_fmt": "48k",
+   "likes": 689
+  },
+  {
+   "repo": "Qwen/Qwen3.8-27B",
+   "tag": "IMAGE-TEXT-TO-TEXT · 多模态图文",
+   "downloads": 6843108,
+   "downloads_fmt": "6.8M",
+   "likes": 17506
+  },
+  {
+   "repo": "canberkkkkkk/ema-lightning",
+   "tag": "TEXT-TO-SPEECH · TEXT-TO-SPEECH",
+   "downloads": 18079,
+   "downloads_fmt": "18k",
+   "likes": 356
+  }
+ ],
+ "ph": [
+  {
+   "name": "Pickle Sensei",
+   "tagline": "AI pickleball coach for solo practice, one swing at a time",
+   "url": "https://www.producthunt.com/products/pickle-sensei-dink-coach"
+  },
+  {
+   "name": "NewMinecraftServers",
+   "tagline": "Minecraft server discovery, analytics, & spoof detection.",
+   "url": "https://www.producthunt.com/products/newminecraftservers"
+  },
+  {
+   "name": "DevTerminal",
+   "tagline": "A macOS terminal with a Run button that knows your project",
+   "url": "https://www.producthunt.com/products/devterminal"
+  },
+  {
+   "name": "Kooler",
+   "tagline": "Find cocktails you can make with what's in your bar",
+   "url": "https://www.producthunt.com/products/kooler-2"
+  },
+  {
+   "name": "Tori",
+   "tagline": "Japanese listening practice built from your own sentences",
+   "url": "https://www.producthunt.com/products/tori-japanese-listening-srs"
+  },
+  {
+   "name": "Agibot",
+   "tagline": "The always-on personal AI agent for your Mac. $0 forever",
+   "url": "https://www.producthunt.com/products/agibot"
+  },
+  {
+   "name": "Edgee Mod for Claude Code",
+   "tagline": "Use any model inside Claude Code, keep your Claude plan",
+   "url": "https://www.producthunt.com/products/edgee"
+  },
+  {
+   "name": "Gboard Kurukuru Version",
+   "tagline": "Your fingers stay put. The keys come around",
+   "url": "https://www.producthunt.com/products/google"
+  },
+  {
+   "name": "Foley",
+   "tagline": "A voice to-do list that files, plans and asks first",
+   "url": "https://www.producthunt.com/products/foley"
+  },
+  {
+   "name": "Ayven",
+   "tagline": "Carries and drives your team's agenda",
+   "url": "https://www.producthunt.com/products/ayven"
+  }
+ ]
+}

@@ -1,0 +1,279 @@
+{
+ "date": "2026-09-26",
+ "gh": [
+  {
+   "slug": "paperclipai/paperclip",
+   "desc": "The open-source app everyone uses to manage agents at work",
+   "lang": "TypeScript",
+   "stars_today": 2109
+  },
+  {
+   "slug": "anthropics/claude-plugins-official",
+   "desc": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+   "lang": "Python",
+   "stars_today": 83
+  },
+  {
+   "slug": "vectorize-io/hindsight",
+   "desc": "Hindsight: Agent Memory That Learns",
+   "lang": "Python",
+   "stars_today": 1653
+  },
+  {
+   "slug": "obra/superpowers",
+   "desc": "An agentic skills framework & software development methodology that works.",
+   "lang": "Shell",
+   "stars_today": 468
+  },
+  {
+   "slug": "mattpocock/skills",
+   "desc": "Skills for Real Engineers. Straight from my .agents directory.",
+   "lang": "Shell",
+   "stars_today": 583
+  },
+  {
+   "slug": "dream-num/univer",
+   "desc": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+   "lang": "TypeScript",
+   "stars_today": 1050
+  },
+  {
+   "slug": "anthropics/skills",
+   "desc": "Public repository for Agent Skills",
+   "lang": "Python",
+   "stars_today": 189
+  },
+  {
+   "slug": "androoAGI/starnet",
+   "desc": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
+   "lang": "JavaScript",
+   "stars_today": 93
+  },
+  {
+   "slug": "derv82/wifit3",
+   "desc": "Wifite but USB-only & cross-platform.",
+   "lang": "Python",
+   "stars_today": 183
+  },
+  {
+   "slug": "kelseyhightower/kubernetes-the-hard-way",
+   "desc": "Bootstrap Kubernetes the hard way. No scripts.",
+   "lang": "",
+   "stars_today": 119
+  },
+  {
+   "slug": "rohitg00/ai-engineering-from-scratch",
+   "desc": "Learn it. Build it. Ship it for others.",
+   "lang": "Python",
+   "stars_today": 1177
+  },
+  {
+   "slug": "shy3130/tick-stock-panel",
+   "desc": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源",
+   "lang": "Python",
+   "stars_today": 44
+  },
+  {
+   "slug": "google/ax",
+   "desc": "Google's open agentic orchestration runtime",
+   "lang": "Go",
+   "stars_today": 1379
+  }
+ ],
+ "hn": [
+  {
+   "id": 49849985,
+   "title": "Revealing the details of how OpenAI agents hacked Hugging Face",
+   "url": "https://swarmtraces.org/",
+   "points": 138,
+   "by": "specked-citrus"
+  },
+  {
+   "id": 49848269,
+   "title": "Ollaya – Ollama for open-source, Jev-style decision models",
+   "url": "https://ollaya.dev/",
+   "points": 313,
+   "by": "Ardakilic"
+  },
+  {
+   "id": 49845172,
+   "title": "Show HN: Jev Plays Pokémon Red",
+   "url": "https://jev-pokemon.vercel.app/",
+   "points": 135,
+   "by": "pancomplex"
+  },
+  {
+   "id": 49843269,
+   "title": "Platform-independent SIMD in Go",
+   "url": "https://go.dev/blog/simd-experiment",
+   "points": 349,
+   "by": "yurivish"
+  },
+  {
+   "id": 49849832,
+   "title": "Excel now supports multiple values in a single cell",
+   "url": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+   "points": 68,
+   "by": "luispa"
+  },
+  {
+   "id": 49843174,
+   "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
+   "url": "https://github.com/git-bug/git-bug",
+   "points": 295,
+   "by": "alentred"
+  },
+  {
+   "id": 49838247,
+   "title": "Remembering Johannes Doerfert",
+   "url": "https://blog.llvm.org/posts/2026-09-24-rememberingjohannesdoerfert/",
+   "points": 43,
+   "by": "sdko"
+  },
+  {
+   "id": 49845998,
+   "title": "Gravity seems holographic. What does that mean for reality?",
+   "url": "https://www.quantamagazine.org/gravity-seems-holographic-what-does-that-mean-for-reality-20260925/",
+   "points": 107,
+   "by": "ibobev"
+  },
+  {
+   "id": 49842462,
+   "title": "An airport cooled by natural ventilation",
+   "url": "https://www.theguardian.com/environment/2026/sep/25/didnt-need-air-conditioning-airport-cooled-natural-ventilation-reunion",
+   "points": 37,
+   "by": "Geekette"
+  },
+  {
+   "id": 49845977,
+   "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+   "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+   "points": 366,
+   "by": "cramer4next"
+  }
+ ],
+ "hf": [
+  {
+   "repo": "convaiinnovations/laya",
+   "tag": "TEXT-CLASSIFICATION · 文本分类",
+   "downloads": 0,
+   "downloads_fmt": "0",
+   "likes": 3684
+  },
+  {
+   "repo": "Qwen/Qwen-Image-2.1",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 42469,
+   "downloads_fmt": "42k",
+   "likes": 2320
+  },
+  {
+   "repo": "abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+   "tag": "TEXT-TO-IMAGE · 文生图",
+   "downloads": 715906,
+   "downloads_fmt": "716k",
+   "likes": 1787
+  },
+  {
+   "repo": "XingChen-AGI/Xing4.0-29B-A4B",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 42950,
+   "downloads_fmt": "43k",
+   "likes": 1685
+  },
+  {
+   "repo": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 3109078,
+   "downloads_fmt": "3.1M",
+   "likes": 2089
+  },
+  {
+   "repo": "Comfy-Org/Qwen-Image-2.1",
+   "tag": "",
+   "downloads": 3266380,
+   "downloads_fmt": "3.3M",
+   "likes": 734
+  },
+  {
+   "repo": "Altworld/Hemmingway-1",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 4978,
+   "downloads_fmt": "5k",
+   "likes": 676
+  },
+  {
+   "repo": "secemp9/arxiv-complete",
+   "tag": "",
+   "downloads": 75293,
+   "downloads_fmt": "75k",
+   "likes": 448
+  },
+  {
+   "repo": "Edge0/Audio8-ASR-Infinite",
+   "tag": "AUTOMATIC-SPEECH-RECOGNITION · 语音识别",
+   "downloads": 2853,
+   "downloads_fmt": "3k",
+   "likes": 555
+  },
+  {
+   "repo": "XiaomiMiMo/MiMo-V2.6-Pro-RL",
+   "tag": "TEXT-GENERATION · 文本生成",
+   "downloads": 42062,
+   "downloads_fmt": "42k",
+   "likes": 499
+  }
+ ],
+ "ph": [
+  {
+   "name": "Perfect Slice",
+   "tagline": "You have one cut to get a perfect slice",
+   "url": "https://www.producthunt.com/products/perfect-slice"
+  },
+  {
+   "name": "Quiver GTM",
+   "tagline": "Run developer marketing like an engineering system",
+   "url": "https://www.producthunt.com/products/quiver-gtm"
+  },
+  {
+   "name": "10xJoy",
+   "tagline": "Discover desired outcomes + connect w/ builders who can help",
+   "url": "https://www.producthunt.com/products/10xjoy"
+  },
+  {
+   "name": "DEV·TV",
+   "tagline": "A retro TV for GitHub, HN, Hugging Face & more: 10 channels",
+   "url": "https://www.producthunt.com/products/dev-tv"
+  },
+  {
+   "name": "Bleetz Network",
+   "tagline": "AI agent-to-agent VC fundraising & scouting network",
+   "url": "https://www.producthunt.com/products/bleetz-network"
+  },
+  {
+   "name": "PixVerse R2",
+   "tagline": "A real-time world model you can explore and change",
+   "url": "https://www.producthunt.com/products/pixverse-r2"
+  },
+  {
+   "name": "Kapshot",
+   "tagline": "Screen recordings that look like you edited them",
+   "url": "https://www.producthunt.com/products/kapshot"
+  },
+  {
+   "name": "Promptic",
+   "tagline": "Optimize GenAI applications for quality and cost",
+   "url": "https://www.producthunt.com/products/promptic-3"
+  },
+  {
+   "name": "Jango",
+   "tagline": "Test multi-user apps with AI agents that act like real users",
+   "url": "https://www.producthunt.com/products/jango"
+  },
+  {
+   "name": "Squints",
+   "tagline": "Design tools for the live web",
+   "url": "https://www.producthunt.com/products/squints"
+  }
+ ]
+}
